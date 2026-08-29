@@ -1,0 +1,853 @@
+[
+  {
+    "person_id": "P0001",
+    "canonical_name_en": "Rahul Kumari Nair",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0002",
+    "canonical_name_en": "Pankaj Kumar Agarwal",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0003",
+    "canonical_name_en": "Mohit Kumari Kapoor",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0004",
+    "canonical_name_en": "Rohit Kumar Malhotra",
+    "risk_score": 10,
+    "risk_level": "LOW",
+    "findings": [
+      {
+        "check": "address_consistency",
+        "severity": "MEDIUM",
+        "detail": "Address on DRIVING_LICENSE differs significantly from person record (28% similarity).",
+        "document_id": "D-9E35B38A"
+      }
+    ],
+    "ground_truth_is_anomalous": true
+  },
+  {
+    "person_id": "P0005",
+    "canonical_name_en": "Swati Nath Nair",
+    "risk_score": 40,
+    "risk_level": "HIGH",
+    "findings": [
+      {
+        "check": "shared_document_number",
+        "severity": "CRITICAL",
+        "detail": "DRIVING_LICENSE number MH12 20184985773 is also used by 1 other person(s): ['P0057']",
+        "document_id": "D-C75D0789"
+      }
+    ],
+    "ground_truth_is_anomalous": true
+  },
+  {
+    "person_id": "P0006",
+    "canonical_name_en": "Arjun Singh",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0007",
+    "canonical_name_en": "Anjali Pandey",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0008",
+    "canonical_name_en": "Nitin Iyer",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0009",
+    "canonical_name_en": "Rajesh Verma",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0010",
+    "canonical_name_en": "Manoj Singh",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0011",
+    "canonical_name_en": "Sunita Chauhan",
+    "risk_score": 25,
+    "risk_level": "MEDIUM",
+    "findings": [
+      {
+        "check": "dob_consistency",
+        "severity": "HIGH",
+        "detail": "Conflicting DOBs across documents: ['1984-09-19', '1985-09-19']"
+      }
+    ],
+    "ground_truth_is_anomalous": true
+  },
+  {
+    "person_id": "P0012",
+    "canonical_name_en": "Sandeep Yadav",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0013",
+    "canonical_name_en": "Rohit Prasad Jain",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0014",
+    "canonical_name_en": "Anjali Reddy",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0015",
+    "canonical_name_en": "Anita Lal Gupta",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0016",
+    "canonical_name_en": "Aditya Jain",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0017",
+    "canonical_name_en": "Deepak Lal Kumar",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0018",
+    "canonical_name_en": "Komal Jain",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0019",
+    "canonical_name_en": "Neha Verma",
+    "risk_score": 25,
+    "risk_level": "MEDIUM",
+    "findings": [
+      {
+        "check": "name_consistency",
+        "severity": "HIGH",
+        "detail": "Name on AADHAAR ('Neha Rao') only 67% similar to canonical ('Neha Verma').",
+        "document_id": "D-9DCDB9F1"
+      }
+    ],
+    "ground_truth_is_anomalous": true
+  },
+  {
+    "person_id": "P0020",
+    "canonical_name_en": "Karan Devi Kapoor",
+    "risk_score": 10,
+    "risk_level": "LOW",
+    "findings": [
+      {
+        "check": "address_consistency",
+        "severity": "MEDIUM",
+        "detail": "Address on VOTER_ID differs significantly from person record (42% similarity).",
+        "document_id": "D-8C3D09B5"
+      }
+    ],
+    "ground_truth_is_anomalous": true
+  },
+  {
+    "person_id": "P0021",
+    "canonical_name_en": "Preeti Sharma",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0022",
+    "canonical_name_en": "Swati Kumari Singh",
+    "risk_score": 40,
+    "risk_level": "HIGH",
+    "findings": [
+      {
+        "check": "shared_document_number",
+        "severity": "CRITICAL",
+        "detail": "AADHAAR number 2931 4473 4459 is also used by 1 other person(s): ['P0029']",
+        "document_id": "D-E8C85133"
+      }
+    ],
+    "ground_truth_is_anomalous": true
+  },
+  {
+    "person_id": "P0023",
+    "canonical_name_en": "Deepak Ghosh",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0024",
+    "canonical_name_en": "Ravi Ghosh",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0025",
+    "canonical_name_en": "Sunita Rao",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0026",
+    "canonical_name_en": "Sarita Nath Sharma",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0027",
+    "canonical_name_en": "Amit Reddy",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0028",
+    "canonical_name_en": "Aditya Gupta",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0029",
+    "canonical_name_en": "Aditya Lal Rao",
+    "risk_score": 40,
+    "risk_level": "HIGH",
+    "findings": [
+      {
+        "check": "shared_document_number",
+        "severity": "CRITICAL",
+        "detail": "AADHAAR number 2931 4473 4459 is also used by 1 other person(s): ['P0022']",
+        "document_id": "D-BB4C371A"
+      }
+    ],
+    "ground_truth_is_anomalous": true
+  },
+  {
+    "person_id": "P0030",
+    "canonical_name_en": "Nitin Patel",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0031",
+    "canonical_name_en": "Geeta Ghosh",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0032",
+    "canonical_name_en": "Rajesh Lal Mishra",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0033",
+    "canonical_name_en": "Rahul Gupta",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0034",
+    "canonical_name_en": "Rajesh Verma",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0035",
+    "canonical_name_en": "Deepak Kumari Das",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0036",
+    "canonical_name_en": "Aditya Kumar Agarwal",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0037",
+    "canonical_name_en": "Kiran Agarwal",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0038",
+    "canonical_name_en": "Amit Jain",
+    "risk_score": 40,
+    "risk_level": "HIGH",
+    "findings": [
+      {
+        "check": "shared_document_number",
+        "severity": "CRITICAL",
+        "detail": "DRIVING_LICENSE number MH07 20138581874 is also used by 1 other person(s): ['P0060']",
+        "document_id": "D-97B3C669"
+      }
+    ],
+    "ground_truth_is_anomalous": true
+  },
+  {
+    "person_id": "P0039",
+    "canonical_name_en": "Sanjay Patel",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0040",
+    "canonical_name_en": "Sunita Nair",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0041",
+    "canonical_name_en": "Preeti Lal Singh",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0042",
+    "canonical_name_en": "Manoj Yadav",
+    "risk_score": 10,
+    "risk_level": "LOW",
+    "findings": [
+      {
+        "check": "transliteration_consistency",
+        "severity": "MEDIUM",
+        "detail": "Hindi name on VOTER_ID ('मनोज् नैर्') only 53% similar to canonical ('मनोज यादव').",
+        "document_id": "D-0F922620"
+      }
+    ],
+    "ground_truth_is_anomalous": true
+  },
+  {
+    "person_id": "P0043",
+    "canonical_name_en": "Arjun Kumar Verma",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0044",
+    "canonical_name_en": "Geeta Iyer",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0045",
+    "canonical_name_en": "Sanjay Kumar Iyer",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0046",
+    "canonical_name_en": "Anjali Verma",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0047",
+    "canonical_name_en": "Amit Kumari Ghosh",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0048",
+    "canonical_name_en": "Manoj Lal Jain",
+    "risk_score": 10,
+    "risk_level": "LOW",
+    "findings": [
+      {
+        "check": "transliteration_consistency",
+        "severity": "MEDIUM",
+        "detail": "Hindi name on PASSPORT ('मनोज् लल् घोश्') only 45% similar to canonical ('मनोज जैन').",
+        "document_id": "D-20E49EA7"
+      }
+    ],
+    "ground_truth_is_anomalous": true
+  },
+  {
+    "person_id": "P0049",
+    "canonical_name_en": "Sandeep Gupta",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0050",
+    "canonical_name_en": "Anita Patel",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0051",
+    "canonical_name_en": "Deepak Prasad Jain",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0052",
+    "canonical_name_en": "Swati Lal Gupta",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0053",
+    "canonical_name_en": "Nitin Patel",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0054",
+    "canonical_name_en": "Neha Reddy",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0055",
+    "canonical_name_en": "Preeti Iyer",
+    "risk_score": 10,
+    "risk_level": "LOW",
+    "findings": [
+      {
+        "check": "address_consistency",
+        "severity": "MEDIUM",
+        "detail": "Address on DRIVING_LICENSE differs significantly from person record (26% similarity).",
+        "document_id": "D-478B1E1E"
+      }
+    ],
+    "ground_truth_is_anomalous": true
+  },
+  {
+    "person_id": "P0056",
+    "canonical_name_en": "Pooja Kumar Kumar",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0057",
+    "canonical_name_en": "Divya Nath Kapoor",
+    "risk_score": 40,
+    "risk_level": "HIGH",
+    "findings": [
+      {
+        "check": "shared_document_number",
+        "severity": "CRITICAL",
+        "detail": "DRIVING_LICENSE number MH12 20184985773 is also used by 1 other person(s): ['P0005']",
+        "document_id": "D-12A3811A"
+      }
+    ],
+    "ground_truth_is_anomalous": true
+  },
+  {
+    "person_id": "P0058",
+    "canonical_name_en": "Aarti Kumar Das",
+    "risk_score": 10,
+    "risk_level": "LOW",
+    "findings": [
+      {
+        "check": "address_consistency",
+        "severity": "MEDIUM",
+        "detail": "Address on PAN differs significantly from person record (26% similarity).",
+        "document_id": "D-9758E527"
+      }
+    ],
+    "ground_truth_is_anomalous": true
+  },
+  {
+    "person_id": "P0059",
+    "canonical_name_en": "Anita Kumari Verma",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0060",
+    "canonical_name_en": "Rohit Rao",
+    "risk_score": 40,
+    "risk_level": "HIGH",
+    "findings": [
+      {
+        "check": "shared_document_number",
+        "severity": "CRITICAL",
+        "detail": "DRIVING_LICENSE number MH07 20138581874 is also used by 1 other person(s): ['P0038']",
+        "document_id": "D-9DCB1B88"
+      }
+    ],
+    "ground_truth_is_anomalous": true
+  },
+  {
+    "person_id": "P0061",
+    "canonical_name_en": "Rajesh Kumar",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0062",
+    "canonical_name_en": "Karan Nath Kumar",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0063",
+    "canonical_name_en": "Meena Reddy",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0064",
+    "canonical_name_en": "Ritu Kumar",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0065",
+    "canonical_name_en": "Anil Prasad Agarwal",
+    "risk_score": 25,
+    "risk_level": "MEDIUM",
+    "findings": [
+      {
+        "check": "name_consistency",
+        "severity": "HIGH",
+        "detail": "Name on PAN ('Anil Prasad Singh') only 61% similar to canonical ('Anil Prasad Agarwal').",
+        "document_id": "D-F1D259BE"
+      }
+    ],
+    "ground_truth_is_anomalous": true
+  },
+  {
+    "person_id": "P0066",
+    "canonical_name_en": "Rekha Prasad Nair",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0067",
+    "canonical_name_en": "Anjali Devi Das",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0068",
+    "canonical_name_en": "Rekha Kumari Reddy",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0069",
+    "canonical_name_en": "Anita Gupta",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0070",
+    "canonical_name_en": "Aarti Jain",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0071",
+    "canonical_name_en": "Vijay Nath Nair",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0072",
+    "canonical_name_en": "Sandeep Nath Agarwal",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0073",
+    "canonical_name_en": "Arjun Kumar Malhotra",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0074",
+    "canonical_name_en": "Mohit Rao",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0075",
+    "canonical_name_en": "Kiran Gupta",
+    "risk_score": 25,
+    "risk_level": "MEDIUM",
+    "findings": [
+      {
+        "check": "name_consistency",
+        "severity": "HIGH",
+        "detail": "Name on DRIVING_LICENSE ('Geeta Gupta') only 45% similar to canonical ('Kiran Gupta').",
+        "document_id": "D-79A42FE1"
+      }
+    ],
+    "ground_truth_is_anomalous": true
+  },
+  {
+    "person_id": "P0076",
+    "canonical_name_en": "Pooja Iyer",
+    "risk_score": 25,
+    "risk_level": "MEDIUM",
+    "findings": [
+      {
+        "check": "dob_consistency",
+        "severity": "HIGH",
+        "detail": "Conflicting DOBs across documents: ['1969-01-12', '1972-01-12']"
+      }
+    ],
+    "ground_truth_is_anomalous": true
+  },
+  {
+    "person_id": "P0077",
+    "canonical_name_en": "Nisha Iyer",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0078",
+    "canonical_name_en": "Nisha Yadav",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0079",
+    "canonical_name_en": "Preeti Kumari Sharma",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0080",
+    "canonical_name_en": "Geeta Pandey",
+    "risk_score": 10,
+    "risk_level": "LOW",
+    "findings": [
+      {
+        "check": "address_consistency",
+        "severity": "MEDIUM",
+        "detail": "Address on VOTER_ID differs significantly from person record (24% similarity).",
+        "document_id": "D-DBAAA4A8"
+      }
+    ],
+    "ground_truth_is_anomalous": true
+  },
+  {
+    "person_id": "P0081",
+    "canonical_name_en": "Sunita Prasad Gupta",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0082",
+    "canonical_name_en": "Manoj Kumari Iyer",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0083",
+    "canonical_name_en": "Amit Reddy",
+    "risk_score": 10,
+    "risk_level": "LOW",
+    "findings": [
+      {
+        "check": "transliteration_consistency",
+        "severity": "MEDIUM",
+        "detail": "Hindi name on VOTER_ID ('अमित् कपूर्') only 64% similar to canonical ('अमित रेड्डी').",
+        "document_id": "D-E51363B6"
+      }
+    ],
+    "ground_truth_is_anomalous": true
+  },
+  {
+    "person_id": "P0084",
+    "canonical_name_en": "Kiran Prasad Malhotra",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0085",
+    "canonical_name_en": "Nisha Prasad Reddy",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0086",
+    "canonical_name_en": "Karan Prasad Reddy",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0087",
+    "canonical_name_en": "Anjali Kumar Rao",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0088",
+    "canonical_name_en": "Rohit Ghosh",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0089",
+    "canonical_name_en": "Ritu Ghosh",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  },
+  {
+    "person_id": "P0090",
+    "canonical_name_en": "Aditya Kumari Pandey",
+    "risk_score": 0,
+    "risk_level": "NONE",
+    "findings": [],
+    "ground_truth_is_anomalous": false
+  }
+]

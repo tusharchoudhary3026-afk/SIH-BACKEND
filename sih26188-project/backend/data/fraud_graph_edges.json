@@ -1,0 +1,1347 @@
+[
+  {
+    "source": "F0001",
+    "target": "D-E0132D4A",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0001",
+    "target": "D-1CE88011",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0002",
+    "target": "D-87983361",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0002",
+    "target": "D-C7F60042",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0003",
+    "target": "D-E9D6E430",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0003",
+    "target": "D-3B9C18E4",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0004",
+    "target": "D-C7436221",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0004",
+    "target": "D-FB5325A0",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0005",
+    "target": "D-8DA24EFE",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0005",
+    "target": "D-C0AD652C",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0005",
+    "target": "D-AC69E5B0",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0006",
+    "target": "D-0C0CE3B2",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0006",
+    "target": "D-DE63C18C",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0006",
+    "target": "D-3F357B9B",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0007",
+    "target": "D-1F08147D",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0007",
+    "target": "D-DF5E3004",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0008",
+    "target": "D-9AD7FB75",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0008",
+    "target": "D-E3A243C6",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0009",
+    "target": "D-E4AB71E0",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0009",
+    "target": "D-B2F0D8F8",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0010",
+    "target": "D-E4D7B382",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0010",
+    "target": "D-8663778F",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0010",
+    "target": "D-968C1612",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0011",
+    "target": "D-3984E1B1",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0011",
+    "target": "D-DF89B660",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0011",
+    "target": "D-7CB73780",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0012",
+    "target": "D-8AF8E1DF",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0012",
+    "target": "D-39B17723",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0013",
+    "target": "D-E6574461",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0013",
+    "target": "D-6F3A1FFB",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0014",
+    "target": "D-6D7807D9",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0014",
+    "target": "D-62FF7904",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0014",
+    "target": "D-F9201961",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0015",
+    "target": "D-EC42797D",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0015",
+    "target": "D-EE4A491A",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0015",
+    "target": "D-BD28BE1D",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0016",
+    "target": "D-5A0E3953",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0016",
+    "target": "D-DFAACF11",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0017",
+    "target": "D-EC5A277D",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0017",
+    "target": "D-AE42E2BA",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0018",
+    "target": "D-78463A1C",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0018",
+    "target": "D-0F316E72",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0019",
+    "target": "D-F989119A",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0019",
+    "target": "D-7AC6D3C3",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0020",
+    "target": "D-1D83CE33",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0020",
+    "target": "D-D3CAC892",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0021",
+    "target": "D-B0F994FE",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0021",
+    "target": "D-D5390159",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0021",
+    "target": "D-51A2ABB0",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0022",
+    "target": "D-B5A199BB",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0022",
+    "target": "D-32CED9C7",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0023",
+    "target": "D-FBB6FD14",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0023",
+    "target": "D-663C6BA2",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0024",
+    "target": "D-F7479AB4",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0024",
+    "target": "D-4F498FE0",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0024",
+    "target": "D-D1D6A7A6",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0025",
+    "target": "D-7B36D8DE",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0025",
+    "target": "D-5B53562E",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0026",
+    "target": "D-FDC03253",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0026",
+    "target": "D-3124AC70",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0026",
+    "target": "D-7E04E923",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0027",
+    "target": "D-A70D5F70",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0027",
+    "target": "D-373C2F28",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0027",
+    "target": "D-6DDA7E23",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0028",
+    "target": "D-70D630A4",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0028",
+    "target": "D-05D021C4",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0029",
+    "target": "D-B3C9AC1C",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0029",
+    "target": "D-88100171",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0030",
+    "target": "D-524ADD36",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0030",
+    "target": "D-337A2603",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0030",
+    "target": "D-FDE47E7C",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0031",
+    "target": "D-07524A96",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0031",
+    "target": "D-E77242A2",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0032",
+    "target": "D-9AF54196",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0032",
+    "target": "D-8E9905BB",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0033",
+    "target": "D-D260D57A",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0033",
+    "target": "D-5F1CC8C4",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0034",
+    "target": "D-89F7B447",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0034",
+    "target": "D-91ABF752",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0034",
+    "target": "D-8FD9308C",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0035",
+    "target": "D-530D19E8",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0035",
+    "target": "D-00F0B683",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0036",
+    "target": "D-428A91E3",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0036",
+    "target": "D-E0D0F93B",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0036",
+    "target": "D-63304ED3",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0037",
+    "target": "D-5142D86D",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0037",
+    "target": "D-F7ED3AD7",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0037",
+    "target": "D-8F89445D",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0038",
+    "target": "D-E2D7A8DD",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0038",
+    "target": "D-9DCF8EB3",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0038",
+    "target": "D-94452626",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0039",
+    "target": "D-E9026002",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0039",
+    "target": "D-FC6FF980",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0040",
+    "target": "D-AE4B8084",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0040",
+    "target": "D-D99075F5",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0040",
+    "target": "D-A1F8DDDA",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0041",
+    "target": "D-DF17619D",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0041",
+    "target": "D-7ADFEE62",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0042",
+    "target": "D-66ACF171",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0042",
+    "target": "D-7432E818",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0042",
+    "target": "D-4E197CD8",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0043",
+    "target": "D-B9E2C323",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0043",
+    "target": "D-9B1D8AD6",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0044",
+    "target": "D-A53DD0DB",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0044",
+    "target": "D-A4F3AB89",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0045",
+    "target": "D-123A7B9D",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0045",
+    "target": "D-C48EC1EF",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0046",
+    "target": "D-963CE2D1",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0046",
+    "target": "D-B1EE2981",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0047",
+    "target": "D-E7F16B9D",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0047",
+    "target": "D-21C858E8",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0048",
+    "target": "D-3C063467",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0048",
+    "target": "D-94581661",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0049",
+    "target": "D-D7ECDBA7",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0049",
+    "target": "D-5EC9B5D2",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0049",
+    "target": "D-08FA799A",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0050",
+    "target": "D-7861F664",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0050",
+    "target": "D-179110AE",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0050",
+    "target": "D-056D8269",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0051",
+    "target": "D-C9FB0ABB",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0051",
+    "target": "D-2A3EE4D4",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0052",
+    "target": "D-F2A57AFB",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0052",
+    "target": "D-05ACC394",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0052",
+    "target": "D-AEB7B6D1",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0053",
+    "target": "D-050F2D65",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0053",
+    "target": "D-6C7C1AB4",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0053",
+    "target": "D-F87D3D90",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0054",
+    "target": "D-7E1F2862",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0054",
+    "target": "D-B71D6C57",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0055",
+    "target": "D-15EFEC76",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0055",
+    "target": "D-288C0609",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0056",
+    "target": "D-E277237B",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0056",
+    "target": "D-247060D5",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0056",
+    "target": "D-92932922",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0057",
+    "target": "D-53AED87E",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0057",
+    "target": "D-691B3CC4",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0058",
+    "target": "D-0660F7F3",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0058",
+    "target": "D-2C777633",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0059",
+    "target": "D-0C341D3A",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0059",
+    "target": "D-B467DE43",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0060",
+    "target": "D-9CC31822",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0060",
+    "target": "D-0EF67E39",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0061",
+    "target": "D-F324AECD",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0061",
+    "target": "D-9FA37557",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0062",
+    "target": "D-58F58CBE",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0062",
+    "target": "D-D9A7D238",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0063",
+    "target": "D-E4F4892D",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0063",
+    "target": "D-FEB46417",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0064",
+    "target": "D-4D2B4669",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0064",
+    "target": "D-2AA3761C",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0065",
+    "target": "D-C1A5CC3A",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0065",
+    "target": "D-05171D3C",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "F0065",
+    "target": "D-39347A76",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RA001",
+    "target": "D-F9A7CA10",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RA001",
+    "target": "D-33E65BA1",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RA002",
+    "target": "D-A0B0BE58",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RA002",
+    "target": "D-F02CB96B",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RA003",
+    "target": "D-28116B4D",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RA003",
+    "target": "D-B37F4CE3",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RA004",
+    "target": "D-06FE0E28",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RA004",
+    "target": "D-D615B938",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RB001",
+    "target": "D-8970C056",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RB001",
+    "target": "D-186177D0",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RB002",
+    "target": "D-9AAE9A3C",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RB002",
+    "target": "D-42EAFA0F",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RB003",
+    "target": "D-DE3EB9C3",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RB003",
+    "target": "D-7A48BC8C",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RB004",
+    "target": "D-A2D10C84",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RB004",
+    "target": "D-1ACA07BF",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RB005",
+    "target": "D-C45BFD53",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RB005",
+    "target": "D-B8194F29",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RC001",
+    "target": "D-C1E80E89",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RC001",
+    "target": "D-3F719D43",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RC001",
+    "target": "D-22530F64",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RC002",
+    "target": "D-3557F848",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RC002",
+    "target": "D-C70C1044",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RC002",
+    "target": "D-616CF683",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RC003",
+    "target": "D-4AE9DA19",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RC003",
+    "target": "D-7C712D3A",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RC003",
+    "target": "D-22CE3261",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RC004",
+    "target": "D-C0B0DE32",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RC004",
+    "target": "D-0FB3F3F7",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RC004",
+    "target": "D-5922D569",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RC005",
+    "target": "D-8FB81E96",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RC005",
+    "target": "D-E53ABE05",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RC005",
+    "target": "D-9EFCC05C",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RC006",
+    "target": "D-50F81485",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RC006",
+    "target": "D-9276C23E",
+    "relation": "SUBMITTED",
+    "confidence": 1.0
+  },
+  {
+    "source": "RA001",
+    "target": "RA002",
+    "relation": "SAME_FACE",
+    "confidence": 0.97,
+    "note": "face_RINGA_d1ffe3"
+  },
+  {
+    "source": "RA001",
+    "target": "RA003",
+    "relation": "SAME_FACE",
+    "confidence": 0.97,
+    "note": "face_RINGA_d1ffe3"
+  },
+  {
+    "source": "RA001",
+    "target": "RA004",
+    "relation": "SAME_FACE",
+    "confidence": 0.97,
+    "note": "face_RINGA_d1ffe3"
+  },
+  {
+    "source": "RA002",
+    "target": "RA003",
+    "relation": "SAME_FACE",
+    "confidence": 0.97,
+    "note": "face_RINGA_d1ffe3"
+  },
+  {
+    "source": "RA002",
+    "target": "RA004",
+    "relation": "SAME_FACE",
+    "confidence": 0.97,
+    "note": "face_RINGA_d1ffe3"
+  },
+  {
+    "source": "RA003",
+    "target": "RA004",
+    "relation": "SAME_FACE",
+    "confidence": 0.97,
+    "note": "face_RINGA_d1ffe3"
+  },
+  {
+    "source": "RB005",
+    "target": "RB004",
+    "relation": "SAME_DOCUMENT_NUMBER",
+    "confidence": 0.99,
+    "note": "PAN:OJXHM8031R"
+  },
+  {
+    "source": "RB005",
+    "target": "RB003",
+    "relation": "SAME_DOCUMENT_NUMBER",
+    "confidence": 0.99,
+    "note": "PAN:OJXHM8031R"
+  },
+  {
+    "source": "RB005",
+    "target": "RB002",
+    "relation": "SAME_DOCUMENT_NUMBER",
+    "confidence": 0.99,
+    "note": "PAN:OJXHM8031R"
+  },
+  {
+    "source": "RB005",
+    "target": "RB001",
+    "relation": "SAME_DOCUMENT_NUMBER",
+    "confidence": 0.99,
+    "note": "PAN:OJXHM8031R"
+  },
+  {
+    "source": "RB004",
+    "target": "RB003",
+    "relation": "SAME_DOCUMENT_NUMBER",
+    "confidence": 0.99,
+    "note": "PAN:OJXHM8031R"
+  },
+  {
+    "source": "RB004",
+    "target": "RB002",
+    "relation": "SAME_DOCUMENT_NUMBER",
+    "confidence": 0.99,
+    "note": "PAN:OJXHM8031R"
+  },
+  {
+    "source": "RB004",
+    "target": "RB001",
+    "relation": "SAME_DOCUMENT_NUMBER",
+    "confidence": 0.99,
+    "note": "PAN:OJXHM8031R"
+  },
+  {
+    "source": "RB003",
+    "target": "RB002",
+    "relation": "SAME_DOCUMENT_NUMBER",
+    "confidence": 0.99,
+    "note": "PAN:OJXHM8031R"
+  },
+  {
+    "source": "RB003",
+    "target": "RB001",
+    "relation": "SAME_DOCUMENT_NUMBER",
+    "confidence": 0.99,
+    "note": "PAN:OJXHM8031R"
+  },
+  {
+    "source": "RB002",
+    "target": "RB001",
+    "relation": "SAME_DOCUMENT_NUMBER",
+    "confidence": 0.99,
+    "note": "PAN:OJXHM8031R"
+  },
+  {
+    "source": "RC001",
+    "target": "RC002",
+    "relation": "SAME_ADDRESS",
+    "confidence": 0.6,
+    "note": "418, Parsa Nagar, Miryalaguda 486546"
+  },
+  {
+    "source": "RC001",
+    "target": "RC003",
+    "relation": "SAME_ADDRESS",
+    "confidence": 0.6,
+    "note": "418, Parsa Nagar, Miryalaguda 486546"
+  },
+  {
+    "source": "RC001",
+    "target": "RC004",
+    "relation": "SAME_ADDRESS",
+    "confidence": 0.6,
+    "note": "418, Parsa Nagar, Miryalaguda 486546"
+  },
+  {
+    "source": "RC001",
+    "target": "RC005",
+    "relation": "SAME_ADDRESS",
+    "confidence": 0.6,
+    "note": "418, Parsa Nagar, Miryalaguda 486546"
+  },
+  {
+    "source": "RC001",
+    "target": "RC006",
+    "relation": "SAME_ADDRESS",
+    "confidence": 0.6,
+    "note": "418, Parsa Nagar, Miryalaguda 486546"
+  },
+  {
+    "source": "RC002",
+    "target": "RC003",
+    "relation": "SAME_ADDRESS",
+    "confidence": 0.6,
+    "note": "418, Parsa Nagar, Miryalaguda 486546"
+  },
+  {
+    "source": "RC002",
+    "target": "RC004",
+    "relation": "SAME_ADDRESS",
+    "confidence": 0.6,
+    "note": "418, Parsa Nagar, Miryalaguda 486546"
+  },
+  {
+    "source": "RC002",
+    "target": "RC005",
+    "relation": "SAME_ADDRESS",
+    "confidence": 0.6,
+    "note": "418, Parsa Nagar, Miryalaguda 486546"
+  },
+  {
+    "source": "RC002",
+    "target": "RC006",
+    "relation": "SAME_ADDRESS",
+    "confidence": 0.6,
+    "note": "418, Parsa Nagar, Miryalaguda 486546"
+  },
+  {
+    "source": "RC003",
+    "target": "RC004",
+    "relation": "SAME_ADDRESS",
+    "confidence": 0.6,
+    "note": "418, Parsa Nagar, Miryalaguda 486546"
+  },
+  {
+    "source": "RC003",
+    "target": "RC005",
+    "relation": "SAME_ADDRESS",
+    "confidence": 0.6,
+    "note": "418, Parsa Nagar, Miryalaguda 486546"
+  },
+  {
+    "source": "RC003",
+    "target": "RC006",
+    "relation": "SAME_ADDRESS",
+    "confidence": 0.6,
+    "note": "418, Parsa Nagar, Miryalaguda 486546"
+  },
+  {
+    "source": "RC004",
+    "target": "RC005",
+    "relation": "SAME_ADDRESS",
+    "confidence": 0.6,
+    "note": "418, Parsa Nagar, Miryalaguda 486546"
+  },
+  {
+    "source": "RC004",
+    "target": "RC006",
+    "relation": "SAME_ADDRESS",
+    "confidence": 0.6,
+    "note": "418, Parsa Nagar, Miryalaguda 486546"
+  },
+  {
+    "source": "RC005",
+    "target": "RC006",
+    "relation": "SAME_ADDRESS",
+    "confidence": 0.6,
+    "note": "418, Parsa Nagar, Miryalaguda 486546"
+  }
+]

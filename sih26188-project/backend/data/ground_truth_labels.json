@@ -1,0 +1,116 @@
+[
+  {
+    "type": "shared_document_number",
+    "person_ids": [
+      "P0022",
+      "P0029"
+    ],
+    "document_ids": [
+      "D-E8C85133",
+      "D-BB4C371A"
+    ],
+    "detail": "Both 'Swati Kumari Singh' and 'Aditya Lal Rao' hold a AADHAAR with identical document_number 2931 4473 4459 -> identity collision / possible fraud ring."
+  },
+  {
+    "type": "shared_document_number",
+    "person_ids": [
+      "P0060",
+      "P0038"
+    ],
+    "document_ids": [
+      "D-9DCB1B88",
+      "D-97B3C669"
+    ],
+    "detail": "Both 'Rohit Rao' and 'Amit Jain' hold a DRIVING_LICENSE with identical document_number MH07 20138581874 -> identity collision / possible fraud ring."
+  },
+  {
+    "type": "shared_document_number",
+    "person_ids": [
+      "P0057",
+      "P0005"
+    ],
+    "document_ids": [
+      "D-12A3811A",
+      "D-C75D0789"
+    ],
+    "detail": "Both 'Divya Nath Kapoor' and 'Swati Nath Nair' hold a DRIVING_LICENSE with identical document_number MH12 20184985773 -> identity collision / possible fraud ring."
+  },
+  {
+    "type": "dob_mismatch",
+    "person_id": "P0076",
+    "document_id": "D-95D351A1",
+    "detail": "DOB on DRIVING_LICENSE is 1969-01-12, conflicts with person record / other documents (1972-01-12)."
+  },
+  {
+    "type": "transliteration_mismatch",
+    "person_id": "P0042",
+    "document_id": "D-0F922620",
+    "detail": "Hindi name on VOTER_ID ('मनोज् नैर्') does not transliterate back to canonical name ('मनोज यादव')."
+  },
+  {
+    "type": "address_discrepancy",
+    "person_id": "P0080",
+    "document_id": "D-DBAAA4A8",
+    "detail": "Address on VOTER_ID differs from person record (may be legitimate move -> should be MEDIUM risk, not HIGH)."
+  },
+  {
+    "type": "address_discrepancy",
+    "person_id": "P0055",
+    "document_id": "D-478B1E1E",
+    "detail": "Address on DRIVING_LICENSE differs from person record (may be legitimate move -> should be MEDIUM risk, not HIGH)."
+  },
+  {
+    "type": "name_swap_conflict",
+    "person_id": "P0019",
+    "document_id": "D-9DCDB9F1",
+    "detail": "Name on AADHAAR is 'Neha Rao', a phonetically similar but different name from canonical 'Neha Verma'."
+  },
+  {
+    "type": "name_swap_conflict",
+    "person_id": "P0065",
+    "document_id": "D-F1D259BE",
+    "detail": "Name on PAN is 'Anil Prasad Singh', a phonetically similar but different name from canonical 'Anil Prasad Agarwal'."
+  },
+  {
+    "type": "name_swap_conflict",
+    "person_id": "P0075",
+    "document_id": "D-79A42FE1",
+    "detail": "Name on DRIVING_LICENSE is 'Geeta Gupta', a phonetically similar but different name from canonical 'Kiran Gupta'."
+  },
+  {
+    "type": "transliteration_mismatch",
+    "person_id": "P0048",
+    "document_id": "D-20E49EA7",
+    "detail": "Hindi name on PASSPORT ('मनोज् लल् घोश्') does not transliterate back to canonical name ('मनोज जैन')."
+  },
+  {
+    "type": "address_discrepancy",
+    "person_id": "P0058",
+    "document_id": "D-9758E527",
+    "detail": "Address on PAN differs from person record (may be legitimate move -> should be MEDIUM risk, not HIGH)."
+  },
+  {
+    "type": "dob_mismatch",
+    "person_id": "P0011",
+    "document_id": "D-1549C1EA",
+    "detail": "DOB on DRIVING_LICENSE is 1985-09-19, conflicts with person record / other documents (1984-09-19)."
+  },
+  {
+    "type": "address_discrepancy",
+    "person_id": "P0020",
+    "document_id": "D-8C3D09B5",
+    "detail": "Address on VOTER_ID differs from person record (may be legitimate move -> should be MEDIUM risk, not HIGH)."
+  },
+  {
+    "type": "transliteration_mismatch",
+    "person_id": "P0083",
+    "document_id": "D-E51363B6",
+    "detail": "Hindi name on VOTER_ID ('अमित् कपूर्') does not transliterate back to canonical name ('अमित रेड्डी')."
+  },
+  {
+    "type": "address_discrepancy",
+    "person_id": "P0004",
+    "document_id": "D-9E35B38A",
+    "detail": "Address on DRIVING_LICENSE differs from person record (may be legitimate move -> should be MEDIUM risk, not HIGH)."
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "insider_officer_ids": [
+    "OFF013",
+    "OFF014"
+  ],
+  "description": "These officers were deliberately configured to approve a suspicious share of HIGH/CRITICAL-risk and fraud-ring cases, with unusually short review durations (rubber-stamping), simulating collusion/insider threat."
+}

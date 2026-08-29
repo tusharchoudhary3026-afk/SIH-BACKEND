@@ -1,0 +1,7 @@
+faker
+indic-transliteration
+rapidfuzz
+fastapi
+uvicorn[standard]
+networkx
+pillow

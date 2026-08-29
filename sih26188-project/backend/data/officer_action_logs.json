@@ -1,0 +1,1052 @@
+[
+  {
+    "log_id": "LOG-2B3D42AB",
+    "officer_id": "OFF008",
+    "person_id": "P0027",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 65,
+    "timestamp": "2026-06-02T17:00:38"
+  },
+  {
+    "log_id": "LOG-A17C16C1",
+    "officer_id": "OFF009",
+    "person_id": "P0041",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 99,
+    "timestamp": "2026-06-02T21:33:38"
+  },
+  {
+    "log_id": "LOG-599A19A6",
+    "officer_id": "OFF012",
+    "person_id": "P0090",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 68,
+    "timestamp": "2026-06-03T02:47:38"
+  },
+  {
+    "log_id": "LOG-11E2B549",
+    "officer_id": "OFF012",
+    "person_id": "P0034",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 238,
+    "timestamp": "2026-06-03T05:30:38"
+  },
+  {
+    "log_id": "LOG-E2E98C17",
+    "officer_id": "OFF007",
+    "person_id": "P0073",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "REJECTED",
+    "review_duration_seconds": 66,
+    "timestamp": "2026-06-04T14:32:38"
+  },
+  {
+    "log_id": "LOG-42211B3E",
+    "officer_id": "OFF010",
+    "person_id": "P0052",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "ESCALATED",
+    "review_duration_seconds": 64,
+    "timestamp": "2026-06-05T19:41:38"
+  },
+  {
+    "log_id": "LOG-F9A37B2B",
+    "officer_id": "OFF005",
+    "person_id": "P0004",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 126,
+    "timestamp": "2026-06-06T04:43:38"
+  },
+  {
+    "log_id": "LOG-56AD0696",
+    "officer_id": "OFF010",
+    "person_id": "P0059",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 234,
+    "timestamp": "2026-06-07T01:35:38"
+  },
+  {
+    "log_id": "LOG-08496288",
+    "officer_id": "OFF007",
+    "person_id": "P0026",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 79,
+    "timestamp": "2026-06-07T11:05:38"
+  },
+  {
+    "log_id": "LOG-D87955CA",
+    "officer_id": "OFF005",
+    "person_id": "P0068",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 156,
+    "timestamp": "2026-06-07T14:35:38"
+  },
+  {
+    "log_id": "LOG-4AE11082",
+    "officer_id": "OFF003",
+    "person_id": "P0005",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "HIGH",
+    "action": "REJECTED",
+    "review_duration_seconds": 353,
+    "timestamp": "2026-06-08T09:36:38"
+  },
+  {
+    "log_id": "LOG-93F4CDB9",
+    "officer_id": "OFF003",
+    "person_id": "P0056",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 136,
+    "timestamp": "2026-06-08T17:45:38"
+  },
+  {
+    "log_id": "LOG-E24170B2",
+    "officer_id": "OFF006",
+    "person_id": "RA004",
+    "case_source": "fraud_graph:RING_A_SHARED_FACE",
+    "risk_level_at_review": "CRITICAL",
+    "action": "REJECTED",
+    "review_duration_seconds": 190,
+    "timestamp": "2026-06-09T02:36:38"
+  },
+  {
+    "log_id": "LOG-B9E4A0C8",
+    "officer_id": "OFF007",
+    "person_id": "P0031",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 118,
+    "timestamp": "2026-06-09T17:40:38"
+  },
+  {
+    "log_id": "LOG-74FDB6D0",
+    "officer_id": "OFF004",
+    "person_id": "P0033",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 220,
+    "timestamp": "2026-06-09T18:03:38"
+  },
+  {
+    "log_id": "LOG-F9C6B334",
+    "officer_id": "OFF003",
+    "person_id": "RC001",
+    "case_source": "fraud_graph:RING_C_SYNTHETIC_FARM",
+    "risk_level_at_review": "CRITICAL",
+    "action": "REJECTED",
+    "review_duration_seconds": 239,
+    "timestamp": "2026-06-10T01:38:38"
+  },
+  {
+    "log_id": "LOG-265222AD",
+    "officer_id": "OFF011",
+    "person_id": "P0044",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 158,
+    "timestamp": "2026-06-11T05:39:38"
+  },
+  {
+    "log_id": "LOG-C70ACE82",
+    "officer_id": "OFF008",
+    "person_id": "P0043",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 177,
+    "timestamp": "2026-06-11T16:28:38"
+  },
+  {
+    "log_id": "LOG-56FA3806",
+    "officer_id": "OFF001",
+    "person_id": "P0065",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "MEDIUM",
+    "action": "APPROVED",
+    "review_duration_seconds": 225,
+    "timestamp": "2026-06-11T20:07:38"
+  },
+  {
+    "log_id": "LOG-57C90A5F",
+    "officer_id": "OFF012",
+    "person_id": "P0017",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 71,
+    "timestamp": "2026-06-12T15:13:38"
+  },
+  {
+    "log_id": "LOG-1DB48FFC",
+    "officer_id": "OFF007",
+    "person_id": "RA002",
+    "case_source": "fraud_graph:RING_A_SHARED_FACE",
+    "risk_level_at_review": "CRITICAL",
+    "action": "REJECTED",
+    "review_duration_seconds": 567,
+    "timestamp": "2026-06-12T17:13:38"
+  },
+  {
+    "log_id": "LOG-E197E892",
+    "officer_id": "OFF009",
+    "person_id": "P0047",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 161,
+    "timestamp": "2026-06-12T23:01:38"
+  },
+  {
+    "log_id": "LOG-3B88FA9D",
+    "officer_id": "OFF006",
+    "person_id": "P0008",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 154,
+    "timestamp": "2026-06-14T00:14:38"
+  },
+  {
+    "log_id": "LOG-214F9CAF",
+    "officer_id": "OFF011",
+    "person_id": "P0081",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 135,
+    "timestamp": "2026-06-16T23:33:38"
+  },
+  {
+    "log_id": "LOG-E83B44B2",
+    "officer_id": "OFF006",
+    "person_id": "P0072",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 152,
+    "timestamp": "2026-06-17T09:44:38"
+  },
+  {
+    "log_id": "LOG-D543B3E0",
+    "officer_id": "OFF008",
+    "person_id": "P0048",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 61,
+    "timestamp": "2026-06-21T09:39:38"
+  },
+  {
+    "log_id": "LOG-9DC771BC",
+    "officer_id": "OFF008",
+    "person_id": "P0054",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 215,
+    "timestamp": "2026-06-21T18:14:38"
+  },
+  {
+    "log_id": "LOG-B820BDF3",
+    "officer_id": "OFF004",
+    "person_id": "RC002",
+    "case_source": "fraud_graph:RING_C_SYNTHETIC_FARM",
+    "risk_level_at_review": "CRITICAL",
+    "action": "ESCALATED",
+    "review_duration_seconds": 286,
+    "timestamp": "2026-06-22T13:40:38"
+  },
+  {
+    "log_id": "LOG-6EC8EF73",
+    "officer_id": "OFF003",
+    "person_id": "P0050",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 170,
+    "timestamp": "2026-06-23T12:26:38"
+  },
+  {
+    "log_id": "LOG-C4FB6285",
+    "officer_id": "OFF012",
+    "person_id": "P0074",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 196,
+    "timestamp": "2026-06-24T01:48:38"
+  },
+  {
+    "log_id": "LOG-4962DAEB",
+    "officer_id": "OFF014",
+    "person_id": "RB001",
+    "case_source": "fraud_graph:RING_B_DOC_REUSE",
+    "risk_level_at_review": "CRITICAL",
+    "action": "APPROVED",
+    "review_duration_seconds": 44,
+    "timestamp": "2026-06-24T19:31:38"
+  },
+  {
+    "log_id": "LOG-8A72AA41",
+    "officer_id": "OFF002",
+    "person_id": "P0057",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "HIGH",
+    "action": "ESCALATED",
+    "review_duration_seconds": 275,
+    "timestamp": "2026-06-25T10:02:38"
+  },
+  {
+    "log_id": "LOG-F7C7F4BA",
+    "officer_id": "OFF003",
+    "person_id": "P0069",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "ESCALATED",
+    "review_duration_seconds": 197,
+    "timestamp": "2026-06-26T00:32:38"
+  },
+  {
+    "log_id": "LOG-DFAAE5D0",
+    "officer_id": "OFF001",
+    "person_id": "P0083",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 93,
+    "timestamp": "2026-06-27T03:16:38"
+  },
+  {
+    "log_id": "LOG-74BFF95A",
+    "officer_id": "OFF013",
+    "person_id": "RA003",
+    "case_source": "fraud_graph:RING_A_SHARED_FACE",
+    "risk_level_at_review": "CRITICAL",
+    "action": "APPROVED",
+    "review_duration_seconds": 43,
+    "timestamp": "2026-06-27T21:11:38"
+  },
+  {
+    "log_id": "LOG-F06CF5E2",
+    "officer_id": "OFF010",
+    "person_id": "RB003",
+    "case_source": "fraud_graph:RING_B_DOC_REUSE",
+    "risk_level_at_review": "CRITICAL",
+    "action": "ESCALATED",
+    "review_duration_seconds": 356,
+    "timestamp": "2026-06-28T09:35:38"
+  },
+  {
+    "log_id": "LOG-B64A021C",
+    "officer_id": "OFF008",
+    "person_id": "P0082",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 201,
+    "timestamp": "2026-06-28T16:42:38"
+  },
+  {
+    "log_id": "LOG-B97B655F",
+    "officer_id": "OFF007",
+    "person_id": "RC006",
+    "case_source": "fraud_graph:RING_C_SYNTHETIC_FARM",
+    "risk_level_at_review": "CRITICAL",
+    "action": "ESCALATED",
+    "review_duration_seconds": 476,
+    "timestamp": "2026-06-29T08:43:38"
+  },
+  {
+    "log_id": "LOG-63C89B4B",
+    "officer_id": "OFF002",
+    "person_id": "P0003",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 164,
+    "timestamp": "2026-06-29T11:52:38"
+  },
+  {
+    "log_id": "LOG-37DA2FF8",
+    "officer_id": "OFF014",
+    "person_id": "P0038",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "HIGH",
+    "action": "APPROVED",
+    "review_duration_seconds": 39,
+    "timestamp": "2026-07-01T10:35:38"
+  },
+  {
+    "log_id": "LOG-DE517146",
+    "officer_id": "OFF004",
+    "person_id": "RB002",
+    "case_source": "fraud_graph:RING_B_DOC_REUSE",
+    "risk_level_at_review": "CRITICAL",
+    "action": "REJECTED",
+    "review_duration_seconds": 509,
+    "timestamp": "2026-07-02T05:56:38"
+  },
+  {
+    "log_id": "LOG-F19A0AC9",
+    "officer_id": "OFF010",
+    "person_id": "P0030",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 169,
+    "timestamp": "2026-07-02T06:20:38"
+  },
+  {
+    "log_id": "LOG-E4E63C82",
+    "officer_id": "OFF006",
+    "person_id": "P0084",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 220,
+    "timestamp": "2026-07-02T18:00:38"
+  },
+  {
+    "log_id": "LOG-DCDAB859",
+    "officer_id": "OFF012",
+    "person_id": "P0061",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 194,
+    "timestamp": "2026-07-06T11:25:38"
+  },
+  {
+    "log_id": "LOG-C1AF770B",
+    "officer_id": "OFF011",
+    "person_id": "RC005",
+    "case_source": "fraud_graph:RING_C_SYNTHETIC_FARM",
+    "risk_level_at_review": "CRITICAL",
+    "action": "REJECTED",
+    "review_duration_seconds": 581,
+    "timestamp": "2026-07-07T12:09:38"
+  },
+  {
+    "log_id": "LOG-7957E66B",
+    "officer_id": "OFF006",
+    "person_id": "P0071",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "ESCALATED",
+    "review_duration_seconds": 121,
+    "timestamp": "2026-07-08T18:34:38"
+  },
+  {
+    "log_id": "LOG-307CBBAB",
+    "officer_id": "OFF010",
+    "person_id": "P0012",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 234,
+    "timestamp": "2026-07-09T09:37:38"
+  },
+  {
+    "log_id": "LOG-A94C81CA",
+    "officer_id": "OFF003",
+    "person_id": "P0015",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 143,
+    "timestamp": "2026-07-09T21:49:38"
+  },
+  {
+    "log_id": "LOG-AC6EC51C",
+    "officer_id": "OFF012",
+    "person_id": "P0018",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 62,
+    "timestamp": "2026-07-10T22:50:38"
+  },
+  {
+    "log_id": "LOG-4B44054D",
+    "officer_id": "OFF008",
+    "person_id": "P0028",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 191,
+    "timestamp": "2026-07-11T01:41:38"
+  },
+  {
+    "log_id": "LOG-ACFAE62D",
+    "officer_id": "OFF010",
+    "person_id": "P0010",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 62,
+    "timestamp": "2026-07-11T16:37:38"
+  },
+  {
+    "log_id": "LOG-31D66D52",
+    "officer_id": "OFF004",
+    "person_id": "P0042",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 131,
+    "timestamp": "2026-07-12T08:20:38"
+  },
+  {
+    "log_id": "LOG-1ACF2B05",
+    "officer_id": "OFF001",
+    "person_id": "P0032",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 185,
+    "timestamp": "2026-07-12T15:07:38"
+  },
+  {
+    "log_id": "LOG-5397AB7A",
+    "officer_id": "OFF011",
+    "person_id": "P0046",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "ESCALATED",
+    "review_duration_seconds": 240,
+    "timestamp": "2026-07-13T13:41:38"
+  },
+  {
+    "log_id": "LOG-9B11C9DF",
+    "officer_id": "OFF004",
+    "person_id": "P0062",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 70,
+    "timestamp": "2026-07-14T18:11:38"
+  },
+  {
+    "log_id": "LOG-C9C32566",
+    "officer_id": "OFF012",
+    "person_id": "P0067",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 62,
+    "timestamp": "2026-07-15T08:06:38"
+  },
+  {
+    "log_id": "LOG-9CF0361D",
+    "officer_id": "OFF008",
+    "person_id": "P0055",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 233,
+    "timestamp": "2026-07-17T09:28:38"
+  },
+  {
+    "log_id": "LOG-FB6BF263",
+    "officer_id": "OFF012",
+    "person_id": "P0039",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 233,
+    "timestamp": "2026-07-18T02:04:38"
+  },
+  {
+    "log_id": "LOG-E4C35ADD",
+    "officer_id": "OFF012",
+    "person_id": "P0011",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "MEDIUM",
+    "action": "APPROVED",
+    "review_duration_seconds": 211,
+    "timestamp": "2026-07-18T17:30:38"
+  },
+  {
+    "log_id": "LOG-2AB87453",
+    "officer_id": "OFF005",
+    "person_id": "P0020",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "REJECTED",
+    "review_duration_seconds": 214,
+    "timestamp": "2026-07-19T14:43:38"
+  },
+  {
+    "log_id": "LOG-FD01F3B2",
+    "officer_id": "OFF008",
+    "person_id": "P0035",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "ESCALATED",
+    "review_duration_seconds": 158,
+    "timestamp": "2026-07-20T18:21:38"
+  },
+  {
+    "log_id": "LOG-47ED2413",
+    "officer_id": "OFF012",
+    "person_id": "P0023",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 192,
+    "timestamp": "2026-07-21T04:01:38"
+  },
+  {
+    "log_id": "LOG-3E9660F3",
+    "officer_id": "OFF006",
+    "person_id": "P0087",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 79,
+    "timestamp": "2026-07-21T06:05:38"
+  },
+  {
+    "log_id": "LOG-FC08A96C",
+    "officer_id": "OFF010",
+    "person_id": "P0009",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "ESCALATED",
+    "review_duration_seconds": 182,
+    "timestamp": "2026-07-21T09:11:38"
+  },
+  {
+    "log_id": "LOG-4D30E575",
+    "officer_id": "OFF014",
+    "person_id": "RB004",
+    "case_source": "fraud_graph:RING_B_DOC_REUSE",
+    "risk_level_at_review": "CRITICAL",
+    "action": "APPROVED",
+    "review_duration_seconds": 36,
+    "timestamp": "2026-07-22T07:42:38"
+  },
+  {
+    "log_id": "LOG-A92F929A",
+    "officer_id": "OFF004",
+    "person_id": "P0021",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 139,
+    "timestamp": "2026-07-22T20:54:38"
+  },
+  {
+    "log_id": "LOG-FC3DE258",
+    "officer_id": "OFF004",
+    "person_id": "P0070",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "REJECTED",
+    "review_duration_seconds": 202,
+    "timestamp": "2026-07-23T22:58:38"
+  },
+  {
+    "log_id": "LOG-AD574A58",
+    "officer_id": "OFF006",
+    "person_id": "RA001",
+    "case_source": "fraud_graph:RING_A_SHARED_FACE",
+    "risk_level_at_review": "CRITICAL",
+    "action": "REJECTED",
+    "review_duration_seconds": 252,
+    "timestamp": "2026-07-24T12:29:38"
+  },
+  {
+    "log_id": "LOG-E6551A2F",
+    "officer_id": "OFF013",
+    "person_id": "P0060",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "HIGH",
+    "action": "ESCALATED",
+    "review_duration_seconds": 49,
+    "timestamp": "2026-07-28T00:33:38"
+  },
+  {
+    "log_id": "LOG-98126AEF",
+    "officer_id": "OFF012",
+    "person_id": "P0006",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 72,
+    "timestamp": "2026-07-28T09:04:38"
+  },
+  {
+    "log_id": "LOG-3CA27595",
+    "officer_id": "OFF013",
+    "person_id": "P0029",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "HIGH",
+    "action": "APPROVED",
+    "review_duration_seconds": 17,
+    "timestamp": "2026-07-29T05:00:38"
+  },
+  {
+    "log_id": "LOG-ED1A2B90",
+    "officer_id": "OFF004",
+    "person_id": "P0051",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 201,
+    "timestamp": "2026-07-29T06:09:38"
+  },
+  {
+    "log_id": "LOG-4309A054",
+    "officer_id": "OFF004",
+    "person_id": "RC003",
+    "case_source": "fraud_graph:RING_C_SYNTHETIC_FARM",
+    "risk_level_at_review": "CRITICAL",
+    "action": "REJECTED",
+    "review_duration_seconds": 229,
+    "timestamp": "2026-07-29T07:18:38"
+  },
+  {
+    "log_id": "LOG-E12090B6",
+    "officer_id": "OFF009",
+    "person_id": "P0002",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 123,
+    "timestamp": "2026-07-29T08:10:38"
+  },
+  {
+    "log_id": "LOG-D8A9E640",
+    "officer_id": "OFF009",
+    "person_id": "P0075",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "MEDIUM",
+    "action": "APPROVED",
+    "review_duration_seconds": 101,
+    "timestamp": "2026-07-29T16:18:38"
+  },
+  {
+    "log_id": "LOG-06B6E976",
+    "officer_id": "OFF005",
+    "person_id": "P0077",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 156,
+    "timestamp": "2026-07-31T22:15:38"
+  },
+  {
+    "log_id": "LOG-C051E969",
+    "officer_id": "OFF002",
+    "person_id": "P0066",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "REJECTED",
+    "review_duration_seconds": 159,
+    "timestamp": "2026-08-02T22:46:38"
+  },
+  {
+    "log_id": "LOG-7BD2775F",
+    "officer_id": "OFF005",
+    "person_id": "P0089",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 191,
+    "timestamp": "2026-08-03T09:14:38"
+  },
+  {
+    "log_id": "LOG-29A60305",
+    "officer_id": "OFF005",
+    "person_id": "P0078",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 177,
+    "timestamp": "2026-08-03T11:55:38"
+  },
+  {
+    "log_id": "LOG-DCB6D4F5",
+    "officer_id": "OFF010",
+    "person_id": "P0076",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "MEDIUM",
+    "action": "APPROVED",
+    "review_duration_seconds": 186,
+    "timestamp": "2026-08-04T17:32:38"
+  },
+  {
+    "log_id": "LOG-57B5B322",
+    "officer_id": "OFF002",
+    "person_id": "P0053",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 228,
+    "timestamp": "2026-08-05T09:42:38"
+  },
+  {
+    "log_id": "LOG-A0748FF2",
+    "officer_id": "OFF010",
+    "person_id": "P0024",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 203,
+    "timestamp": "2026-08-05T11:06:38"
+  },
+  {
+    "log_id": "LOG-3CD8551C",
+    "officer_id": "OFF004",
+    "person_id": "P0016",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 106,
+    "timestamp": "2026-08-06T01:33:38"
+  },
+  {
+    "log_id": "LOG-D200B4AF",
+    "officer_id": "OFF003",
+    "person_id": "P0013",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 84,
+    "timestamp": "2026-08-06T13:04:38"
+  },
+  {
+    "log_id": "LOG-006DC846",
+    "officer_id": "OFF002",
+    "person_id": "P0019",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "MEDIUM",
+    "action": "APPROVED",
+    "review_duration_seconds": 205,
+    "timestamp": "2026-08-06T15:31:38"
+  },
+  {
+    "log_id": "LOG-7CF536FF",
+    "officer_id": "OFF009",
+    "person_id": "P0036",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "REJECTED",
+    "review_duration_seconds": 61,
+    "timestamp": "2026-08-09T03:33:38"
+  },
+  {
+    "log_id": "LOG-EC9202E8",
+    "officer_id": "OFF004",
+    "person_id": "RB005",
+    "case_source": "fraud_graph:RING_B_DOC_REUSE",
+    "risk_level_at_review": "CRITICAL",
+    "action": "REJECTED",
+    "review_duration_seconds": 499,
+    "timestamp": "2026-08-09T09:31:38"
+  },
+  {
+    "log_id": "LOG-240BE4C0",
+    "officer_id": "OFF006",
+    "person_id": "P0079",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 137,
+    "timestamp": "2026-08-11T14:31:38"
+  },
+  {
+    "log_id": "LOG-F5CB4650",
+    "officer_id": "OFF008",
+    "person_id": "P0014",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 78,
+    "timestamp": "2026-08-13T17:27:38"
+  },
+  {
+    "log_id": "LOG-1A3742CF",
+    "officer_id": "OFF005",
+    "person_id": "P0086",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 177,
+    "timestamp": "2026-08-14T07:07:38"
+  },
+  {
+    "log_id": "LOG-3D25E691",
+    "officer_id": "OFF003",
+    "person_id": "P0088",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 127,
+    "timestamp": "2026-08-15T16:06:38"
+  },
+  {
+    "log_id": "LOG-8EE76A84",
+    "officer_id": "OFF012",
+    "person_id": "P0085",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 125,
+    "timestamp": "2026-08-16T02:04:38"
+  },
+  {
+    "log_id": "LOG-07B4EF57",
+    "officer_id": "OFF005",
+    "person_id": "P0037",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 97,
+    "timestamp": "2026-08-17T20:34:38"
+  },
+  {
+    "log_id": "LOG-B061C8E1",
+    "officer_id": "OFF010",
+    "person_id": "P0040",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 126,
+    "timestamp": "2026-08-19T13:25:38"
+  },
+  {
+    "log_id": "LOG-37B25DF4",
+    "officer_id": "OFF006",
+    "person_id": "P0025",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "REJECTED",
+    "review_duration_seconds": 150,
+    "timestamp": "2026-08-21T03:03:38"
+  },
+  {
+    "log_id": "LOG-FAE05E6E",
+    "officer_id": "OFF010",
+    "person_id": "P0022",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "HIGH",
+    "action": "REJECTED",
+    "review_duration_seconds": 487,
+    "timestamp": "2026-08-21T21:07:38"
+  },
+  {
+    "log_id": "LOG-A48FF59A",
+    "officer_id": "OFF004",
+    "person_id": "P0058",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 150,
+    "timestamp": "2026-08-22T08:43:38"
+  },
+  {
+    "log_id": "LOG-BAFAE4DF",
+    "officer_id": "OFF004",
+    "person_id": "P0045",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "REJECTED",
+    "review_duration_seconds": 115,
+    "timestamp": "2026-08-25T01:54:38"
+  },
+  {
+    "log_id": "LOG-420886D8",
+    "officer_id": "OFF003",
+    "person_id": "P0080",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 160,
+    "timestamp": "2026-08-25T12:56:38"
+  },
+  {
+    "log_id": "LOG-65F1D979",
+    "officer_id": "OFF009",
+    "person_id": "P0007",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "ESCALATED",
+    "review_duration_seconds": 182,
+    "timestamp": "2026-08-26T06:48:38"
+  },
+  {
+    "log_id": "LOG-CE3E2B14",
+    "officer_id": "OFF011",
+    "person_id": "P0063",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 104,
+    "timestamp": "2026-08-26T15:22:38"
+  },
+  {
+    "log_id": "LOG-759981C7",
+    "officer_id": "OFF008",
+    "person_id": "P0064",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 173,
+    "timestamp": "2026-08-27T05:02:38"
+  },
+  {
+    "log_id": "LOG-9E39D79D",
+    "officer_id": "OFF009",
+    "person_id": "RC004",
+    "case_source": "fraud_graph:RING_C_SYNTHETIC_FARM",
+    "risk_level_at_review": "CRITICAL",
+    "action": "ESCALATED",
+    "review_duration_seconds": 596,
+    "timestamp": "2026-08-28T01:26:38"
+  },
+  {
+    "log_id": "LOG-D64C3AF4",
+    "officer_id": "OFF003",
+    "person_id": "P0001",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "REJECTED",
+    "review_duration_seconds": 211,
+    "timestamp": "2026-08-28T02:14:38"
+  },
+  {
+    "log_id": "LOG-71A44076",
+    "officer_id": "OFF005",
+    "person_id": "P0049",
+    "case_source": "identity_consistency",
+    "risk_level_at_review": "LOW",
+    "action": "APPROVED",
+    "review_duration_seconds": 154,
+    "timestamp": "2026-08-29T02:35:38"
+  }
+]

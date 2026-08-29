@@ -1,0 +1,59 @@
+[
+  {
+    "cluster_id": "CLUSTER_1",
+    "person_ids": [
+      "RA001",
+      "RA002",
+      "RA003",
+      "RA004"
+    ],
+    "size": 4,
+    "dominant_relation": "SAME_FACE",
+    "inferred_type": "shared_face",
+    "relation_counts": {
+      "SAME_FACE": 6
+    },
+    "density": 1.0,
+    "risk_score": 70,
+    "risk_level": "HIGH"
+  },
+  {
+    "cluster_id": "CLUSTER_2",
+    "person_ids": [
+      "RB001",
+      "RB002",
+      "RB003",
+      "RB004",
+      "RB005"
+    ],
+    "size": 5,
+    "dominant_relation": "SAME_DOCUMENT_NUMBER",
+    "inferred_type": "document_reuse",
+    "relation_counts": {
+      "SAME_DOCUMENT_NUMBER": 10
+    },
+    "density": 1.0,
+    "risk_score": 75,
+    "risk_level": "HIGH"
+  },
+  {
+    "cluster_id": "CLUSTER_3",
+    "person_ids": [
+      "RC001",
+      "RC002",
+      "RC003",
+      "RC004",
+      "RC005",
+      "RC006"
+    ],
+    "size": 6,
+    "dominant_relation": "SAME_ADDRESS",
+    "inferred_type": "synthetic_farm",
+    "relation_counts": {
+      "SAME_ADDRESS": 15
+    },
+    "density": 1.0,
+    "risk_score": 60,
+    "risk_level": "HIGH"
+  }
+]

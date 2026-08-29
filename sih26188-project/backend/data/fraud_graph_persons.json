@@ -1,0 +1,722 @@
+[
+  {
+    "person_id": "F0001",
+    "name": "Kavita Jain",
+    "gender": "F",
+    "dob": "2005-06-04",
+    "address": "01, Chandra Circle, Ballia 830166",
+    "face_ref": "face_F0001",
+    "ring": null
+  },
+  {
+    "person_id": "F0002",
+    "name": "Pankaj Malhotra",
+    "gender": "M",
+    "dob": "1991-12-20",
+    "address": "H.No. 860, Dasgupta, Ballia 996030",
+    "face_ref": "face_F0002",
+    "ring": null
+  },
+  {
+    "person_id": "F0003",
+    "name": "Kavita Das",
+    "gender": "F",
+    "dob": "1978-09-12",
+    "address": "28, Morar Zila, Kota-518190",
+    "face_ref": "face_F0003",
+    "ring": null
+  },
+  {
+    "person_id": "F0004",
+    "name": "Shalini Yadav",
+    "gender": "F",
+    "dob": "1986-07-12",
+    "address": "86/579, Pathak Chowk, Kulti-319487",
+    "face_ref": "face_F0004",
+    "ring": null
+  },
+  {
+    "person_id": "F0005",
+    "name": "Deepak Devi Iyer",
+    "gender": "M",
+    "dob": "1984-09-10",
+    "address": "H.No. 91, Vala Zila, Dehradun 276018",
+    "face_ref": "face_F0005",
+    "ring": null
+  },
+  {
+    "person_id": "F0006",
+    "name": "Pooja Singh",
+    "gender": "F",
+    "dob": "1987-10-09",
+    "address": "59/797, Chander Zila, Bhalswa Jahangir Pur 049746",
+    "face_ref": "face_F0006",
+    "ring": null
+  },
+  {
+    "person_id": "F0007",
+    "name": "Mohit Das",
+    "gender": "M",
+    "dob": "2007-05-17",
+    "address": "52, Dada, Allahabad 423667",
+    "face_ref": "face_F0007",
+    "ring": null
+  },
+  {
+    "person_id": "F0008",
+    "name": "Vijay Jain",
+    "gender": "M",
+    "dob": "1975-01-09",
+    "address": "68, Devan Road, Jamalpur 656321",
+    "face_ref": "face_F0008",
+    "ring": null
+  },
+  {
+    "person_id": "F0009",
+    "name": "Rahul Sharma",
+    "gender": "M",
+    "dob": "1976-02-03",
+    "address": "307, Gopal, Ichalkaranji-268599",
+    "face_ref": "face_F0009",
+    "ring": null
+  },
+  {
+    "person_id": "F0010",
+    "name": "Nitin Kumar",
+    "gender": "M",
+    "dob": "2007-11-01",
+    "address": "89/078, Rao Marg, Singrauli 760313",
+    "face_ref": "face_F0010",
+    "ring": null
+  },
+  {
+    "person_id": "F0011",
+    "name": "Rohit Kumar",
+    "gender": "M",
+    "dob": "1991-01-27",
+    "address": "H.No. 590, Acharya Zila, Jorhat-590139",
+    "face_ref": "face_F0011",
+    "ring": null
+  },
+  {
+    "person_id": "F0012",
+    "name": "Aarti Kumari Gupta",
+    "gender": "F",
+    "dob": "1969-05-12",
+    "address": "45/957, D’Alia Zila, Kirari Suleman Nagar-741215",
+    "face_ref": "face_F0012",
+    "ring": null
+  },
+  {
+    "person_id": "F0013",
+    "name": "Rajesh Nair",
+    "gender": "M",
+    "dob": "1988-04-26",
+    "address": "28/038, Din Path, Dehri 148525",
+    "face_ref": "face_F0013",
+    "ring": null
+  },
+  {
+    "person_id": "F0014",
+    "name": "Rahul Ghosh",
+    "gender": "M",
+    "dob": "2000-03-04",
+    "address": "39/336, Iyengar Ganj, Raurkela Industrial Township-047439",
+    "face_ref": "face_F0014",
+    "ring": null
+  },
+  {
+    "person_id": "F0015",
+    "name": "Preeti Nath Mishra",
+    "gender": "F",
+    "dob": "1998-11-25",
+    "address": "55/131, Singhal Ganj, Naihati 799075",
+    "face_ref": "face_F0015",
+    "ring": null
+  },
+  {
+    "person_id": "F0016",
+    "name": "Mohit Ghosh",
+    "gender": "M",
+    "dob": "1972-03-17",
+    "address": "37, Saraf Street, Chandigarh 761222",
+    "face_ref": "face_F0016",
+    "ring": null
+  },
+  {
+    "person_id": "F0017",
+    "name": "Anita Gupta",
+    "gender": "F",
+    "dob": "1998-02-21",
+    "address": "72/99, Palla Chowk, Motihari 001826",
+    "face_ref": "face_F0017",
+    "ring": null
+  },
+  {
+    "person_id": "F0018",
+    "name": "Divya Devi Ghosh",
+    "gender": "F",
+    "dob": "1987-10-03",
+    "address": "H.No. 434, Khosla Circle, Rampur-205798",
+    "face_ref": "face_F0018",
+    "ring": null
+  },
+  {
+    "person_id": "F0019",
+    "name": "Pooja Devi Chauhan",
+    "gender": "F",
+    "dob": "1990-12-30",
+    "address": "28/80, Goswami Chowk, Jalgaon-279180",
+    "face_ref": "face_F0019",
+    "ring": null
+  },
+  {
+    "person_id": "F0020",
+    "name": "Anjali Prasad Nair",
+    "gender": "F",
+    "dob": "1995-11-11",
+    "address": "H.No. 803, Malhotra Ganj, Navi Mumbai 801759",
+    "face_ref": "face_F0020",
+    "ring": null
+  },
+  {
+    "person_id": "F0021",
+    "name": "Anil Das",
+    "gender": "M",
+    "dob": "1996-01-13",
+    "address": "88, Tripathi Chowk, Nagaon-837261",
+    "face_ref": "face_F0021",
+    "ring": null
+  },
+  {
+    "person_id": "F0022",
+    "name": "Aditya Nair",
+    "gender": "M",
+    "dob": "1992-07-08",
+    "address": "H.No. 13, Bora Marg, Avadi-252427",
+    "face_ref": "face_F0022",
+    "ring": null
+  },
+  {
+    "person_id": "F0023",
+    "name": "Geeta Reddy",
+    "gender": "F",
+    "dob": "1998-08-20",
+    "address": "72, Edwin Ganj, Kottayam-563551",
+    "face_ref": "face_F0023",
+    "ring": null
+  },
+  {
+    "person_id": "F0024",
+    "name": "Rahul Devi Rao",
+    "gender": "M",
+    "dob": "1996-03-05",
+    "address": "H.No. 87, Badami Chowk, Bathinda 811311",
+    "face_ref": "face_F0024",
+    "ring": null
+  },
+  {
+    "person_id": "F0025",
+    "name": "Pooja Kapoor",
+    "gender": "F",
+    "dob": "2000-04-09",
+    "address": "H.No. 242, Kuruvilla Marg, Jalgaon 514026",
+    "face_ref": "face_F0025",
+    "ring": null
+  },
+  {
+    "person_id": "F0026",
+    "name": "Anil Ghosh",
+    "gender": "M",
+    "dob": "2007-03-30",
+    "address": "H.No. 141, Kapadia, Bilaspur 705864",
+    "face_ref": "face_F0026",
+    "ring": null
+  },
+  {
+    "person_id": "F0027",
+    "name": "Meena Gupta",
+    "gender": "F",
+    "dob": "1993-06-18",
+    "address": "31/24, Golla Nagar, Bijapur-834782",
+    "face_ref": "face_F0027",
+    "ring": null
+  },
+  {
+    "person_id": "F0028",
+    "name": "Geeta Chauhan",
+    "gender": "F",
+    "dob": "1981-12-13",
+    "address": "H.No. 400, Tiwari Nagar, Kottayam 371678",
+    "face_ref": "face_F0028",
+    "ring": null
+  },
+  {
+    "person_id": "F0029",
+    "name": "Ritu Reddy",
+    "gender": "F",
+    "dob": "1970-09-05",
+    "address": "33/532, Palan Marg, Bikaner-146201",
+    "face_ref": "face_F0029",
+    "ring": null
+  },
+  {
+    "person_id": "F0030",
+    "name": "Rahul Das",
+    "gender": "M",
+    "dob": "1998-04-22",
+    "address": "34/07, Dugar Street, Amroha-455853",
+    "face_ref": "face_F0030",
+    "ring": null
+  },
+  {
+    "person_id": "F0031",
+    "name": "Arjun Lal Rao",
+    "gender": "M",
+    "dob": "2004-08-01",
+    "address": "520, Raj Path, Fatehpur 833801",
+    "face_ref": "face_F0031",
+    "ring": null
+  },
+  {
+    "person_id": "F0032",
+    "name": "Geeta Kumar Yadav",
+    "gender": "F",
+    "dob": "1983-12-07",
+    "address": "690, Bajaj Marg, Avadi 198296",
+    "face_ref": "face_F0032",
+    "ring": null
+  },
+  {
+    "person_id": "F0033",
+    "name": "Manoj Kapoor",
+    "gender": "M",
+    "dob": "1970-09-16",
+    "address": "492, Varghese Nagar, Dibrugarh 889093",
+    "face_ref": "face_F0033",
+    "ring": null
+  },
+  {
+    "person_id": "F0034",
+    "name": "Kiran Iyer",
+    "gender": "F",
+    "dob": "1989-07-29",
+    "address": "H.No. 251, Seth Marg, Surat 740718",
+    "face_ref": "face_F0034",
+    "ring": null
+  },
+  {
+    "person_id": "F0035",
+    "name": "Rahul Gupta",
+    "gender": "M",
+    "dob": "1975-11-01",
+    "address": "74/143, Kashyap Ganj, Kumbakonam 174093",
+    "face_ref": "face_F0035",
+    "ring": null
+  },
+  {
+    "person_id": "F0036",
+    "name": "Pankaj Nair",
+    "gender": "M",
+    "dob": "1998-01-09",
+    "address": "H.No. 44, Deol, Ongole 741374",
+    "face_ref": "face_F0036",
+    "ring": null
+  },
+  {
+    "person_id": "F0037",
+    "name": "Divya Malhotra",
+    "gender": "F",
+    "dob": "1968-06-29",
+    "address": "71, Iyengar Circle, Guwahati 047187",
+    "face_ref": "face_F0037",
+    "ring": null
+  },
+  {
+    "person_id": "F0038",
+    "name": "Amit Rao",
+    "gender": "M",
+    "dob": "1981-12-30",
+    "address": "319, Dhar Zila, Karimnagar 984153",
+    "face_ref": "face_F0038",
+    "ring": null
+  },
+  {
+    "person_id": "F0039",
+    "name": "Sunita Reddy",
+    "gender": "F",
+    "dob": "1996-12-11",
+    "address": "02, Swamy Nagar, Machilipatnam-265651",
+    "face_ref": "face_F0039",
+    "ring": null
+  },
+  {
+    "person_id": "F0040",
+    "name": "Meena Kumari Jain",
+    "gender": "F",
+    "dob": "1991-08-27",
+    "address": "H.No. 56, Hayre Zila, Ramagundam 516691",
+    "face_ref": "face_F0040",
+    "ring": null
+  },
+  {
+    "person_id": "F0041",
+    "name": "Pooja Kumar Reddy",
+    "gender": "F",
+    "dob": "2007-02-26",
+    "address": "H.No. 04, Behl Zila, Jalgaon 468535",
+    "face_ref": "face_F0041",
+    "ring": null
+  },
+  {
+    "person_id": "F0042",
+    "name": "Nitin Kumar Malhotra",
+    "gender": "M",
+    "dob": "1982-11-25",
+    "address": "68/831, Roy Nagar, Srikakulam-470822",
+    "face_ref": "face_F0042",
+    "ring": null
+  },
+  {
+    "person_id": "F0043",
+    "name": "Vikas Devi Patel",
+    "gender": "M",
+    "dob": "1968-03-31",
+    "address": "H.No. 44, Lad Road, Mathura-786122",
+    "face_ref": "face_F0043",
+    "ring": null
+  },
+  {
+    "person_id": "F0044",
+    "name": "Mohit Prasad Patel",
+    "gender": "M",
+    "dob": "1971-08-07",
+    "address": "78/37, Sengupta Path, Kolhapur 312581",
+    "face_ref": "face_F0044",
+    "ring": null
+  },
+  {
+    "person_id": "F0045",
+    "name": "Deepak Patel",
+    "gender": "M",
+    "dob": "1987-11-12",
+    "address": "H.No. 49, Bahri Ganj, Yamunanagar 836450",
+    "face_ref": "face_F0045",
+    "ring": null
+  },
+  {
+    "person_id": "F0046",
+    "name": "Vijay Pandey",
+    "gender": "M",
+    "dob": "1997-01-07",
+    "address": "52/88, Chanda Ganj, Kulti-676402",
+    "face_ref": "face_F0046",
+    "ring": null
+  },
+  {
+    "person_id": "F0047",
+    "name": "Mohit Lal Chauhan",
+    "gender": "M",
+    "dob": "1988-03-08",
+    "address": "79/701, Wable Marg, Sultan Pur Majra 132281",
+    "face_ref": "face_F0047",
+    "ring": null
+  },
+  {
+    "person_id": "F0048",
+    "name": "Ravi Jain",
+    "gender": "M",
+    "dob": "1985-01-11",
+    "address": "00/23, Barad, Warangal-861114",
+    "face_ref": "face_F0048",
+    "ring": null
+  },
+  {
+    "person_id": "F0049",
+    "name": "Aditya Chauhan",
+    "gender": "M",
+    "dob": "1998-05-03",
+    "address": "H.No. 39, Anne Nagar, Jaunpur-537838",
+    "face_ref": "face_F0049",
+    "ring": null
+  },
+  {
+    "person_id": "F0050",
+    "name": "Rohit Chauhan",
+    "gender": "M",
+    "dob": "1999-04-27",
+    "address": "40, Hari Nagar, Bidar-436537",
+    "face_ref": "face_F0050",
+    "ring": null
+  },
+  {
+    "person_id": "F0051",
+    "name": "Divya Pandey",
+    "gender": "F",
+    "dob": "1989-11-20",
+    "address": "65/630, Thaman Road, Tiruppur 343373",
+    "face_ref": "face_F0051",
+    "ring": null
+  },
+  {
+    "person_id": "F0052",
+    "name": "Swati Kumar Agarwal",
+    "gender": "F",
+    "dob": "1971-08-03",
+    "address": "H.No. 979, Kapoor Street, Erode 926030",
+    "face_ref": "face_F0052",
+    "ring": null
+  },
+  {
+    "person_id": "F0053",
+    "name": "Sandeep Prasad Gupta",
+    "gender": "M",
+    "dob": "1980-04-02",
+    "address": "H.No. 026, Murthy Chowk, Vijayawada-532870",
+    "face_ref": "face_F0053",
+    "ring": null
+  },
+  {
+    "person_id": "F0054",
+    "name": "Aditya Patel",
+    "gender": "M",
+    "dob": "1980-07-20",
+    "address": "H.No. 57, Chopra Street, Vijayawada 156183",
+    "face_ref": "face_F0054",
+    "ring": null
+  },
+  {
+    "person_id": "F0055",
+    "name": "Anjali Kumar Verma",
+    "gender": "F",
+    "dob": "1969-01-18",
+    "address": "H.No. 61, Solanki Nagar, Serampore-355706",
+    "face_ref": "face_F0055",
+    "ring": null
+  },
+  {
+    "person_id": "F0056",
+    "name": "Divya Prasad Nair",
+    "gender": "F",
+    "dob": "1977-02-15",
+    "address": "H.No. 607, Bhatia Zila, Jammu-955459",
+    "face_ref": "face_F0056",
+    "ring": null
+  },
+  {
+    "person_id": "F0057",
+    "name": "Nisha Patel",
+    "gender": "F",
+    "dob": "1976-04-11",
+    "address": "54/409, Bajwa Zila, Aligarh 764672",
+    "face_ref": "face_F0057",
+    "ring": null
+  },
+  {
+    "person_id": "F0058",
+    "name": "Nisha Ghosh",
+    "gender": "F",
+    "dob": "1997-08-16",
+    "address": "H.No. 429, Narang Ganj, Jaunpur-918362",
+    "face_ref": "face_F0058",
+    "ring": null
+  },
+  {
+    "person_id": "F0059",
+    "name": "Deepak Kumari Verma",
+    "gender": "M",
+    "dob": "1991-09-16",
+    "address": "H.No. 078, Nanda Circle, Purnia-149131",
+    "face_ref": "face_F0059",
+    "ring": null
+  },
+  {
+    "person_id": "F0060",
+    "name": "Anil Verma",
+    "gender": "M",
+    "dob": "1992-11-18",
+    "address": "72/326, Keer Chowk, Durg-494544",
+    "face_ref": "face_F0060",
+    "ring": null
+  },
+  {
+    "person_id": "F0061",
+    "name": "Rahul Pandey",
+    "gender": "M",
+    "dob": "1999-12-03",
+    "address": "233, Manda Street, Khammam-643883",
+    "face_ref": "face_F0061",
+    "ring": null
+  },
+  {
+    "person_id": "F0062",
+    "name": "Rohit Rao",
+    "gender": "M",
+    "dob": "1988-12-24",
+    "address": "H.No. 107, Sen Ganj, Thane 310399",
+    "face_ref": "face_F0062",
+    "ring": null
+  },
+  {
+    "person_id": "F0063",
+    "name": "Kiran Nair",
+    "gender": "F",
+    "dob": "1967-03-06",
+    "address": "H.No. 82, Lad Chowk, Aligarh-305520",
+    "face_ref": "face_F0063",
+    "ring": null
+  },
+  {
+    "person_id": "F0064",
+    "name": "Anil Patel",
+    "gender": "M",
+    "dob": "1971-06-28",
+    "address": "H.No. 930, Rege Path, Udaipur-130787",
+    "face_ref": "face_F0064",
+    "ring": null
+  },
+  {
+    "person_id": "F0065",
+    "name": "Neha Sharma",
+    "gender": "F",
+    "dob": "1974-06-13",
+    "address": "H.No. 682, Chand Circle, Sikar 644604",
+    "face_ref": "face_F0065",
+    "ring": null
+  },
+  {
+    "person_id": "RA001",
+    "name": "Rahul Singh",
+    "gender": "M",
+    "dob": "1975-07-15",
+    "address": "05, Raman Ganj, Kurnool 626116",
+    "face_ref": "face_RINGA_d1ffe3",
+    "ring": "RING_A_SHARED_FACE"
+  },
+  {
+    "person_id": "RA002",
+    "name": "Arjun Agarwal",
+    "gender": "M",
+    "dob": "1981-08-19",
+    "address": "200, Dhar Circle, Hubli–Dharwad 822542",
+    "face_ref": "face_RINGA_d1ffe3",
+    "ring": "RING_A_SHARED_FACE"
+  },
+  {
+    "person_id": "RA003",
+    "name": "Meena Ghosh",
+    "gender": "F",
+    "dob": "1998-07-23",
+    "address": "H.No. 673, Date Road, Karawal Nagar-096192",
+    "face_ref": "face_RINGA_d1ffe3",
+    "ring": "RING_A_SHARED_FACE"
+  },
+  {
+    "person_id": "RA004",
+    "name": "Amit Nath Iyer",
+    "gender": "M",
+    "dob": "1979-08-18",
+    "address": "37/29, Barman Ganj, Kadapa-651233",
+    "face_ref": "face_RINGA_d1ffe3",
+    "ring": "RING_A_SHARED_FACE"
+  },
+  {
+    "person_id": "RB001",
+    "name": "Komal Nath Jain",
+    "gender": "F",
+    "dob": "2001-05-23",
+    "address": "51/697, Mohan Circle, Aizawl 665787",
+    "face_ref": "face_RB001",
+    "ring": "RING_B_DOC_REUSE"
+  },
+  {
+    "person_id": "RB002",
+    "name": "Mohit Jain",
+    "gender": "M",
+    "dob": "1992-10-15",
+    "address": "H.No. 977, Sekhon Ganj, Mangalore-611256",
+    "face_ref": "face_RB002",
+    "ring": "RING_B_DOC_REUSE"
+  },
+  {
+    "person_id": "RB003",
+    "name": "Anita Kumar",
+    "gender": "F",
+    "dob": "2004-01-14",
+    "address": "88, Baria Nagar, Gwalior 810862",
+    "face_ref": "face_RB003",
+    "ring": "RING_B_DOC_REUSE"
+  },
+  {
+    "person_id": "RB004",
+    "name": "Shalini Iyer",
+    "gender": "F",
+    "dob": "1985-01-27",
+    "address": "13/27, Gandhi Road, Amritsar 942594",
+    "face_ref": "face_RB004",
+    "ring": "RING_B_DOC_REUSE"
+  },
+  {
+    "person_id": "RB005",
+    "name": "Karan Malhotra",
+    "gender": "M",
+    "dob": "1998-04-08",
+    "address": "H.No. 87, Lall Ganj, Imphal-032624",
+    "face_ref": "face_RB005",
+    "ring": "RING_B_DOC_REUSE"
+  },
+  {
+    "person_id": "RC001",
+    "name": "Preeti Iyer",
+    "gender": "F",
+    "dob": "1996-10-10",
+    "address": "418, Parsa Nagar, Miryalaguda 486546",
+    "face_ref": "face_RC001",
+    "ring": "RING_C_SYNTHETIC_FARM"
+  },
+  {
+    "person_id": "RC002",
+    "name": "Preeti Patel",
+    "gender": "M",
+    "dob": "1996-10-02",
+    "address": "418, Parsa Nagar, Miryalaguda 486546",
+    "face_ref": "face_RC002",
+    "ring": "RING_C_SYNTHETIC_FARM"
+  },
+  {
+    "person_id": "RC003",
+    "name": "Preeti Iyer",
+    "gender": "M",
+    "dob": "1996-09-21",
+    "address": "418, Parsa Nagar, Miryalaguda 486546",
+    "face_ref": "face_RC003",
+    "ring": "RING_C_SYNTHETIC_FARM"
+  },
+  {
+    "person_id": "RC004",
+    "name": "Preeti Yadav",
+    "gender": "F",
+    "dob": "1996-09-25",
+    "address": "418, Parsa Nagar, Miryalaguda 486546",
+    "face_ref": "face_RC004",
+    "ring": "RING_C_SYNTHETIC_FARM"
+  },
+  {
+    "person_id": "RC005",
+    "name": "Preeti Patel",
+    "gender": "F",
+    "dob": "1996-09-09",
+    "address": "418, Parsa Nagar, Miryalaguda 486546",
+    "face_ref": "face_RC005",
+    "ring": "RING_C_SYNTHETIC_FARM"
+  },
+  {
+    "person_id": "RC006",
+    "name": "Preeti Jain",
+    "gender": "F",
+    "dob": "1996-09-16",
+    "address": "418, Parsa Nagar, Miryalaguda 486546",
+    "face_ref": "face_RC006",
+    "ring": "RING_C_SYNTHETIC_FARM"
+  }
+]

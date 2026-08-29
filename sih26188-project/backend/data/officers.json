@@ -1,0 +1,100 @@
+[
+  {
+    "officer_id": "OFF001",
+    "name": "Karan Agarwal",
+    "station": "Mumbai Airport Immigration",
+    "role": "Verification Officer",
+    "join_date": "2021-09-01"
+  },
+  {
+    "officer_id": "OFF002",
+    "name": "Aarti Yadav",
+    "station": "Bhopal Border Post",
+    "role": "Verification Officer",
+    "join_date": "2026-01-13"
+  },
+  {
+    "officer_id": "OFF003",
+    "name": "Komal Kumari Agarwal",
+    "station": "Bhopal Border Post",
+    "role": "Verification Officer",
+    "join_date": "2023-08-31"
+  },
+  {
+    "officer_id": "OFF004",
+    "name": "Ritu Nath Pandey",
+    "station": "Chennai Port Desk",
+    "role": "Senior Verification Officer",
+    "join_date": "2022-03-22"
+  },
+  {
+    "officer_id": "OFF005",
+    "name": "Vikas Kumar Sharma",
+    "station": "Indore Verification Cell",
+    "role": "Verification Officer",
+    "join_date": "2023-07-28"
+  },
+  {
+    "officer_id": "OFF006",
+    "name": "Nitin Mishra",
+    "station": "Bhopal Border Post",
+    "role": "Verification Officer",
+    "join_date": "2022-05-20"
+  },
+  {
+    "officer_id": "OFF007",
+    "name": "Aditya Kumari Reddy",
+    "station": "Bhopal Border Post",
+    "role": "Verification Officer",
+    "join_date": "2025-06-05"
+  },
+  {
+    "officer_id": "OFF008",
+    "name": "Preeti Kumari Jain",
+    "station": "Chennai Port Desk",
+    "role": "Senior Verification Officer",
+    "join_date": "2024-06-23"
+  },
+  {
+    "officer_id": "OFF009",
+    "name": "Geeta Ghosh",
+    "station": "Mumbai Airport Immigration",
+    "role": "Senior Verification Officer",
+    "join_date": "2024-08-15"
+  },
+  {
+    "officer_id": "OFF010",
+    "name": "Rajesh Yadav",
+    "station": "Mumbai Airport Immigration",
+    "role": "Verification Officer",
+    "join_date": "2023-05-11"
+  },
+  {
+    "officer_id": "OFF011",
+    "name": "Nitin Kapoor",
+    "station": "Bhopal Border Post",
+    "role": "Senior Verification Officer",
+    "join_date": "2022-12-29"
+  },
+  {
+    "officer_id": "OFF012",
+    "name": "Anil Yadav",
+    "station": "Delhi Central Desk",
+    "role": "Senior Verification Officer",
+    "join_date": "2021-11-03"
+  },
+  {
+    "officer_id": "OFF013",
+    "name": "Rekha Kumari Singh",
+    "station": "Mumbai Airport Immigration",
+    "role": "Senior Verification Officer",
+    "join_date": "2024-01-05"
+  },
+  {
+    "officer_id": "OFF014",
+    "name": "Amit Ghosh",
+    "station": "Bhopal Border Post",
+    "role": "Senior Verification Officer",
+    "join_date": "2023-10-31"
+  }
+]

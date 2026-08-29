@@ -1,0 +1,41 @@
+[
+  {
+    "ring_id": "RING_A_SHARED_FACE",
+    "type": "shared_face",
+    "description": "4 distinct identities (different names/DOB/address) all use the identical photo 'face_RINGA_d1ffe3' -- one-person-many-identities pattern.",
+    "person_ids": [
+      "RA001",
+      "RA002",
+      "RA003",
+      "RA004"
+    ],
+    "shared_value": "face_RINGA_d1ffe3"
+  },
+  {
+    "ring_id": "RING_B_DOC_REUSE",
+    "type": "document_reuse",
+    "description": "5 different identities all hold a PAN with the identical document_number 'OJXHM8031R' -- a reused/stolen number backing multiple fakes.",
+    "person_ids": [
+      "RB001",
+      "RB002",
+      "RB003",
+      "RB004",
+      "RB005"
+    ],
+    "shared_value": "OJXHM8031R"
+  },
+  {
+    "ring_id": "RING_C_SYNTHETIC_FARM",
+    "type": "synthetic_farm",
+    "description": "6 identities share address '418, Parsa Nagar, Miryalaguda 486546', near-identical names (variants of 'Preeti Iyer'), and DOBs within ~4 months -- pattern of a synthetic identity farm.",
+    "person_ids": [
+      "RC001",
+      "RC002",
+      "RC003",
+      "RC004",
+      "RC005",
+      "RC006"
+    ],
+    "shared_value": "418, Parsa Nagar, Miryalaguda 486546"
+  }
+]

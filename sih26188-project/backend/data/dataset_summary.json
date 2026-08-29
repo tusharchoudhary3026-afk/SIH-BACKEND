@@ -1,0 +1,18 @@
+{
+  "total_persons": 90,
+  "anomalous_persons": 19,
+  "total_documents": 269,
+  "total_contradictions_injected": 16,
+  "contradiction_type_counts": {
+    "shared_document_number": 3,
+    "dob_mismatch": 2,
+    "transliteration_mismatch": 3,
+    "address_discrepancy": 5,
+    "name_swap_conflict": 3
+  },
+  "docs_per_person_distribution": {
+    "2": 29,
+    "3": 33,
+    "4": 28
+  }
+}
