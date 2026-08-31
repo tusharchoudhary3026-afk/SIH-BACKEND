@@ -1,0 +1,9 @@
+[
+  {
+    "case_id": "FV-001",
+    "person_id": "DEMO-P001",
+    "document_id": "DEMO-D001",
+    "document_portrait_path": "data/images/face_demo/document_portraits/FV-001.jpg",
+    "selfie_path": "data/images/face_demo/selfies/FV-001.jpg"
+  }
+]

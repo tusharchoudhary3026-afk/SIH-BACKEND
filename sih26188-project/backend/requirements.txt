@@ -5,3 +5,10 @@ fastapi
 uvicorn[standard]
 networkx
 pillow
+insightface
+onnxruntime
+opencv-python
+numpy
+torch
+torchvision
+transformers

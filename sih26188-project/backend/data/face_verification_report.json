@@ -1,0 +1,33 @@
+[
+  {
+    "case_id": "FV-001",
+    "person_id": "DEMO-P001",
+    "document_id": "DEMO-D001",
+    "document_face_count": 1,
+    "selfie_face_count": 1,
+    "document_face_confidence": 0.8372,
+    "selfie_face_confidence": 0.7671,
+    "similarity_score": 0.7727,
+    "document_quality_score": 0.8372,
+    "selfie_quality_score": 0.3835,
+    "document_quality_details": {
+      "width": 138,
+      "height": 162,
+      "blur": 287.3,
+      "brightness": 126.06,
+      "detection_confidence": 0.8372
+    },
+    "selfie_quality_details": {
+      "width": 402,
+      "height": 508,
+      "blur": 4.44,
+      "brightness": 126.71,
+      "detection_confidence": 0.7671
+    },
+    "decision": "INCONCLUSIVE",
+    "risk_score": 60,
+    "reason_codes": [
+      "LOW_IMAGE_QUALITY"
+    ]
+  }
+]

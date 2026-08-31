@@ -95,3 +95,19 @@ def run_consistency_check():
     if result.returncode != 0:
         raise HTTPException(status_code=500, detail=result.stderr)
     return {"status": "completed", "log": result.stdout}
+
+
+@app.get("/face-verification-report")
+def get_face_verification_report():
+    return load_json("face_verification_report.json")
+
+
+@app.post("/engine/run-face-verification")
+def run_face_verification():
+    result = subprocess.run(
+        [sys.executable, str(ENGINES_DIR / "face_verification_engine.py")],
+        capture_output=True, text=True, cwd=str(ENGINES_DIR),
+    )
+    if result.returncode != 0:
+        raise HTTPException(status_code=500, detail=result.stderr)
+    return {"status": "completed", "log": result.stdout}
