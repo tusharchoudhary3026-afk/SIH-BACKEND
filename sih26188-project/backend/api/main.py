@@ -5,6 +5,7 @@ Run with:  uvicorn main:app --reload --port 8000
 """
 
 import json
+import logging
 import subprocess
 import sys
 from pathlib import Path
@@ -17,6 +18,7 @@ DATA_DIR = BASE_DIR / "data"
 ENGINES_DIR = BASE_DIR / "engines"
 
 app = FastAPI(title="SIH26188 - Identity Screening API")
+LOGGER = logging.getLogger(__name__)
 
 app.add_middleware(
     CORSMiddleware,
@@ -32,6 +34,29 @@ def load_json(filename: str):
         raise HTTPException(status_code=404, detail=f"{filename} not found. Run generate_dataset.py first.")
     with open(path, encoding="utf-8") as f:
         return json.load(f)
+
+
+def run_batch_engine(engine_filename: str, engine_name: str):
+    """Run a batch engine and keep internal failure details in server logs."""
+    result = subprocess.run(
+        [sys.executable, str(ENGINES_DIR / engine_filename)],
+        capture_output=True,
+        text=True,
+        cwd=str(ENGINES_DIR),
+    )
+    if result.returncode != 0:
+        LOGGER.error(
+            "%s failed with exit code %s. stdout=%s stderr=%s",
+            engine_name,
+            result.returncode,
+            result.stdout,
+            result.stderr,
+        )
+        raise HTTPException(
+            status_code=500,
+            detail=f"{engine_name} failed. Check the server logs.",
+        )
+    return {"status": "completed", "log": result.stdout}
 
 
 @app.get("/")
@@ -104,10 +129,19 @@ def get_face_verification_report():
 
 @app.post("/engine/run-face-verification")
 def run_face_verification():
-    result = subprocess.run(
-        [sys.executable, str(ENGINES_DIR / "face_verification_engine.py")],
-        capture_output=True, text=True, cwd=str(ENGINES_DIR),
+    return run_batch_engine(
+        "face_verification_engine.py",
+        "Face verification engine",
     )
-    if result.returncode != 0:
-        raise HTTPException(status_code=500, detail=result.stderr)
-    return {"status": "completed", "log": result.stdout}
+
+@app.get("/ai-forgery-report")
+def get_ai_forgery_report():
+    return load_json("ai_forgery_report.json")
+
+
+@app.post("/engine/run-ai-forgery")
+def run_ai_forgery():
+    return run_batch_engine(
+        "ai_forgery_engine.py",
+        "AI forgery engine",
+    )

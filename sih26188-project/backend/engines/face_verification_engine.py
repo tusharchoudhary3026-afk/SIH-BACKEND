@@ -30,6 +30,8 @@ DATA_DIR = BACKEND_DIR / "data"
 
 CASES_PATH = DATA_DIR / "face_verification_cases.json"
 REPORT_PATH = DATA_DIR / "face_verification_report.json"
+FACE_DEMO_DIR = DATA_DIR / "images" / "face_demo"
+SUPPORTED_IMAGE_SUFFIXES = {".jpg", ".jpeg", ".png"}
 
 
 # ============================================================
@@ -91,6 +93,58 @@ def load_cases():
             "must contain a JSON list."
         )
         sys.exit(1)
+
+    seen_case_ids = set()
+    demo_root = FACE_DEMO_DIR.resolve()
+    required_fields = (
+        "case_id",
+        "person_id",
+        "document_id",
+        "document_portrait_path",
+        "selfie_path",
+    )
+
+    for index, case in enumerate(cases):
+        if not isinstance(case, dict):
+            print(f"ERROR: case {index} must be a JSON object.")
+            sys.exit(1)
+
+        missing_fields = [field for field in required_fields if not case.get(field)]
+        if missing_fields:
+            print(
+                f"ERROR: case {index} is missing required field(s): "
+                f"{', '.join(missing_fields)}"
+            )
+            sys.exit(1)
+
+        case_id = case["case_id"]
+        if not isinstance(case_id, str) or case_id in seen_case_ids:
+            print(f"ERROR: case {index} has an invalid or duplicate case_id.")
+            sys.exit(1)
+        seen_case_ids.add(case_id)
+
+        for field in ("document_portrait_path", "selfie_path"):
+            value = case[field]
+            if not isinstance(value, str):
+                print(f"ERROR: {case_id}.{field} must be a string path.")
+                sys.exit(1)
+
+            image_path = (BACKEND_DIR / value).resolve()
+            try:
+                image_path.relative_to(demo_root)
+            except ValueError:
+                print(
+                    f"ERROR: {case_id}.{field} must remain inside "
+                    f"{FACE_DEMO_DIR}."
+                )
+                sys.exit(1)
+
+            if image_path.suffix.lower() not in SUPPORTED_IMAGE_SUFFIXES:
+                print(
+                    f"ERROR: {case_id}.{field} has an unsupported image format. "
+                    "Use JPG, JPEG, or PNG."
+                )
+                sys.exit(1)
 
     return cases
 
@@ -743,17 +797,21 @@ def run():
     # it can be added later.
     # --------------------------------------------------------
 
-    app = FaceAnalysis(
-        name="buffalo_l",
-        providers=[
-            "CPUExecutionProvider"
-        ],
-    )
+    try:
+        app = FaceAnalysis(
+            name="buffalo_l",
+            providers=[
+                "CPUExecutionProvider"
+            ],
+        )
 
-    app.prepare(
-        ctx_id=0,
-        det_size=(640, 640),
-    )
+        app.prepare(
+            ctx_id=0,
+            det_size=(640, 640),
+        )
+    except Exception as e:
+        print(f"ERROR: Failed to load InsightFace model: {e}")
+        sys.exit(1)
 
     # --------------------------------------------------------
     # Load cases
