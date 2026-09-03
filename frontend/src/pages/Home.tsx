@@ -88,24 +88,21 @@ export const Home: React.FC = () => {
     }
   }, [location]);
 
-
-
   return (
     <div className="w-full bg-[#090A0E] min-h-screen text-gray-100 selection:bg-orange-600 selection:text-white">
       {/* ========================================================================= */}
-      {/* 1. HERO SECTION WITH CINEMATIC LANDING ANIMATION                          */}
-      {/* (Only Robot Hand appears first, then content flies in from Left & Right)  */}
+      {/* 1. HERO SECTION WITH DEFAULT ROBOT BACKGROUND & SIDEWISE TEXT             */}
       {/* ========================================================================= */}
-      <section className="relative h-screen w-full overflow-hidden bg-[#090A0E] flex flex-col justify-between p-6 sm:p-10 md:p-12">
-        {/* Fullscreen Background Video (Robot Hand visible immediately on load) */}
+      <section className="relative min-h-screen w-full overflow-hidden bg-[#090A0E] flex flex-col justify-between px-4 sm:px-8 lg:px-10 py-5 sm:py-8 selection:bg-orange-600 selection:text-white">
+        {/* Fullscreen Background Video (Default robot hand video preserved) */}
         <video
           autoPlay
           muted
           loop
           playsInline
-          preload="none"
           className="absolute inset-0 w-full h-full object-cover pointer-events-none opacity-85"
         >
+          <source src="/videos/robot_hero.mp4" type="video/mp4" />
           <source
             src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260508_215831_c6a8989c-d716-4d8d-8745-e972a2eec711.mp4"
             type="video/mp4"
@@ -113,15 +110,14 @@ export const Home: React.FC = () => {
           Your browser does not support the video tag.
         </video>
 
-        {/* Ambient Dark Gradient Overlay */}
+        {/* Ambient Dark Gradient Overlay (Default styling) */}
         <div className="absolute inset-0 bg-gradient-to-t from-[#090A0E] via-black/40 to-black/60 pointer-events-none" />
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(249,115,22,0.08),transparent_65%)]" />
 
         {/* ========================================================================= */}
-        {/* TOP NAVBAR: LEFT PILL FLIES FROM LEFT, RIGHT PILL FLIES FROM RIGHT        */}
+        {/* TOP NAVBAR: RIGHT PILL                                                    */}
         {/* ========================================================================= */}
-        <header className="relative z-10 w-full flex items-center justify-end pointer-events-auto">
-
-          {/* Right Pill (Links with 1400px/s constant velocity) - Flies in from the RIGHT */}
+        <header className="relative z-30 w-full flex items-center justify-end pointer-events-auto">
           <motion.nav
             initial={{ opacity: 0, x: 80 }}
             animate={{ opacity: 1, x: 0 }}
@@ -153,48 +149,133 @@ export const Home: React.FC = () => {
         </header>
 
         {/* ========================================================================= */}
-        {/* BOTTOM HERO CONTENT: HERO TEXT FLIES IN FROM LEFT                         */}
+        {/* MIDDLE LAYER (z-10): SIDEWISE HERO CONTENT (SLIM & CLOSE TO SCREEN SIDES)  */}
         {/* ========================================================================= */}
-        <div className="relative z-10 w-full pb-4 sm:pb-6 text-left">
-          <motion.div
-            initial={{ opacity: 0, x: -90 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1.0, delay: 0.95, ease: [0.22, 1, 0.36, 1] }}
-            className="max-w-xl"
-          >
-            {/* Badge */}
-            <div className="mb-2 inline-block">
-              <Link
-                to="/analyze"
-                className="group inline-flex items-center gap-1.5 text-xs font-semibold text-orange-400 hover:text-orange-300 transition-colors"
-              >
-                <span>Powered by Multi-Model Forensics</span>
-                <span className="transition-transform duration-200 group-hover:translate-x-0.5">→</span>
-              </Link>
-            </div>
+        <div className="relative z-10 my-auto w-full py-4 pointer-events-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-center min-h-[460px] w-full">
+            {/* LEFT SIDEWISE WING: Primary headline, subtext, and CTA */}
+            <motion.div
+              initial={{ opacity: 0, x: -50 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.9, delay: 0.35, ease: [0.22, 1, 0.36, 1] }}
+              className="lg:col-span-4 xl:col-span-4 flex flex-col items-start text-left space-y-4 pl-1 sm:pl-2"
+            >
+              {/* Top Badge */}
+              <div className="inline-block pointer-events-auto">
+                <Link
+                  to="/analyze"
+                  className="group inline-flex items-center gap-2 text-xs sm:text-[13px] font-medium text-orange-400 bg-[#151824]/80 backdrop-blur-md border border-orange-500/35 px-4 py-1.5 rounded-full hover:bg-orange-500/15 hover:border-orange-500/50 transition-all shadow-[0_0_20px_rgba(249,115,22,0.15)]"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-orange-400 animate-pulse" />
+                  <span>Powered by Multi-Model Forensics</span>
+                  <span className="transition-transform duration-200 group-hover:translate-x-1">→</span>
+                </Link>
+              </div>
 
-            {/* Headline */}
-            <h1 className="text-[1.75rem] font-bold tracking-tight text-white mb-3 leading-snug drop-shadow-md">
-              Advanced AI image forensics for the truth seekers.
-            </h1>
+              {/* Main Headline - Increased size slightly */}
+              <h1 className="text-3xl sm:text-4xl md:text-[2.75rem] lg:text-[2.95rem] font-bold tracking-tight text-white leading-[1.15] drop-shadow-xl">
+                Advanced AI <br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-amber-200 to-orange-500 drop-shadow-[0_0_25px_rgba(249,115,22,0.25)]">
+                  image forensics.
+                </span>
+              </h1>
 
-            {/* Subtext */}
-            <p className="text-[13px] text-gray-300 mb-3 font-normal leading-relaxed drop-shadow">
-              Detect deepfakes, synthetic generation, and image manipulation instantly.
-            </p>
+              {/* Subtext - Increased size slightly */}
+              <p className="text-sm sm:text-[15px] text-gray-300 font-normal leading-relaxed max-w-md drop-shadow">
+                Detect deepfakes, synthetic generation, and image manipulation instantly across spectral and spatial domains.
+              </p>
 
-            {/* CTA Button */}
-            <div>
-              <Link
-                to="/analyze"
-                className="inline-flex items-center gap-2 text-[13px] font-semibold text-white border border-orange-500/70 rounded-full px-5 py-2.5 hover:bg-orange-600 hover:border-orange-500 hover:shadow-[0_0_15px_rgba(249,115,22,0.3),0_0_25px_rgba(234,88,12,0.15)] hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 group bg-orange-600/20 backdrop-blur-md shadow-lg shadow-orange-600/10"
-              >
-                <span>Upload Image</span>
-                <span className="transition-transform duration-200 group-hover:translate-x-1">→</span>
-              </Link>
-            </div>
-          </motion.div>
+              {/* CTA Button */}
+              <div className="pt-1.5 pointer-events-auto">
+                <Link
+                  to="/analyze"
+                  className="inline-flex items-center gap-2.5 text-sm sm:text-base font-semibold text-white border border-orange-500/70 rounded-full px-7 py-3 hover:bg-orange-600 hover:border-orange-400 hover:shadow-[0_0_20px_rgba(249,115,22,0.35),0_0_35px_rgba(234,88,12,0.2)] hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 group bg-orange-600/20 backdrop-blur-md shadow-lg shadow-orange-600/15"
+                >
+                  <span>Upload Image</span>
+                  <ArrowRight className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-1" />
+                </Link>
+              </div>
+            </motion.div>
+
+            {/* WIDE CENTER CORRIDOR (lg:col-span-4): Generous breathing room for the robot hand */}
+            <div className="hidden lg:block lg:col-span-4 xl:col-span-4 pointer-events-none" />
+
+            {/* RIGHT SIDEWISE WING: Secondary headline & compact telemetry HUD cards */}
+            <motion.div
+              initial={{ opacity: 0, x: 50 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.9, delay: 0.45, ease: [0.22, 1, 0.36, 1] }}
+              className="lg:col-span-4 xl:col-span-4 flex flex-col items-start lg:items-end text-left lg:text-right space-y-4 pr-1 sm:pr-2"
+            >
+              {/* Secondary Headline */}
+              <div className="space-y-1">
+                <span className="text-xs font-mono uppercase tracking-widest text-orange-400/90 font-semibold block">
+                  TRUTH VERIFICATION ENGINE
+                </span>
+                <h2 className="text-2xl sm:text-3xl md:text-[2.1rem] lg:text-[2.25rem] font-bold text-white tracking-tight leading-snug">
+                  Built for the <br />
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-orange-400 to-amber-300">
+                    truth seekers.
+                  </span>
+                </h2>
+              </div>
+
+              {/* Forensics Telemetry Cards Stack */}
+              <div className="space-y-3 w-full max-w-[340px] ml-auto">
+                {/* Card 1: ELA */}
+                <div className="p-3 sm:p-3.5 rounded-xl bg-[#151824]/75 backdrop-blur-md border border-white/10 shadow-lg flex items-center justify-between hover:border-orange-500/30 transition-colors">
+                  <div className="flex items-center gap-3">
+                    <div className="w-8 h-8 rounded-lg bg-orange-500/10 border border-orange-500/20 flex items-center justify-center text-orange-400">
+                      <Layers className="w-4 h-4" />
+                    </div>
+                    <div className="text-left">
+                      <div className="text-xs sm:text-[13px] font-semibold text-white">Error Level Analysis</div>
+                      <div className="text-[11px] text-gray-400">Quantization delta check</div>
+                    </div>
+                  </div>
+                  <span className="text-[11px] font-mono text-emerald-400 bg-emerald-500/10 border border-emerald-500/25 px-2 py-0.5 rounded">
+                    &lt; 8.4%
+                  </span>
+                </div>
+
+                {/* Card 2: 2D FFT */}
+                <div className="p-3 sm:p-3.5 rounded-xl bg-[#151824]/75 backdrop-blur-md border border-white/10 shadow-lg flex items-center justify-between hover:border-purple-500/30 transition-colors">
+                  <div className="flex items-center gap-3">
+                    <div className="w-8 h-8 rounded-lg bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-400">
+                      <Activity className="w-4 h-4" />
+                    </div>
+                    <div className="text-left">
+                      <div className="text-xs sm:text-[13px] font-semibold text-white">2D FFT Spectral Grid</div>
+                      <div className="text-[11px] text-gray-400">Diffusion noise variance</div>
+                    </div>
+                  </div>
+                  <span className="text-[11px] font-mono text-purple-400 bg-purple-500/10 border border-purple-500/25 px-2 py-0.5 rounded">
+                    99.4% Match
+                  </span>
+                </div>
+
+                {/* Card 3: C2PA */}
+                <div className="p-3 sm:p-3.5 rounded-xl bg-[#151824]/75 backdrop-blur-md border border-white/10 shadow-lg flex items-center justify-between hover:border-emerald-500/30 transition-colors">
+                  <div className="flex items-center gap-3">
+                    <div className="w-8 h-8 rounded-lg bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400">
+                      <ShieldCheck className="w-4 h-4" />
+                    </div>
+                    <div className="text-left">
+                      <div className="text-xs sm:text-[13px] font-semibold text-white">C2PA Content Credentials</div>
+                      <div className="text-[11px] text-gray-400">Provenance chain</div>
+                    </div>
+                  </div>
+                  <span className="text-[11px] font-mono text-emerald-400 bg-emerald-500/10 border border-emerald-500/25 px-2 py-0.5 rounded">
+                    VERIFIED
+                  </span>
+                </div>
+              </div>
+            </motion.div>
+          </div>
         </div>
+
+        {/* Bottom spacing spacer */}
+        <div className="relative z-10 w-full h-4 pointer-events-none" />
       </section>
 
       {/* ========================================================================= */}

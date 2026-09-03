@@ -59,6 +59,13 @@ const apiLimiter = rateLimit({
 app.use('/api/', apiLimiter);
 app.use(express.json({ limit: '10mb' }));
 
+// Disable request and response timeouts so long forensic scans run until completed
+app.use((req, res, next) => {
+  req.setTimeout(0);
+  res.setTimeout(0);
+  next();
+});
+
 // =========================================================================
 // IN-MEMORY IMAGE STORE WITH LRU EVICTION
 // =========================================================================
@@ -465,7 +472,7 @@ app.use((err, req, res, _next) => {
   });
 });
 
-app.listen(PORT, () => {
+const server = app.listen(PORT, () => {
   console.log(`[AI Forensics Backend] Server running on port ${PORT}`);
   if (!process.env.GEMINI_API_KEY) {
     console.warn(`[AI Forensics Backend] WARNING: GEMINI_API_KEY is not set. Forensic detection will fail.`);
@@ -473,3 +480,10 @@ app.listen(PORT, () => {
     console.log(`[AI Forensics Backend] Gemini configured successfully.`);
   }
 });
+
+// Disable socket & HTTP request timeouts so deep forensic scans run until completed
+server.timeout = 0;
+server.keepAliveTimeout = 0;
+server.headersTimeout = 0;
+server.requestTimeout = 0;
+
