@@ -5,5 +5,12 @@
     "document_id": "DEMO-D001",
     "document_portrait_path": "data/images/face_demo/document_portraits/FV-001.jpg",
     "selfie_path": "data/images/face_demo/selfies/FV-001.jpg"
+  },
+  {
+    "case_id": "FV-002",
+    "person_id": "DEMO-P002",
+    "document_id": "DEMO-D002",
+    "document_portrait_path": "data/images/face_demo/document_portraits/FV-002.jpg",
+    "selfie_path": "data/images/face_demo/selfies/FV-002.jpg"
   }
 ]

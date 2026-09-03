@@ -1,0 +1,4306 @@
+[
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-33C63423",
+    "document_id": "D-33C63423",
+    "person_id": "P0001",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-33C63423.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-33C63423",
+    "document_id": "D-33C63423",
+    "person_id": "P0001",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-33C63423.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-11467329",
+    "document_id": "D-11467329",
+    "person_id": "P0001",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-11467329.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-11467329",
+    "document_id": "D-11467329",
+    "person_id": "P0001",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-11467329.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-436B234F",
+    "document_id": "D-436B234F",
+    "person_id": "P0001",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-436B234F.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-436B234F",
+    "document_id": "D-436B234F",
+    "person_id": "P0001",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-436B234F.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-27326E19",
+    "document_id": "D-27326E19",
+    "person_id": "P0001",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-27326E19.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-27326E19",
+    "document_id": "D-27326E19",
+    "person_id": "P0001",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-27326E19.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-B68D30F5",
+    "document_id": "D-B68D30F5",
+    "person_id": "P0002",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-B68D30F5.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-B68D30F5",
+    "document_id": "D-B68D30F5",
+    "person_id": "P0002",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-B68D30F5.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-71AA6A51",
+    "document_id": "D-71AA6A51",
+    "person_id": "P0002",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-71AA6A51.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-71AA6A51",
+    "document_id": "D-71AA6A51",
+    "person_id": "P0002",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-71AA6A51.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-03F5B11A",
+    "document_id": "D-03F5B11A",
+    "person_id": "P0003",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-03F5B11A.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-03F5B11A",
+    "document_id": "D-03F5B11A",
+    "person_id": "P0003",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-03F5B11A.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-F9C43103",
+    "document_id": "D-F9C43103",
+    "person_id": "P0003",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-F9C43103.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-F9C43103",
+    "document_id": "D-F9C43103",
+    "person_id": "P0003",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-F9C43103.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-9E35B38A",
+    "document_id": "D-9E35B38A",
+    "person_id": "P0004",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-9E35B38A.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-9E35B38A",
+    "document_id": "D-9E35B38A",
+    "person_id": "P0004",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-9E35B38A.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-4067189A",
+    "document_id": "D-4067189A",
+    "person_id": "P0004",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-4067189A.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-4067189A",
+    "document_id": "D-4067189A",
+    "person_id": "P0004",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-4067189A.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-1F3F8C57",
+    "document_id": "D-1F3F8C57",
+    "person_id": "P0004",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-1F3F8C57.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-1F3F8C57",
+    "document_id": "D-1F3F8C57",
+    "person_id": "P0004",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-1F3F8C57.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-C75D0789",
+    "document_id": "D-C75D0789",
+    "person_id": "P0005",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-C75D0789.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-C75D0789",
+    "document_id": "D-C75D0789",
+    "person_id": "P0005",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-C75D0789.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-DFDBFCA7",
+    "document_id": "D-DFDBFCA7",
+    "person_id": "P0005",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-DFDBFCA7.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-DFDBFCA7",
+    "document_id": "D-DFDBFCA7",
+    "person_id": "P0005",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-DFDBFCA7.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-B06A66AB",
+    "document_id": "D-B06A66AB",
+    "person_id": "P0005",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-B06A66AB.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-B06A66AB",
+    "document_id": "D-B06A66AB",
+    "person_id": "P0005",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-B06A66AB.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-EF87EDA0",
+    "document_id": "D-EF87EDA0",
+    "person_id": "P0005",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-EF87EDA0.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-EF87EDA0",
+    "document_id": "D-EF87EDA0",
+    "person_id": "P0005",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-EF87EDA0.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-DA2B9F26",
+    "document_id": "D-DA2B9F26",
+    "person_id": "P0006",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-DA2B9F26.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-DA2B9F26",
+    "document_id": "D-DA2B9F26",
+    "person_id": "P0006",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-DA2B9F26.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-E1D37B99",
+    "document_id": "D-E1D37B99",
+    "person_id": "P0006",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-E1D37B99.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-E1D37B99",
+    "document_id": "D-E1D37B99",
+    "person_id": "P0006",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-E1D37B99.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-E4B632E3",
+    "document_id": "D-E4B632E3",
+    "person_id": "P0006",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-E4B632E3.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-E4B632E3",
+    "document_id": "D-E4B632E3",
+    "person_id": "P0006",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-E4B632E3.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-7C56405D",
+    "document_id": "D-7C56405D",
+    "person_id": "P0007",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-7C56405D.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-7C56405D",
+    "document_id": "D-7C56405D",
+    "person_id": "P0007",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-7C56405D.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-19CEE9DE",
+    "document_id": "D-19CEE9DE",
+    "person_id": "P0007",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-19CEE9DE.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-19CEE9DE",
+    "document_id": "D-19CEE9DE",
+    "person_id": "P0007",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-19CEE9DE.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-C5660937",
+    "document_id": "D-C5660937",
+    "person_id": "P0007",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-C5660937.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-C5660937",
+    "document_id": "D-C5660937",
+    "person_id": "P0007",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-C5660937.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-54F196CC",
+    "document_id": "D-54F196CC",
+    "person_id": "P0008",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-54F196CC.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-54F196CC",
+    "document_id": "D-54F196CC",
+    "person_id": "P0008",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-54F196CC.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-DF6BD8DF",
+    "document_id": "D-DF6BD8DF",
+    "person_id": "P0008",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-DF6BD8DF.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-DF6BD8DF",
+    "document_id": "D-DF6BD8DF",
+    "person_id": "P0008",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-DF6BD8DF.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-4F04B759",
+    "document_id": "D-4F04B759",
+    "person_id": "P0008",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-4F04B759.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-4F04B759",
+    "document_id": "D-4F04B759",
+    "person_id": "P0008",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-4F04B759.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-21470E5E",
+    "document_id": "D-21470E5E",
+    "person_id": "P0008",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-21470E5E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-21470E5E",
+    "document_id": "D-21470E5E",
+    "person_id": "P0008",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-21470E5E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-08B71A6E",
+    "document_id": "D-08B71A6E",
+    "person_id": "P0009",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-08B71A6E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-08B71A6E",
+    "document_id": "D-08B71A6E",
+    "person_id": "P0009",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-08B71A6E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-339CB8AB",
+    "document_id": "D-339CB8AB",
+    "person_id": "P0009",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-339CB8AB.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-339CB8AB",
+    "document_id": "D-339CB8AB",
+    "person_id": "P0009",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-339CB8AB.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-28FEA857",
+    "document_id": "D-28FEA857",
+    "person_id": "P0010",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-28FEA857.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-28FEA857",
+    "document_id": "D-28FEA857",
+    "person_id": "P0010",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-28FEA857.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-8BF7E7DC",
+    "document_id": "D-8BF7E7DC",
+    "person_id": "P0010",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-8BF7E7DC.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-8BF7E7DC",
+    "document_id": "D-8BF7E7DC",
+    "person_id": "P0010",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-8BF7E7DC.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-4E8DB4FD",
+    "document_id": "D-4E8DB4FD",
+    "person_id": "P0011",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-4E8DB4FD.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-4E8DB4FD",
+    "document_id": "D-4E8DB4FD",
+    "person_id": "P0011",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-4E8DB4FD.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-1549C1EA",
+    "document_id": "D-1549C1EA",
+    "person_id": "P0011",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-1549C1EA.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-1549C1EA",
+    "document_id": "D-1549C1EA",
+    "person_id": "P0011",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-1549C1EA.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-66D33972",
+    "document_id": "D-66D33972",
+    "person_id": "P0011",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-66D33972.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-66D33972",
+    "document_id": "D-66D33972",
+    "person_id": "P0011",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-66D33972.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-5CDF3B1A",
+    "document_id": "D-5CDF3B1A",
+    "person_id": "P0012",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-5CDF3B1A.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-5CDF3B1A",
+    "document_id": "D-5CDF3B1A",
+    "person_id": "P0012",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-5CDF3B1A.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-95FF39E9",
+    "document_id": "D-95FF39E9",
+    "person_id": "P0012",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-95FF39E9.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-95FF39E9",
+    "document_id": "D-95FF39E9",
+    "person_id": "P0012",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-95FF39E9.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-DE4A5414",
+    "document_id": "D-DE4A5414",
+    "person_id": "P0012",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-DE4A5414.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-DE4A5414",
+    "document_id": "D-DE4A5414",
+    "person_id": "P0012",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-DE4A5414.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-67796CD9",
+    "document_id": "D-67796CD9",
+    "person_id": "P0012",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-67796CD9.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-67796CD9",
+    "document_id": "D-67796CD9",
+    "person_id": "P0012",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-67796CD9.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-9FA25A63",
+    "document_id": "D-9FA25A63",
+    "person_id": "P0013",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-9FA25A63.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-9FA25A63",
+    "document_id": "D-9FA25A63",
+    "person_id": "P0013",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-9FA25A63.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-BA0F6CD5",
+    "document_id": "D-BA0F6CD5",
+    "person_id": "P0013",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-BA0F6CD5.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-BA0F6CD5",
+    "document_id": "D-BA0F6CD5",
+    "person_id": "P0013",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-BA0F6CD5.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-A5F5BDA4",
+    "document_id": "D-A5F5BDA4",
+    "person_id": "P0013",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-A5F5BDA4.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-A5F5BDA4",
+    "document_id": "D-A5F5BDA4",
+    "person_id": "P0013",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-A5F5BDA4.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-1ED0A183",
+    "document_id": "D-1ED0A183",
+    "person_id": "P0014",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-1ED0A183.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-1ED0A183",
+    "document_id": "D-1ED0A183",
+    "person_id": "P0014",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-1ED0A183.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-84381131",
+    "document_id": "D-84381131",
+    "person_id": "P0014",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-84381131.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-84381131",
+    "document_id": "D-84381131",
+    "person_id": "P0014",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-84381131.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-0A3ED64F",
+    "document_id": "D-0A3ED64F",
+    "person_id": "P0014",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-0A3ED64F.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-0A3ED64F",
+    "document_id": "D-0A3ED64F",
+    "person_id": "P0014",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-0A3ED64F.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-E3512554",
+    "document_id": "D-E3512554",
+    "person_id": "P0014",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-E3512554.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-E3512554",
+    "document_id": "D-E3512554",
+    "person_id": "P0014",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-E3512554.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-0B49FE34",
+    "document_id": "D-0B49FE34",
+    "person_id": "P0015",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-0B49FE34.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-0B49FE34",
+    "document_id": "D-0B49FE34",
+    "person_id": "P0015",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-0B49FE34.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-050E85C7",
+    "document_id": "D-050E85C7",
+    "person_id": "P0015",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-050E85C7.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-050E85C7",
+    "document_id": "D-050E85C7",
+    "person_id": "P0015",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-050E85C7.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-83178EBD",
+    "document_id": "D-83178EBD",
+    "person_id": "P0016",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-83178EBD.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-83178EBD",
+    "document_id": "D-83178EBD",
+    "person_id": "P0016",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-83178EBD.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-EEB9A2B7",
+    "document_id": "D-EEB9A2B7",
+    "person_id": "P0016",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-EEB9A2B7.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-EEB9A2B7",
+    "document_id": "D-EEB9A2B7",
+    "person_id": "P0016",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-EEB9A2B7.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-DBACEEA3",
+    "document_id": "D-DBACEEA3",
+    "person_id": "P0017",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-DBACEEA3.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-DBACEEA3",
+    "document_id": "D-DBACEEA3",
+    "person_id": "P0017",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-DBACEEA3.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-3149EDD1",
+    "document_id": "D-3149EDD1",
+    "person_id": "P0017",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-3149EDD1.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-3149EDD1",
+    "document_id": "D-3149EDD1",
+    "person_id": "P0017",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-3149EDD1.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-478D9C56",
+    "document_id": "D-478D9C56",
+    "person_id": "P0017",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-478D9C56.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-478D9C56",
+    "document_id": "D-478D9C56",
+    "person_id": "P0017",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-478D9C56.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-8CE1258A",
+    "document_id": "D-8CE1258A",
+    "person_id": "P0018",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-8CE1258A.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-8CE1258A",
+    "document_id": "D-8CE1258A",
+    "person_id": "P0018",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-8CE1258A.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-F9D06C86",
+    "document_id": "D-F9D06C86",
+    "person_id": "P0018",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-F9D06C86.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-F9D06C86",
+    "document_id": "D-F9D06C86",
+    "person_id": "P0018",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-F9D06C86.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-74392810",
+    "document_id": "D-74392810",
+    "person_id": "P0018",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-74392810.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-74392810",
+    "document_id": "D-74392810",
+    "person_id": "P0018",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-74392810.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-CFD88C60",
+    "document_id": "D-CFD88C60",
+    "person_id": "P0018",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-CFD88C60.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-CFD88C60",
+    "document_id": "D-CFD88C60",
+    "person_id": "P0018",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-CFD88C60.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-4DED8B18",
+    "document_id": "D-4DED8B18",
+    "person_id": "P0019",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-4DED8B18.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-4DED8B18",
+    "document_id": "D-4DED8B18",
+    "person_id": "P0019",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-4DED8B18.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-EE54D58B",
+    "document_id": "D-EE54D58B",
+    "person_id": "P0019",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-EE54D58B.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-EE54D58B",
+    "document_id": "D-EE54D58B",
+    "person_id": "P0019",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-EE54D58B.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-9DCDB9F1",
+    "document_id": "D-9DCDB9F1",
+    "person_id": "P0019",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-9DCDB9F1.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-9DCDB9F1",
+    "document_id": "D-9DCDB9F1",
+    "person_id": "P0019",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-9DCDB9F1.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-C7494EE5",
+    "document_id": "D-C7494EE5",
+    "person_id": "P0019",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-C7494EE5.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-C7494EE5",
+    "document_id": "D-C7494EE5",
+    "person_id": "P0019",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-C7494EE5.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-8C3D09B5",
+    "document_id": "D-8C3D09B5",
+    "person_id": "P0020",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-8C3D09B5.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-8C3D09B5",
+    "document_id": "D-8C3D09B5",
+    "person_id": "P0020",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-8C3D09B5.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-F2D61D3F",
+    "document_id": "D-F2D61D3F",
+    "person_id": "P0020",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-F2D61D3F.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-F2D61D3F",
+    "document_id": "D-F2D61D3F",
+    "person_id": "P0020",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-F2D61D3F.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-15299AEF",
+    "document_id": "D-15299AEF",
+    "person_id": "P0021",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-15299AEF.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-15299AEF",
+    "document_id": "D-15299AEF",
+    "person_id": "P0021",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-15299AEF.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-5CC9166E",
+    "document_id": "D-5CC9166E",
+    "person_id": "P0021",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-5CC9166E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-5CC9166E",
+    "document_id": "D-5CC9166E",
+    "person_id": "P0021",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-5CC9166E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-7A663907",
+    "document_id": "D-7A663907",
+    "person_id": "P0022",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-7A663907.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-7A663907",
+    "document_id": "D-7A663907",
+    "person_id": "P0022",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-7A663907.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-0CACCF1E",
+    "document_id": "D-0CACCF1E",
+    "person_id": "P0022",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-0CACCF1E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-0CACCF1E",
+    "document_id": "D-0CACCF1E",
+    "person_id": "P0022",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-0CACCF1E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-E8C85133",
+    "document_id": "D-E8C85133",
+    "person_id": "P0022",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-E8C85133.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-E8C85133",
+    "document_id": "D-E8C85133",
+    "person_id": "P0022",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-E8C85133.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-07996620",
+    "document_id": "D-07996620",
+    "person_id": "P0023",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-07996620.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-07996620",
+    "document_id": "D-07996620",
+    "person_id": "P0023",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-07996620.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-F499913F",
+    "document_id": "D-F499913F",
+    "person_id": "P0023",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-F499913F.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-F499913F",
+    "document_id": "D-F499913F",
+    "person_id": "P0023",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-F499913F.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-C7BA0130",
+    "document_id": "D-C7BA0130",
+    "person_id": "P0023",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-C7BA0130.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-C7BA0130",
+    "document_id": "D-C7BA0130",
+    "person_id": "P0023",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-C7BA0130.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-3FCF93FB",
+    "document_id": "D-3FCF93FB",
+    "person_id": "P0024",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-3FCF93FB.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-3FCF93FB",
+    "document_id": "D-3FCF93FB",
+    "person_id": "P0024",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-3FCF93FB.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-291BA0F7",
+    "document_id": "D-291BA0F7",
+    "person_id": "P0024",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-291BA0F7.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-291BA0F7",
+    "document_id": "D-291BA0F7",
+    "person_id": "P0024",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-291BA0F7.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-1F9E52B1",
+    "document_id": "D-1F9E52B1",
+    "person_id": "P0024",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-1F9E52B1.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-1F9E52B1",
+    "document_id": "D-1F9E52B1",
+    "person_id": "P0024",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-1F9E52B1.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-3DCBA672",
+    "document_id": "D-3DCBA672",
+    "person_id": "P0024",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-3DCBA672.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-3DCBA672",
+    "document_id": "D-3DCBA672",
+    "person_id": "P0024",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-3DCBA672.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-EED31279",
+    "document_id": "D-EED31279",
+    "person_id": "P0025",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-EED31279.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-EED31279",
+    "document_id": "D-EED31279",
+    "person_id": "P0025",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-EED31279.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-47A70F54",
+    "document_id": "D-47A70F54",
+    "person_id": "P0025",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-47A70F54.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-47A70F54",
+    "document_id": "D-47A70F54",
+    "person_id": "P0025",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-47A70F54.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-4ED50856",
+    "document_id": "D-4ED50856",
+    "person_id": "P0026",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-4ED50856.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-4ED50856",
+    "document_id": "D-4ED50856",
+    "person_id": "P0026",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-4ED50856.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-8E35B800",
+    "document_id": "D-8E35B800",
+    "person_id": "P0026",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-8E35B800.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-8E35B800",
+    "document_id": "D-8E35B800",
+    "person_id": "P0026",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-8E35B800.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-6224B0D7",
+    "document_id": "D-6224B0D7",
+    "person_id": "P0026",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-6224B0D7.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-6224B0D7",
+    "document_id": "D-6224B0D7",
+    "person_id": "P0026",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-6224B0D7.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-2AEB5074",
+    "document_id": "D-2AEB5074",
+    "person_id": "P0027",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-2AEB5074.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-2AEB5074",
+    "document_id": "D-2AEB5074",
+    "person_id": "P0027",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-2AEB5074.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-13666D01",
+    "document_id": "D-13666D01",
+    "person_id": "P0027",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-13666D01.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-13666D01",
+    "document_id": "D-13666D01",
+    "person_id": "P0027",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-13666D01.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-A1CBA573",
+    "document_id": "D-A1CBA573",
+    "person_id": "P0028",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-A1CBA573.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-A1CBA573",
+    "document_id": "D-A1CBA573",
+    "person_id": "P0028",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-A1CBA573.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-E301EDD1",
+    "document_id": "D-E301EDD1",
+    "person_id": "P0028",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-E301EDD1.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-E301EDD1",
+    "document_id": "D-E301EDD1",
+    "person_id": "P0028",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-E301EDD1.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-595213FE",
+    "document_id": "D-595213FE",
+    "person_id": "P0028",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-595213FE.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-595213FE",
+    "document_id": "D-595213FE",
+    "person_id": "P0028",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-595213FE.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-AC907A96",
+    "document_id": "D-AC907A96",
+    "person_id": "P0029",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-AC907A96.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-AC907A96",
+    "document_id": "D-AC907A96",
+    "person_id": "P0029",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-AC907A96.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-9FCDE99A",
+    "document_id": "D-9FCDE99A",
+    "person_id": "P0029",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-9FCDE99A.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-9FCDE99A",
+    "document_id": "D-9FCDE99A",
+    "person_id": "P0029",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-9FCDE99A.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-BB4C371A",
+    "document_id": "D-BB4C371A",
+    "person_id": "P0029",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-BB4C371A.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-BB4C371A",
+    "document_id": "D-BB4C371A",
+    "person_id": "P0029",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-BB4C371A.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-5D3BA478",
+    "document_id": "D-5D3BA478",
+    "person_id": "P0029",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-5D3BA478.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-5D3BA478",
+    "document_id": "D-5D3BA478",
+    "person_id": "P0029",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-5D3BA478.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-D027E609",
+    "document_id": "D-D027E609",
+    "person_id": "P0030",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-D027E609.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-D027E609",
+    "document_id": "D-D027E609",
+    "person_id": "P0030",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-D027E609.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-0E484907",
+    "document_id": "D-0E484907",
+    "person_id": "P0030",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-0E484907.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-0E484907",
+    "document_id": "D-0E484907",
+    "person_id": "P0030",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-0E484907.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-61EBE2F1",
+    "document_id": "D-61EBE2F1",
+    "person_id": "P0030",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-61EBE2F1.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-61EBE2F1",
+    "document_id": "D-61EBE2F1",
+    "person_id": "P0030",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-61EBE2F1.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-ADA828CB",
+    "document_id": "D-ADA828CB",
+    "person_id": "P0031",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-ADA828CB.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-ADA828CB",
+    "document_id": "D-ADA828CB",
+    "person_id": "P0031",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-ADA828CB.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-57D838C6",
+    "document_id": "D-57D838C6",
+    "person_id": "P0031",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-57D838C6.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-57D838C6",
+    "document_id": "D-57D838C6",
+    "person_id": "P0031",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-57D838C6.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-3D671AE1",
+    "document_id": "D-3D671AE1",
+    "person_id": "P0031",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-3D671AE1.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-3D671AE1",
+    "document_id": "D-3D671AE1",
+    "person_id": "P0031",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-3D671AE1.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-C37E3F5F",
+    "document_id": "D-C37E3F5F",
+    "person_id": "P0032",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-C37E3F5F.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-C37E3F5F",
+    "document_id": "D-C37E3F5F",
+    "person_id": "P0032",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-C37E3F5F.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-FE750BAF",
+    "document_id": "D-FE750BAF",
+    "person_id": "P0032",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-FE750BAF.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-FE750BAF",
+    "document_id": "D-FE750BAF",
+    "person_id": "P0032",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-FE750BAF.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-4D14E2FB",
+    "document_id": "D-4D14E2FB",
+    "person_id": "P0032",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-4D14E2FB.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-4D14E2FB",
+    "document_id": "D-4D14E2FB",
+    "person_id": "P0032",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-4D14E2FB.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-82C6535B",
+    "document_id": "D-82C6535B",
+    "person_id": "P0033",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-82C6535B.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-82C6535B",
+    "document_id": "D-82C6535B",
+    "person_id": "P0033",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-82C6535B.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-46092AA4",
+    "document_id": "D-46092AA4",
+    "person_id": "P0033",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-46092AA4.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-46092AA4",
+    "document_id": "D-46092AA4",
+    "person_id": "P0033",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-46092AA4.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-C0E2E00C",
+    "document_id": "D-C0E2E00C",
+    "person_id": "P0033",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-C0E2E00C.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-C0E2E00C",
+    "document_id": "D-C0E2E00C",
+    "person_id": "P0033",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-C0E2E00C.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-8B42211D",
+    "document_id": "D-8B42211D",
+    "person_id": "P0034",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-8B42211D.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-8B42211D",
+    "document_id": "D-8B42211D",
+    "person_id": "P0034",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-8B42211D.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-6D3246CD",
+    "document_id": "D-6D3246CD",
+    "person_id": "P0034",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-6D3246CD.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-6D3246CD",
+    "document_id": "D-6D3246CD",
+    "person_id": "P0034",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-6D3246CD.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-A1110E62",
+    "document_id": "D-A1110E62",
+    "person_id": "P0035",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-A1110E62.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-A1110E62",
+    "document_id": "D-A1110E62",
+    "person_id": "P0035",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-A1110E62.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-A4B87EF8",
+    "document_id": "D-A4B87EF8",
+    "person_id": "P0035",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-A4B87EF8.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-A4B87EF8",
+    "document_id": "D-A4B87EF8",
+    "person_id": "P0035",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-A4B87EF8.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-A735B5E1",
+    "document_id": "D-A735B5E1",
+    "person_id": "P0036",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-A735B5E1.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-A735B5E1",
+    "document_id": "D-A735B5E1",
+    "person_id": "P0036",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-A735B5E1.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-D4F2A0AC",
+    "document_id": "D-D4F2A0AC",
+    "person_id": "P0036",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-D4F2A0AC.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-D4F2A0AC",
+    "document_id": "D-D4F2A0AC",
+    "person_id": "P0036",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-D4F2A0AC.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-6014D485",
+    "document_id": "D-6014D485",
+    "person_id": "P0036",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-6014D485.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-6014D485",
+    "document_id": "D-6014D485",
+    "person_id": "P0036",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-6014D485.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-3C3BD6DD",
+    "document_id": "D-3C3BD6DD",
+    "person_id": "P0037",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-3C3BD6DD.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-3C3BD6DD",
+    "document_id": "D-3C3BD6DD",
+    "person_id": "P0037",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-3C3BD6DD.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-BC7B1F17",
+    "document_id": "D-BC7B1F17",
+    "person_id": "P0037",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-BC7B1F17.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-BC7B1F17",
+    "document_id": "D-BC7B1F17",
+    "person_id": "P0037",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-BC7B1F17.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-35EA527A",
+    "document_id": "D-35EA527A",
+    "person_id": "P0037",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-35EA527A.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-35EA527A",
+    "document_id": "D-35EA527A",
+    "person_id": "P0037",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-35EA527A.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-1C4E68A3",
+    "document_id": "D-1C4E68A3",
+    "person_id": "P0038",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-1C4E68A3.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-1C4E68A3",
+    "document_id": "D-1C4E68A3",
+    "person_id": "P0038",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-1C4E68A3.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-97B3C669",
+    "document_id": "D-97B3C669",
+    "person_id": "P0038",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-97B3C669.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-97B3C669",
+    "document_id": "D-97B3C669",
+    "person_id": "P0038",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-97B3C669.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-9939A829",
+    "document_id": "D-9939A829",
+    "person_id": "P0039",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-9939A829.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-9939A829",
+    "document_id": "D-9939A829",
+    "person_id": "P0039",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-9939A829.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-3E49D5F0",
+    "document_id": "D-3E49D5F0",
+    "person_id": "P0039",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-3E49D5F0.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-3E49D5F0",
+    "document_id": "D-3E49D5F0",
+    "person_id": "P0039",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-3E49D5F0.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-3ECC13DD",
+    "document_id": "D-3ECC13DD",
+    "person_id": "P0039",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-3ECC13DD.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-3ECC13DD",
+    "document_id": "D-3ECC13DD",
+    "person_id": "P0039",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-3ECC13DD.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-57B99A84",
+    "document_id": "D-57B99A84",
+    "person_id": "P0039",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-57B99A84.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-57B99A84",
+    "document_id": "D-57B99A84",
+    "person_id": "P0039",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-57B99A84.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-6A70A3FF",
+    "document_id": "D-6A70A3FF",
+    "person_id": "P0040",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-6A70A3FF.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-6A70A3FF",
+    "document_id": "D-6A70A3FF",
+    "person_id": "P0040",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-6A70A3FF.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-07F6ADF9",
+    "document_id": "D-07F6ADF9",
+    "person_id": "P0040",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-07F6ADF9.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-07F6ADF9",
+    "document_id": "D-07F6ADF9",
+    "person_id": "P0040",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-07F6ADF9.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-C6953713",
+    "document_id": "D-C6953713",
+    "person_id": "P0040",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-C6953713.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-C6953713",
+    "document_id": "D-C6953713",
+    "person_id": "P0040",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-C6953713.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-FEDA364F",
+    "document_id": "D-FEDA364F",
+    "person_id": "P0041",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-FEDA364F.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-FEDA364F",
+    "document_id": "D-FEDA364F",
+    "person_id": "P0041",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-FEDA364F.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-CD41EFF3",
+    "document_id": "D-CD41EFF3",
+    "person_id": "P0041",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-CD41EFF3.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-CD41EFF3",
+    "document_id": "D-CD41EFF3",
+    "person_id": "P0041",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-CD41EFF3.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-0F922620",
+    "document_id": "D-0F922620",
+    "person_id": "P0042",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-0F922620.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-0F922620",
+    "document_id": "D-0F922620",
+    "person_id": "P0042",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-0F922620.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-B1FFF03B",
+    "document_id": "D-B1FFF03B",
+    "person_id": "P0042",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-B1FFF03B.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-B1FFF03B",
+    "document_id": "D-B1FFF03B",
+    "person_id": "P0042",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-B1FFF03B.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-E45F448B",
+    "document_id": "D-E45F448B",
+    "person_id": "P0042",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-E45F448B.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-E45F448B",
+    "document_id": "D-E45F448B",
+    "person_id": "P0042",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-E45F448B.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-E4179A95",
+    "document_id": "D-E4179A95",
+    "person_id": "P0042",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-E4179A95.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-E4179A95",
+    "document_id": "D-E4179A95",
+    "person_id": "P0042",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-E4179A95.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-EC226FC0",
+    "document_id": "D-EC226FC0",
+    "person_id": "P0043",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-EC226FC0.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-EC226FC0",
+    "document_id": "D-EC226FC0",
+    "person_id": "P0043",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-EC226FC0.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-559DD939",
+    "document_id": "D-559DD939",
+    "person_id": "P0043",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-559DD939.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-559DD939",
+    "document_id": "D-559DD939",
+    "person_id": "P0043",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-559DD939.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-BE6433D3",
+    "document_id": "D-BE6433D3",
+    "person_id": "P0043",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-BE6433D3.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-BE6433D3",
+    "document_id": "D-BE6433D3",
+    "person_id": "P0043",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-BE6433D3.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-29089F93",
+    "document_id": "D-29089F93",
+    "person_id": "P0043",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-29089F93.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-29089F93",
+    "document_id": "D-29089F93",
+    "person_id": "P0043",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-29089F93.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-1F1F83C6",
+    "document_id": "D-1F1F83C6",
+    "person_id": "P0044",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-1F1F83C6.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-1F1F83C6",
+    "document_id": "D-1F1F83C6",
+    "person_id": "P0044",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-1F1F83C6.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-65C79B1A",
+    "document_id": "D-65C79B1A",
+    "person_id": "P0044",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-65C79B1A.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-65C79B1A",
+    "document_id": "D-65C79B1A",
+    "person_id": "P0044",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-65C79B1A.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-E335A290",
+    "document_id": "D-E335A290",
+    "person_id": "P0044",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-E335A290.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-E335A290",
+    "document_id": "D-E335A290",
+    "person_id": "P0044",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-E335A290.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-D42E5419",
+    "document_id": "D-D42E5419",
+    "person_id": "P0045",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-D42E5419.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-D42E5419",
+    "document_id": "D-D42E5419",
+    "person_id": "P0045",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-D42E5419.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-2E2632B8",
+    "document_id": "D-2E2632B8",
+    "person_id": "P0045",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-2E2632B8.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-2E2632B8",
+    "document_id": "D-2E2632B8",
+    "person_id": "P0045",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-2E2632B8.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-62A50389",
+    "document_id": "D-62A50389",
+    "person_id": "P0046",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-62A50389.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-62A50389",
+    "document_id": "D-62A50389",
+    "person_id": "P0046",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-62A50389.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-29AE4701",
+    "document_id": "D-29AE4701",
+    "person_id": "P0046",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-29AE4701.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-29AE4701",
+    "document_id": "D-29AE4701",
+    "person_id": "P0046",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-29AE4701.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-73EEDFED",
+    "document_id": "D-73EEDFED",
+    "person_id": "P0046",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-73EEDFED.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-73EEDFED",
+    "document_id": "D-73EEDFED",
+    "person_id": "P0046",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-73EEDFED.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-CC51509A",
+    "document_id": "D-CC51509A",
+    "person_id": "P0046",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-CC51509A.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-CC51509A",
+    "document_id": "D-CC51509A",
+    "person_id": "P0046",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-CC51509A.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-34890114",
+    "document_id": "D-34890114",
+    "person_id": "P0047",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-34890114.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-34890114",
+    "document_id": "D-34890114",
+    "person_id": "P0047",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-34890114.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-6F48C211",
+    "document_id": "D-6F48C211",
+    "person_id": "P0047",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-6F48C211.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-6F48C211",
+    "document_id": "D-6F48C211",
+    "person_id": "P0047",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-6F48C211.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-4A34E456",
+    "document_id": "D-4A34E456",
+    "person_id": "P0047",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-4A34E456.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-4A34E456",
+    "document_id": "D-4A34E456",
+    "person_id": "P0047",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-4A34E456.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-CCAA5491",
+    "document_id": "D-CCAA5491",
+    "person_id": "P0048",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-CCAA5491.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-CCAA5491",
+    "document_id": "D-CCAA5491",
+    "person_id": "P0048",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-CCAA5491.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-20E49EA7",
+    "document_id": "D-20E49EA7",
+    "person_id": "P0048",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-20E49EA7.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-20E49EA7",
+    "document_id": "D-20E49EA7",
+    "person_id": "P0048",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-20E49EA7.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-64507793",
+    "document_id": "D-64507793",
+    "person_id": "P0049",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-64507793.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-64507793",
+    "document_id": "D-64507793",
+    "person_id": "P0049",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-64507793.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-BF6AD8B3",
+    "document_id": "D-BF6AD8B3",
+    "person_id": "P0049",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-BF6AD8B3.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-BF6AD8B3",
+    "document_id": "D-BF6AD8B3",
+    "person_id": "P0049",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-BF6AD8B3.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-B04B10FC",
+    "document_id": "D-B04B10FC",
+    "person_id": "P0049",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-B04B10FC.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-B04B10FC",
+    "document_id": "D-B04B10FC",
+    "person_id": "P0049",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-B04B10FC.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-D6F96828",
+    "document_id": "D-D6F96828",
+    "person_id": "P0050",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-D6F96828.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-D6F96828",
+    "document_id": "D-D6F96828",
+    "person_id": "P0050",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-D6F96828.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-B2B8CE78",
+    "document_id": "D-B2B8CE78",
+    "person_id": "P0050",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-B2B8CE78.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-B2B8CE78",
+    "document_id": "D-B2B8CE78",
+    "person_id": "P0050",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-B2B8CE78.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-76B708BB",
+    "document_id": "D-76B708BB",
+    "person_id": "P0050",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-76B708BB.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-76B708BB",
+    "document_id": "D-76B708BB",
+    "person_id": "P0050",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-76B708BB.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-76EAF4DB",
+    "document_id": "D-76EAF4DB",
+    "person_id": "P0050",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-76EAF4DB.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-76EAF4DB",
+    "document_id": "D-76EAF4DB",
+    "person_id": "P0050",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-76EAF4DB.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-0B57008D",
+    "document_id": "D-0B57008D",
+    "person_id": "P0051",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-0B57008D.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-0B57008D",
+    "document_id": "D-0B57008D",
+    "person_id": "P0051",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-0B57008D.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-F118B5D7",
+    "document_id": "D-F118B5D7",
+    "person_id": "P0051",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-F118B5D7.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-F118B5D7",
+    "document_id": "D-F118B5D7",
+    "person_id": "P0051",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-F118B5D7.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-7E7EF985",
+    "document_id": "D-7E7EF985",
+    "person_id": "P0051",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-7E7EF985.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-7E7EF985",
+    "document_id": "D-7E7EF985",
+    "person_id": "P0051",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-7E7EF985.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-AFDC21BF",
+    "document_id": "D-AFDC21BF",
+    "person_id": "P0051",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-AFDC21BF.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-AFDC21BF",
+    "document_id": "D-AFDC21BF",
+    "person_id": "P0051",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-AFDC21BF.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-1179BEDC",
+    "document_id": "D-1179BEDC",
+    "person_id": "P0052",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-1179BEDC.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-1179BEDC",
+    "document_id": "D-1179BEDC",
+    "person_id": "P0052",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-1179BEDC.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-6EF61736",
+    "document_id": "D-6EF61736",
+    "person_id": "P0052",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-6EF61736.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-6EF61736",
+    "document_id": "D-6EF61736",
+    "person_id": "P0052",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-6EF61736.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-A4EA2FD1",
+    "document_id": "D-A4EA2FD1",
+    "person_id": "P0053",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-A4EA2FD1.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-A4EA2FD1",
+    "document_id": "D-A4EA2FD1",
+    "person_id": "P0053",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-A4EA2FD1.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-5AF4DE78",
+    "document_id": "D-5AF4DE78",
+    "person_id": "P0053",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-5AF4DE78.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-5AF4DE78",
+    "document_id": "D-5AF4DE78",
+    "person_id": "P0053",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-5AF4DE78.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-62305E4B",
+    "document_id": "D-62305E4B",
+    "person_id": "P0054",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-62305E4B.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-62305E4B",
+    "document_id": "D-62305E4B",
+    "person_id": "P0054",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-62305E4B.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-A81FC08E",
+    "document_id": "D-A81FC08E",
+    "person_id": "P0054",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-A81FC08E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-A81FC08E",
+    "document_id": "D-A81FC08E",
+    "person_id": "P0054",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-A81FC08E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-45A79B83",
+    "document_id": "D-45A79B83",
+    "person_id": "P0054",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-45A79B83.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-45A79B83",
+    "document_id": "D-45A79B83",
+    "person_id": "P0054",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-45A79B83.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-763030AE",
+    "document_id": "D-763030AE",
+    "person_id": "P0054",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-763030AE.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-763030AE",
+    "document_id": "D-763030AE",
+    "person_id": "P0054",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-763030AE.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-3C860A66",
+    "document_id": "D-3C860A66",
+    "person_id": "P0055",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-3C860A66.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-3C860A66",
+    "document_id": "D-3C860A66",
+    "person_id": "P0055",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-3C860A66.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-BFB37074",
+    "document_id": "D-BFB37074",
+    "person_id": "P0055",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-BFB37074.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-BFB37074",
+    "document_id": "D-BFB37074",
+    "person_id": "P0055",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-BFB37074.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-478B1E1E",
+    "document_id": "D-478B1E1E",
+    "person_id": "P0055",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-478B1E1E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-478B1E1E",
+    "document_id": "D-478B1E1E",
+    "person_id": "P0055",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-478B1E1E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-7FBAF24D",
+    "document_id": "D-7FBAF24D",
+    "person_id": "P0056",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-7FBAF24D.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-7FBAF24D",
+    "document_id": "D-7FBAF24D",
+    "person_id": "P0056",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-7FBAF24D.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-91FD9AD0",
+    "document_id": "D-91FD9AD0",
+    "person_id": "P0056",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-91FD9AD0.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-91FD9AD0",
+    "document_id": "D-91FD9AD0",
+    "person_id": "P0056",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-91FD9AD0.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-25AA5E0D",
+    "document_id": "D-25AA5E0D",
+    "person_id": "P0056",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-25AA5E0D.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-25AA5E0D",
+    "document_id": "D-25AA5E0D",
+    "person_id": "P0056",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-25AA5E0D.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-12A3811A",
+    "document_id": "D-12A3811A",
+    "person_id": "P0057",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-12A3811A.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-12A3811A",
+    "document_id": "D-12A3811A",
+    "person_id": "P0057",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-12A3811A.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-F0DC2168",
+    "document_id": "D-F0DC2168",
+    "person_id": "P0057",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-F0DC2168.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-F0DC2168",
+    "document_id": "D-F0DC2168",
+    "person_id": "P0057",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-F0DC2168.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-E0588DBF",
+    "document_id": "D-E0588DBF",
+    "person_id": "P0058",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-E0588DBF.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-E0588DBF",
+    "document_id": "D-E0588DBF",
+    "person_id": "P0058",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-E0588DBF.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-503B6F9C",
+    "document_id": "D-503B6F9C",
+    "person_id": "P0058",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-503B6F9C.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-503B6F9C",
+    "document_id": "D-503B6F9C",
+    "person_id": "P0058",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-503B6F9C.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-163CA92F",
+    "document_id": "D-163CA92F",
+    "person_id": "P0058",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-163CA92F.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-163CA92F",
+    "document_id": "D-163CA92F",
+    "person_id": "P0058",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-163CA92F.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-9758E527",
+    "document_id": "D-9758E527",
+    "person_id": "P0058",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-9758E527.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-9758E527",
+    "document_id": "D-9758E527",
+    "person_id": "P0058",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-9758E527.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-9CA5BAF6",
+    "document_id": "D-9CA5BAF6",
+    "person_id": "P0059",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-9CA5BAF6.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-9CA5BAF6",
+    "document_id": "D-9CA5BAF6",
+    "person_id": "P0059",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-9CA5BAF6.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-31E5304E",
+    "document_id": "D-31E5304E",
+    "person_id": "P0059",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-31E5304E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-31E5304E",
+    "document_id": "D-31E5304E",
+    "person_id": "P0059",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-31E5304E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-6BAAAA25",
+    "document_id": "D-6BAAAA25",
+    "person_id": "P0060",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-6BAAAA25.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-6BAAAA25",
+    "document_id": "D-6BAAAA25",
+    "person_id": "P0060",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-6BAAAA25.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-9DCB1B88",
+    "document_id": "D-9DCB1B88",
+    "person_id": "P0060",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-9DCB1B88.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-9DCB1B88",
+    "document_id": "D-9DCB1B88",
+    "person_id": "P0060",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-9DCB1B88.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-439A3D99",
+    "document_id": "D-439A3D99",
+    "person_id": "P0061",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-439A3D99.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-439A3D99",
+    "document_id": "D-439A3D99",
+    "person_id": "P0061",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-439A3D99.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-2AE96CBD",
+    "document_id": "D-2AE96CBD",
+    "person_id": "P0061",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-2AE96CBD.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-2AE96CBD",
+    "document_id": "D-2AE96CBD",
+    "person_id": "P0061",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-2AE96CBD.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-957B5283",
+    "document_id": "D-957B5283",
+    "person_id": "P0061",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-957B5283.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-957B5283",
+    "document_id": "D-957B5283",
+    "person_id": "P0061",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-957B5283.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-B106D43B",
+    "document_id": "D-B106D43B",
+    "person_id": "P0062",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-B106D43B.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-B106D43B",
+    "document_id": "D-B106D43B",
+    "person_id": "P0062",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-B106D43B.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-0DA836EA",
+    "document_id": "D-0DA836EA",
+    "person_id": "P0062",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-0DA836EA.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-0DA836EA",
+    "document_id": "D-0DA836EA",
+    "person_id": "P0062",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-0DA836EA.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-1AD1ADDF",
+    "document_id": "D-1AD1ADDF",
+    "person_id": "P0062",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-1AD1ADDF.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-1AD1ADDF",
+    "document_id": "D-1AD1ADDF",
+    "person_id": "P0062",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-1AD1ADDF.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-5BACB8AB",
+    "document_id": "D-5BACB8AB",
+    "person_id": "P0063",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-5BACB8AB.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-5BACB8AB",
+    "document_id": "D-5BACB8AB",
+    "person_id": "P0063",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-5BACB8AB.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-DC693D0E",
+    "document_id": "D-DC693D0E",
+    "person_id": "P0063",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-DC693D0E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-DC693D0E",
+    "document_id": "D-DC693D0E",
+    "person_id": "P0063",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-DC693D0E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-05DD253D",
+    "document_id": "D-05DD253D",
+    "person_id": "P0064",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-05DD253D.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-05DD253D",
+    "document_id": "D-05DD253D",
+    "person_id": "P0064",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-05DD253D.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-577CA855",
+    "document_id": "D-577CA855",
+    "person_id": "P0064",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-577CA855.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-577CA855",
+    "document_id": "D-577CA855",
+    "person_id": "P0064",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-577CA855.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-61297C2D",
+    "document_id": "D-61297C2D",
+    "person_id": "P0064",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-61297C2D.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-61297C2D",
+    "document_id": "D-61297C2D",
+    "person_id": "P0064",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-61297C2D.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-FD7A6B2B",
+    "document_id": "D-FD7A6B2B",
+    "person_id": "P0064",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-FD7A6B2B.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-FD7A6B2B",
+    "document_id": "D-FD7A6B2B",
+    "person_id": "P0064",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-FD7A6B2B.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-F7A7EF73",
+    "document_id": "D-F7A7EF73",
+    "person_id": "P0065",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-F7A7EF73.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-F7A7EF73",
+    "document_id": "D-F7A7EF73",
+    "person_id": "P0065",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-F7A7EF73.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-1723B3C1",
+    "document_id": "D-1723B3C1",
+    "person_id": "P0065",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-1723B3C1.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-1723B3C1",
+    "document_id": "D-1723B3C1",
+    "person_id": "P0065",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-1723B3C1.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-F1D259BE",
+    "document_id": "D-F1D259BE",
+    "person_id": "P0065",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-F1D259BE.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-F1D259BE",
+    "document_id": "D-F1D259BE",
+    "person_id": "P0065",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-F1D259BE.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-D74792D1",
+    "document_id": "D-D74792D1",
+    "person_id": "P0065",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-D74792D1.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-D74792D1",
+    "document_id": "D-D74792D1",
+    "person_id": "P0065",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-D74792D1.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-BD69B45C",
+    "document_id": "D-BD69B45C",
+    "person_id": "P0066",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-BD69B45C.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-BD69B45C",
+    "document_id": "D-BD69B45C",
+    "person_id": "P0066",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-BD69B45C.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-50B70AF6",
+    "document_id": "D-50B70AF6",
+    "person_id": "P0066",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-50B70AF6.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-50B70AF6",
+    "document_id": "D-50B70AF6",
+    "person_id": "P0066",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-50B70AF6.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-CAE3E94D",
+    "document_id": "D-CAE3E94D",
+    "person_id": "P0066",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-CAE3E94D.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-CAE3E94D",
+    "document_id": "D-CAE3E94D",
+    "person_id": "P0066",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-CAE3E94D.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-8CBB732E",
+    "document_id": "D-8CBB732E",
+    "person_id": "P0067",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-8CBB732E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-8CBB732E",
+    "document_id": "D-8CBB732E",
+    "person_id": "P0067",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-8CBB732E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-D289C324",
+    "document_id": "D-D289C324",
+    "person_id": "P0067",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-D289C324.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-D289C324",
+    "document_id": "D-D289C324",
+    "person_id": "P0067",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-D289C324.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-71C25090",
+    "document_id": "D-71C25090",
+    "person_id": "P0067",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-71C25090.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-71C25090",
+    "document_id": "D-71C25090",
+    "person_id": "P0067",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-71C25090.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-A9CE2A87",
+    "document_id": "D-A9CE2A87",
+    "person_id": "P0068",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-A9CE2A87.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-A9CE2A87",
+    "document_id": "D-A9CE2A87",
+    "person_id": "P0068",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-A9CE2A87.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-0B588283",
+    "document_id": "D-0B588283",
+    "person_id": "P0068",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-0B588283.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-0B588283",
+    "document_id": "D-0B588283",
+    "person_id": "P0068",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-0B588283.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-4E5B0A17",
+    "document_id": "D-4E5B0A17",
+    "person_id": "P0068",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-4E5B0A17.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-4E5B0A17",
+    "document_id": "D-4E5B0A17",
+    "person_id": "P0068",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-4E5B0A17.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-EC0CE68D",
+    "document_id": "D-EC0CE68D",
+    "person_id": "P0069",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-EC0CE68D.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-EC0CE68D",
+    "document_id": "D-EC0CE68D",
+    "person_id": "P0069",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-EC0CE68D.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-68B54334",
+    "document_id": "D-68B54334",
+    "person_id": "P0069",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-68B54334.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-68B54334",
+    "document_id": "D-68B54334",
+    "person_id": "P0069",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-68B54334.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-44A6FFD5",
+    "document_id": "D-44A6FFD5",
+    "person_id": "P0069",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-44A6FFD5.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-44A6FFD5",
+    "document_id": "D-44A6FFD5",
+    "person_id": "P0069",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-44A6FFD5.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-306B5C33",
+    "document_id": "D-306B5C33",
+    "person_id": "P0070",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-306B5C33.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-306B5C33",
+    "document_id": "D-306B5C33",
+    "person_id": "P0070",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-306B5C33.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-9E033F43",
+    "document_id": "D-9E033F43",
+    "person_id": "P0070",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-9E033F43.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-9E033F43",
+    "document_id": "D-9E033F43",
+    "person_id": "P0070",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-9E033F43.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-C4A7B55D",
+    "document_id": "D-C4A7B55D",
+    "person_id": "P0070",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-C4A7B55D.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-C4A7B55D",
+    "document_id": "D-C4A7B55D",
+    "person_id": "P0070",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-C4A7B55D.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-7BCB9CB5",
+    "document_id": "D-7BCB9CB5",
+    "person_id": "P0070",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-7BCB9CB5.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-7BCB9CB5",
+    "document_id": "D-7BCB9CB5",
+    "person_id": "P0070",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-7BCB9CB5.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-1630DA56",
+    "document_id": "D-1630DA56",
+    "person_id": "P0071",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-1630DA56.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-1630DA56",
+    "document_id": "D-1630DA56",
+    "person_id": "P0071",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-1630DA56.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-DC466633",
+    "document_id": "D-DC466633",
+    "person_id": "P0071",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-DC466633.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-DC466633",
+    "document_id": "D-DC466633",
+    "person_id": "P0071",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-DC466633.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-E9C07E74",
+    "document_id": "D-E9C07E74",
+    "person_id": "P0072",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-E9C07E74.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-E9C07E74",
+    "document_id": "D-E9C07E74",
+    "person_id": "P0072",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-E9C07E74.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-DE0B4681",
+    "document_id": "D-DE0B4681",
+    "person_id": "P0072",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-DE0B4681.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-DE0B4681",
+    "document_id": "D-DE0B4681",
+    "person_id": "P0072",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-DE0B4681.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-109BAAA8",
+    "document_id": "D-109BAAA8",
+    "person_id": "P0073",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-109BAAA8.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-109BAAA8",
+    "document_id": "D-109BAAA8",
+    "person_id": "P0073",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-109BAAA8.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-203722BD",
+    "document_id": "D-203722BD",
+    "person_id": "P0073",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-203722BD.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-203722BD",
+    "document_id": "D-203722BD",
+    "person_id": "P0073",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-203722BD.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-153EEB7E",
+    "document_id": "D-153EEB7E",
+    "person_id": "P0073",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-153EEB7E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-153EEB7E",
+    "document_id": "D-153EEB7E",
+    "person_id": "P0073",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-153EEB7E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-834EADA2",
+    "document_id": "D-834EADA2",
+    "person_id": "P0073",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-834EADA2.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-834EADA2",
+    "document_id": "D-834EADA2",
+    "person_id": "P0073",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-834EADA2.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-2C6E786B",
+    "document_id": "D-2C6E786B",
+    "person_id": "P0074",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-2C6E786B.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-2C6E786B",
+    "document_id": "D-2C6E786B",
+    "person_id": "P0074",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-2C6E786B.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-E4009D2D",
+    "document_id": "D-E4009D2D",
+    "person_id": "P0074",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-E4009D2D.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-E4009D2D",
+    "document_id": "D-E4009D2D",
+    "person_id": "P0074",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-E4009D2D.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-8D243BAE",
+    "document_id": "D-8D243BAE",
+    "person_id": "P0074",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-8D243BAE.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-8D243BAE",
+    "document_id": "D-8D243BAE",
+    "person_id": "P0074",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-8D243BAE.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-79A42FE1",
+    "document_id": "D-79A42FE1",
+    "person_id": "P0075",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-79A42FE1.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-79A42FE1",
+    "document_id": "D-79A42FE1",
+    "person_id": "P0075",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-79A42FE1.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-8736DBC9",
+    "document_id": "D-8736DBC9",
+    "person_id": "P0075",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-8736DBC9.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-8736DBC9",
+    "document_id": "D-8736DBC9",
+    "person_id": "P0075",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-8736DBC9.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-521353FB",
+    "document_id": "D-521353FB",
+    "person_id": "P0076",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-521353FB.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-521353FB",
+    "document_id": "D-521353FB",
+    "person_id": "P0076",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-521353FB.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-0C9AA68A",
+    "document_id": "D-0C9AA68A",
+    "person_id": "P0076",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-0C9AA68A.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-0C9AA68A",
+    "document_id": "D-0C9AA68A",
+    "person_id": "P0076",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-0C9AA68A.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-9D17FEF9",
+    "document_id": "D-9D17FEF9",
+    "person_id": "P0076",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-9D17FEF9.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-9D17FEF9",
+    "document_id": "D-9D17FEF9",
+    "person_id": "P0076",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-9D17FEF9.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-95D351A1",
+    "document_id": "D-95D351A1",
+    "person_id": "P0076",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-95D351A1.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-95D351A1",
+    "document_id": "D-95D351A1",
+    "person_id": "P0076",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-95D351A1.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-445C02F5",
+    "document_id": "D-445C02F5",
+    "person_id": "P0077",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-445C02F5.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-445C02F5",
+    "document_id": "D-445C02F5",
+    "person_id": "P0077",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-445C02F5.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-BAB194DB",
+    "document_id": "D-BAB194DB",
+    "person_id": "P0077",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-BAB194DB.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-BAB194DB",
+    "document_id": "D-BAB194DB",
+    "person_id": "P0077",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-BAB194DB.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-F7BEF06E",
+    "document_id": "D-F7BEF06E",
+    "person_id": "P0077",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-F7BEF06E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-F7BEF06E",
+    "document_id": "D-F7BEF06E",
+    "person_id": "P0077",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-F7BEF06E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-00270E8E",
+    "document_id": "D-00270E8E",
+    "person_id": "P0077",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-00270E8E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-00270E8E",
+    "document_id": "D-00270E8E",
+    "person_id": "P0077",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-00270E8E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-20AD7B47",
+    "document_id": "D-20AD7B47",
+    "person_id": "P0078",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-20AD7B47.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-20AD7B47",
+    "document_id": "D-20AD7B47",
+    "person_id": "P0078",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-20AD7B47.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-88DAAEF7",
+    "document_id": "D-88DAAEF7",
+    "person_id": "P0078",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-88DAAEF7.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-88DAAEF7",
+    "document_id": "D-88DAAEF7",
+    "person_id": "P0078",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-88DAAEF7.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-293AF524",
+    "document_id": "D-293AF524",
+    "person_id": "P0079",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-293AF524.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-293AF524",
+    "document_id": "D-293AF524",
+    "person_id": "P0079",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-293AF524.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-D232C5E9",
+    "document_id": "D-D232C5E9",
+    "person_id": "P0079",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-D232C5E9.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-D232C5E9",
+    "document_id": "D-D232C5E9",
+    "person_id": "P0079",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-D232C5E9.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-A3978D6D",
+    "document_id": "D-A3978D6D",
+    "person_id": "P0079",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-A3978D6D.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-A3978D6D",
+    "document_id": "D-A3978D6D",
+    "person_id": "P0079",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-A3978D6D.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-DBAAA4A8",
+    "document_id": "D-DBAAA4A8",
+    "person_id": "P0080",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-DBAAA4A8.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-DBAAA4A8",
+    "document_id": "D-DBAAA4A8",
+    "person_id": "P0080",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-DBAAA4A8.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-1B9148DB",
+    "document_id": "D-1B9148DB",
+    "person_id": "P0080",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-1B9148DB.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-1B9148DB",
+    "document_id": "D-1B9148DB",
+    "person_id": "P0080",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-1B9148DB.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-E3A8C744",
+    "document_id": "D-E3A8C744",
+    "person_id": "P0080",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-E3A8C744.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-E3A8C744",
+    "document_id": "D-E3A8C744",
+    "person_id": "P0080",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-E3A8C744.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-6957D556",
+    "document_id": "D-6957D556",
+    "person_id": "P0080",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-6957D556.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-6957D556",
+    "document_id": "D-6957D556",
+    "person_id": "P0080",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-6957D556.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-E9ECAA5C",
+    "document_id": "D-E9ECAA5C",
+    "person_id": "P0081",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-E9ECAA5C.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-E9ECAA5C",
+    "document_id": "D-E9ECAA5C",
+    "person_id": "P0081",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-E9ECAA5C.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-C8F4CBF6",
+    "document_id": "D-C8F4CBF6",
+    "person_id": "P0081",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-C8F4CBF6.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-C8F4CBF6",
+    "document_id": "D-C8F4CBF6",
+    "person_id": "P0081",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-C8F4CBF6.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-B5969D62",
+    "document_id": "D-B5969D62",
+    "person_id": "P0081",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-B5969D62.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-B5969D62",
+    "document_id": "D-B5969D62",
+    "person_id": "P0081",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-B5969D62.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-F990DB17",
+    "document_id": "D-F990DB17",
+    "person_id": "P0082",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-F990DB17.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-F990DB17",
+    "document_id": "D-F990DB17",
+    "person_id": "P0082",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-F990DB17.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-5E6F5833",
+    "document_id": "D-5E6F5833",
+    "person_id": "P0082",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-5E6F5833.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-5E6F5833",
+    "document_id": "D-5E6F5833",
+    "person_id": "P0082",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-5E6F5833.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-432B42B9",
+    "document_id": "D-432B42B9",
+    "person_id": "P0082",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-432B42B9.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-432B42B9",
+    "document_id": "D-432B42B9",
+    "person_id": "P0082",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-432B42B9.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-2CD7ED5E",
+    "document_id": "D-2CD7ED5E",
+    "person_id": "P0082",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-2CD7ED5E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-2CD7ED5E",
+    "document_id": "D-2CD7ED5E",
+    "person_id": "P0082",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-2CD7ED5E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-9E3C039E",
+    "document_id": "D-9E3C039E",
+    "person_id": "P0083",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-9E3C039E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-9E3C039E",
+    "document_id": "D-9E3C039E",
+    "person_id": "P0083",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-9E3C039E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-9AEFC505",
+    "document_id": "D-9AEFC505",
+    "person_id": "P0083",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-9AEFC505.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-9AEFC505",
+    "document_id": "D-9AEFC505",
+    "person_id": "P0083",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-9AEFC505.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-E51363B6",
+    "document_id": "D-E51363B6",
+    "person_id": "P0083",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-E51363B6.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-E51363B6",
+    "document_id": "D-E51363B6",
+    "person_id": "P0083",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-E51363B6.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-3D3E177D",
+    "document_id": "D-3D3E177D",
+    "person_id": "P0083",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-3D3E177D.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-3D3E177D",
+    "document_id": "D-3D3E177D",
+    "person_id": "P0083",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-3D3E177D.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-E9878016",
+    "document_id": "D-E9878016",
+    "person_id": "P0084",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-E9878016.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-E9878016",
+    "document_id": "D-E9878016",
+    "person_id": "P0084",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-E9878016.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-6186697E",
+    "document_id": "D-6186697E",
+    "person_id": "P0084",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-6186697E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-6186697E",
+    "document_id": "D-6186697E",
+    "person_id": "P0084",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-6186697E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-43EF5B81",
+    "document_id": "D-43EF5B81",
+    "person_id": "P0084",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-43EF5B81.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-43EF5B81",
+    "document_id": "D-43EF5B81",
+    "person_id": "P0084",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-43EF5B81.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-7C792FDA",
+    "document_id": "D-7C792FDA",
+    "person_id": "P0085",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-7C792FDA.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-7C792FDA",
+    "document_id": "D-7C792FDA",
+    "person_id": "P0085",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-7C792FDA.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-1FEF1E6E",
+    "document_id": "D-1FEF1E6E",
+    "person_id": "P0085",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-1FEF1E6E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-1FEF1E6E",
+    "document_id": "D-1FEF1E6E",
+    "person_id": "P0085",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-1FEF1E6E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-2990D7F4",
+    "document_id": "D-2990D7F4",
+    "person_id": "P0086",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-2990D7F4.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-2990D7F4",
+    "document_id": "D-2990D7F4",
+    "person_id": "P0086",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-2990D7F4.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-1BD1F5E9",
+    "document_id": "D-1BD1F5E9",
+    "person_id": "P0086",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-1BD1F5E9.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-1BD1F5E9",
+    "document_id": "D-1BD1F5E9",
+    "person_id": "P0086",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-1BD1F5E9.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-5C293257",
+    "document_id": "D-5C293257",
+    "person_id": "P0087",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-5C293257.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-5C293257",
+    "document_id": "D-5C293257",
+    "person_id": "P0087",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-5C293257.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-695D51E7",
+    "document_id": "D-695D51E7",
+    "person_id": "P0087",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-695D51E7.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-695D51E7",
+    "document_id": "D-695D51E7",
+    "person_id": "P0087",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-695D51E7.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-A089A620",
+    "document_id": "D-A089A620",
+    "person_id": "P0087",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-A089A620.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-A089A620",
+    "document_id": "D-A089A620",
+    "person_id": "P0087",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-A089A620.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-0FB570FB",
+    "document_id": "D-0FB570FB",
+    "person_id": "P0087",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-0FB570FB.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-0FB570FB",
+    "document_id": "D-0FB570FB",
+    "person_id": "P0087",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-0FB570FB.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-D8D12398",
+    "document_id": "D-D8D12398",
+    "person_id": "P0088",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-D8D12398.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-D8D12398",
+    "document_id": "D-D8D12398",
+    "person_id": "P0088",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-D8D12398.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-A46481D2",
+    "document_id": "D-A46481D2",
+    "person_id": "P0088",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-A46481D2.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-A46481D2",
+    "document_id": "D-A46481D2",
+    "person_id": "P0088",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-A46481D2.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-F6451538",
+    "document_id": "D-F6451538",
+    "person_id": "P0089",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-F6451538.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-F6451538",
+    "document_id": "D-F6451538",
+    "person_id": "P0089",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-F6451538.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-EA0902D9",
+    "document_id": "D-EA0902D9",
+    "person_id": "P0089",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-EA0902D9.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-EA0902D9",
+    "document_id": "D-EA0902D9",
+    "person_id": "P0089",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-EA0902D9.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-CF756E11",
+    "document_id": "D-CF756E11",
+    "person_id": "P0089",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-CF756E11.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-CF756E11",
+    "document_id": "D-CF756E11",
+    "person_id": "P0089",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-CF756E11.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-88C91C4E",
+    "document_id": "D-88C91C4E",
+    "person_id": "P0089",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-88C91C4E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-88C91C4E",
+    "document_id": "D-88C91C4E",
+    "person_id": "P0089",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-88C91C4E.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-681BFB37",
+    "document_id": "D-681BFB37",
+    "person_id": "P0090",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-681BFB37.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-681BFB37",
+    "document_id": "D-681BFB37",
+    "person_id": "P0090",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-681BFB37.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-EF7B86B4",
+    "document_id": "D-EF7B86B4",
+    "person_id": "P0090",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-EF7B86B4.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-EF7B86B4",
+    "document_id": "D-EF7B86B4",
+    "person_id": "P0090",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-EF7B86B4.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-screen_recapture_simulated-D-E4E24D99",
+    "document_id": "D-E4E24D99",
+    "person_id": "P0090",
+    "image_path": "data/images/capture_variants/screen_recapture_simulated/D-E4E24D99.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "screen_recapture_simulated"
+  },
+  {
+    "case_id": "CAPTURE-print_recapture_simulated-D-E4E24D99",
+    "document_id": "D-E4E24D99",
+    "person_id": "P0090",
+    "image_path": "data/images/capture_variants/print_recapture_simulated/D-E4E24D99.png",
+    "expected_label": "RECAPTURE",
+    "attack_type": "print_recapture_simulated"
+  }
+]

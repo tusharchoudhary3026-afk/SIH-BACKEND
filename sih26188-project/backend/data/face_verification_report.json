@@ -29,5 +29,36 @@
     "reason_codes": [
       "LOW_IMAGE_QUALITY"
     ]
+  },
+  {
+    "case_id": "FV-002",
+    "person_id": "DEMO-P002",
+    "document_id": "DEMO-D002",
+    "document_face_count": 1,
+    "selfie_face_count": 1,
+    "document_face_confidence": 0.8131,
+    "selfie_face_confidence": 0.7776,
+    "similarity_score": 0.6339,
+    "document_quality_score": 0.4065,
+    "selfie_quality_score": 0.3888,
+    "document_quality_details": {
+      "width": 397,
+      "height": 480,
+      "blur": 14.29,
+      "brightness": 98.61,
+      "detection_confidence": 0.8131
+    },
+    "selfie_quality_details": {
+      "width": 460,
+      "height": 519,
+      "blur": 9.81,
+      "brightness": 96.83,
+      "detection_confidence": 0.7776
+    },
+    "decision": "INCONCLUSIVE",
+    "risk_score": 60,
+    "reason_codes": [
+      "LOW_IMAGE_QUALITY"
+    ]
   }
 ]

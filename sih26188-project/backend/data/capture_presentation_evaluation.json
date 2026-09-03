@@ -1,0 +1,10 @@
+{
+  "dataset": "controlled simulated screen/print recaptures",
+  "true_positive": 538,
+  "false_positive": 0,
+  "true_negative": 269,
+  "false_negative": 0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "note": "Validation covers synthetic simulations; real camera-captured screen/print samples remain required for real-world claims."
+}

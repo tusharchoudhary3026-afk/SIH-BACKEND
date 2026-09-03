@@ -111,6 +111,45 @@ def get_consistency_report():
     return load_json("consistency_report.json")
 
 
+@app.get("/document-intelligence-report")
+def get_document_intelligence_report():
+    return load_json("document_intelligence_report.json")
+
+
+@app.post("/engine/run-document-intelligence")
+def run_document_intelligence():
+    return run_batch_engine(
+        "document_intelligence_engine.py",
+        "Document intelligence engine",
+    )
+
+
+@app.get("/document-forensics-report")
+def get_document_forensics_report():
+    return load_json("document_forensics_report.json")
+
+
+@app.post("/engine/run-document-forensics")
+def run_document_forensics():
+    return run_batch_engine(
+        "document_forensics_engine.py",
+        "Document forensics engine",
+    )
+
+
+@app.get("/capture-presentation-report")
+def get_capture_presentation_report():
+    return load_json("capture_presentation_report.json")
+
+
+@app.post("/engine/run-capture-presentation")
+def run_capture_presentation():
+    return run_batch_engine(
+        "capture_presentation_engine.py",
+        "Capture presentation engine",
+    )
+
+
 @app.post("/engine/run-consistency-check")
 def run_consistency_check():
     result = subprocess.run(

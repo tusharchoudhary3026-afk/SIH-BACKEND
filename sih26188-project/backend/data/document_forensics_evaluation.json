@@ -1,0 +1,47 @@
+{
+  "dataset": "controlled mock-ID variants",
+  "labeled_cases": 1345,
+  "best_observed_threshold": {
+    "threshold": 75.0,
+    "true_positive": 1076,
+    "false_positive": 0,
+    "true_negative": 269,
+    "false_negative": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "note": "Threshold is descriptive on this synthetic set and is not a production calibration.",
+  "attack_breakdown": {
+    "field_edit": {
+      "cases": 269,
+      "risk_min": 75.0,
+      "risk_max": 75.0,
+      "flagged_at_best_threshold": 269
+    },
+    "genuine": {
+      "cases": 269,
+      "risk_min": 4.4,
+      "risk_max": 13.1,
+      "flagged_at_best_threshold": 0
+    },
+    "noise_injection": {
+      "cases": 269,
+      "risk_min": 75.0,
+      "risk_max": 75.0,
+      "flagged_at_best_threshold": 269
+    },
+    "photo_swap": {
+      "cases": 269,
+      "risk_min": 75.0,
+      "risk_max": 75.0,
+      "flagged_at_best_threshold": 269
+    },
+    "recompression": {
+      "cases": 269,
+      "risk_min": 75.0,
+      "risk_max": 75.0,
+      "flagged_at_best_threshold": 269
+    }
+  }
+}

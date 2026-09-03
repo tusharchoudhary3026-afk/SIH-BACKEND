@@ -5,6 +5,7 @@ fastapi
 uvicorn[standard]
 networkx
 pillow
+pytesseract
 insightface
 onnxruntime
 opencv-python

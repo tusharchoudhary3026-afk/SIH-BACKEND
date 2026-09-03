@@ -1,0 +1,22 @@
+{
+  "dataset": "269 synthetic mock IDs",
+  "ocr_completed": 269,
+  "field_recovery": {
+    "name": {
+      "matched": 269,
+      "total": 269,
+      "rate": 1.0
+    },
+    "dob": {
+      "matched": 269,
+      "total": 269,
+      "rate": 1.0
+    },
+    "document_number": {
+      "matched": 226,
+      "total": 269,
+      "rate": 0.8401
+    }
+  },
+  "note": "Exact normalized matching on the project's rendered English fields; Hindi OCR is not evaluated because Hindi language data is not installed."
+}
