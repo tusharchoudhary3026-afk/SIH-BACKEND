@@ -184,3 +184,66 @@ def run_ai_forgery():
         "ai_forgery_engine.py",
         "AI forgery engine",
     )
+# --------------------------------------------------------------------------
+# ENGINE 8 -- Fraud Relationship Graph endpoints
+# --------------------------------------------------------------------------
+
+@app.get("/graph/clusters")
+def get_graph_clusters():
+    """All detected fraud clusters (identity collisions, shared faces, etc.)"""
+    return load_json("graph_clusters.json")
+
+
+@app.get("/graph/cytoscape-elements")
+def get_cytoscape_elements():
+    """
+    Nodes + edges in Cytoscape.js format, ready to feed straight into
+    the frontend graph visualization page.
+    """
+    return load_json("graph_cytoscape.json")
+
+
+@app.get("/graph/person/{person_id}")
+def get_person_cluster(person_id: str):
+    """
+    Investigation lookup: is this person connected to a fraud ring?
+    Returns cluster info if yes, or {"in_fraud_cluster": false} if not.
+    """
+    index = load_json("graph_person_index.json")
+    if person_id not in index:
+        raise HTTPException(status_code=404, detail=f"Person {person_id} not found")
+
+    entry = index[person_id]
+    if entry is None:
+        return {"person_id": person_id, "in_fraud_cluster": False}
+    return {"person_id": person_id, "in_fraud_cluster": True, **entry}
+
+
+@app.get("/graph/search")
+def search_graph(q: str):
+    """
+    Simple investigation search: matches on person_id (exact/partial)
+    or canonical name (case-insensitive substring).
+    """
+    persons = load_json("persons.json")
+    q_lower = q.lower()
+    matches = [
+        p for p in persons
+        if q_lower in p["person_id"].lower() or q_lower in p["canonical_name_en"].lower()
+    ]
+    return {"query": q, "results": matches}
+
+
+@app.post("/engine/run-graph-analysis")
+def run_graph_analysis():
+    """
+    Re-runs fraud_graph_engine.py as a subprocess. Call this after
+    re-running the dataset generator or consistency engine.
+    """
+    result = subprocess.run(
+        [sys.executable, str(ENGINES_DIR / "fraud_graph_engine.py")],
+        capture_output=True, text=True, cwd=str(ENGINES_DIR),
+    )
+    if result.returncode != 0:
+        raise HTTPException(status_code=500, detail=result.stderr)
+    return {"status": "completed", "log": result.stdout}

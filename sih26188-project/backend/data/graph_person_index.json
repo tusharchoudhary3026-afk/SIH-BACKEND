@@ -1,0 +1,134 @@
+{
+  "P0022": {
+    "cluster_id": "CLUSTER-001",
+    "cluster_size": 2,
+    "severity": "MEDIUM",
+    "relation_types": [
+      "SAME_DOCUMENT_NUMBER"
+    ]
+  },
+  "P0029": {
+    "cluster_id": "CLUSTER-001",
+    "cluster_size": 2,
+    "severity": "MEDIUM",
+    "relation_types": [
+      "SAME_DOCUMENT_NUMBER"
+    ]
+  },
+  "P0038": {
+    "cluster_id": "CLUSTER-002",
+    "cluster_size": 2,
+    "severity": "MEDIUM",
+    "relation_types": [
+      "SAME_DOCUMENT_NUMBER"
+    ]
+  },
+  "P0060": {
+    "cluster_id": "CLUSTER-002",
+    "cluster_size": 2,
+    "severity": "MEDIUM",
+    "relation_types": [
+      "SAME_DOCUMENT_NUMBER"
+    ]
+  },
+  "P0005": {
+    "cluster_id": "CLUSTER-003",
+    "cluster_size": 2,
+    "severity": "MEDIUM",
+    "relation_types": [
+      "SAME_DOCUMENT_NUMBER"
+    ]
+  },
+  "P0057": {
+    "cluster_id": "CLUSTER-003",
+    "cluster_size": 2,
+    "severity": "MEDIUM",
+    "relation_types": [
+      "SAME_DOCUMENT_NUMBER"
+    ]
+  },
+  "P0072": null,
+  "P0058": null,
+  "P0077": null,
+  "P0052": null,
+  "P0048": null,
+  "P0006": null,
+  "P0068": null,
+  "P0045": null,
+  "P0043": null,
+  "P0074": null,
+  "P0032": null,
+  "P0055": null,
+  "P0084": null,
+  "P0051": null,
+  "P0070": null,
+  "P0030": null,
+  "P0039": null,
+  "P0013": null,
+  "P0080": null,
+  "P0033": null,
+  "P0009": null,
+  "P0067": null,
+  "P0083": null,
+  "P0025": null,
+  "P0044": null,
+  "P0089": null,
+  "P0090": null,
+  "P0062": null,
+  "P0082": null,
+  "P0047": null,
+  "P0078": null,
+  "P0042": null,
+  "P0015": null,
+  "P0046": null,
+  "P0024": null,
+  "P0076": null,
+  "P0063": null,
+  "P0036": null,
+  "P0014": null,
+  "P0021": null,
+  "P0081": null,
+  "P0071": null,
+  "P0023": null,
+  "P0054": null,
+  "P0016": null,
+  "P0066": null,
+  "P0010": null,
+  "P0040": null,
+  "P0007": null,
+  "P0087": null,
+  "P0026": null,
+  "P0041": null,
+  "P0079": null,
+  "P0053": null,
+  "P0002": null,
+  "P0019": null,
+  "P0061": null,
+  "P0034": null,
+  "P0069": null,
+  "P0001": null,
+  "P0017": null,
+  "P0008": null,
+  "P0003": null,
+  "P0018": null,
+  "P0064": null,
+  "P0035": null,
+  "P0088": null,
+  "P0011": null,
+  "P0059": null,
+  "P0028": null,
+  "P0056": null,
+  "P0073": null,
+  "P0012": null,
+  "P0027": null,
+  "P0086": null,
+  "P0065": null,
+  "P0075": null,
+  "P0085": null,
+  "P0037": null,
+  "P0049": null,
+  "P0020": null,
+  "P0004": null,
+  "P0031": null,
+  "P0050": null
+}
