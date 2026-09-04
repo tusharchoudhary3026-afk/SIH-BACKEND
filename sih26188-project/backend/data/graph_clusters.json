@@ -1,0 +1,59 @@
+[
+  {
+    "cluster_id": "CLUSTER-001",
+    "member_person_ids": [
+      "P0022",
+      "P0029"
+    ],
+    "cluster_size": 2,
+    "relation_types": [
+      "SAME_DOCUMENT_NUMBER"
+    ],
+    "severity": "MEDIUM",
+    "edges": [
+      {
+        "source": "P0029",
+        "target": "P0022",
+        "relation": "SAME_DOCUMENT_NUMBER"
+      }
+    ]
+  },
+  {
+    "cluster_id": "CLUSTER-002",
+    "member_person_ids": [
+      "P0038",
+      "P0060"
+    ],
+    "cluster_size": 2,
+    "relation_types": [
+      "SAME_DOCUMENT_NUMBER"
+    ],
+    "severity": "MEDIUM",
+    "edges": [
+      {
+        "source": "P0038",
+        "target": "P0060",
+        "relation": "SAME_DOCUMENT_NUMBER"
+      }
+    ]
+  },
+  {
+    "cluster_id": "CLUSTER-003",
+    "member_person_ids": [
+      "P0005",
+      "P0057"
+    ],
+    "cluster_size": 2,
+    "relation_types": [
+      "SAME_DOCUMENT_NUMBER"
+    ],
+    "severity": "MEDIUM",
+    "edges": [
+      {
+        "source": "P0005",
+        "target": "P0057",
+        "relation": "SAME_DOCUMENT_NUMBER"
+      }
+    ]
+  }
+]

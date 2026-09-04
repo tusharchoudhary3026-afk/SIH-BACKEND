@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>SIH26188 - Fraud Relationship Graph</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.28.1/cytoscape.min.js"></script>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    background: #0f1115;
+    color: #e6e6e6;
+  }
+  #topbar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    background: #171a21;
+    border-bottom: 1px solid #2a2e38;
+  }
+  #topbar h1 { font-size: 16px; margin: 0; font-weight: 600; flex: 1; }
+  #topbar input {
+    background: #0f1115; border: 1px solid #2a2e38; color: #e6e6e6;
+    padding: 6px 10px; border-radius: 6px; width: 220px;
+  }
+  #topbar button {
+    background: #3b6ef6; color: white; border: none; padding: 7px 14px;
+    border-radius: 6px; cursor: pointer; font-size: 13px;
+  }
+  #topbar button:hover { background: #2d59d6; }
+  #legend {
+    display: flex; gap: 16px; padding: 8px 16px; font-size: 12px;
+    background: #12141a; border-bottom: 1px solid #2a2e38; color: #aaa;
+  }
+  .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
+  #cy { width: 100%; height: calc(100vh - 84px); }
+  #sidepanel {
+    position: fixed; top: 84px; right: 0; width: 300px; height: calc(100vh - 84px);
+    background: #171a21; border-left: 1px solid #2a2e38; padding: 16px;
+    overflow-y: auto; transform: translateX(100%); transition: transform 0.2s;
+  }
+  #sidepanel.open { transform: translateX(0); }
+  #sidepanel h2 { font-size: 14px; margin-top: 0; }
+  #sidepanel .row { margin-bottom: 10px; font-size: 13px; }
+  #sidepanel .label { color: #888; font-size: 11px; text-transform: uppercase; }
+  #closePanel { float: right; cursor: pointer; color: #888; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+</style>
+</head>
+<body>
+
+<div id="topbar">
+  <h1>🕸️ Fraud Relationship Graph — SIH26188</h1>
+  <input id="searchBox" placeholder="Search person_id or name..." />
+  <button onclick="doSearch()">Search</button>
+  <button onclick="resetView()">Reset View</button>
+</div>
+
+<div id="legend">
+  <span><span class="dot" style="background:#4ade80"></span>Genuine person</span>
+  <span><span class="dot" style="background:#facc15"></span>Medium risk cluster</span>
+  <span><span class="dot" style="background:#f87171"></span>High risk cluster</span>
+  <span><span class="dot" style="background:#60a5fa"></span>Document node</span>
+  <span style="color:#f87171">— thick red edge = suspicious link (same face / same doc number)</span>
+</div>
+
+<div id="cy"></div>
+
+<div id="sidepanel">
+  <span id="closePanel" onclick="closePanel()">✕</span>
+  <h2 id="panelTitle">Details</h2>
+  <div id="panelBody"></div>
+</div>
+
+<script>
+const API_BASE = "http://127.0.0.1:8000";
+let cy;
+
+function nodeColor(node) {
+  if (node.data("type") === "document") return "#60a5fa";
+  if (node.data("in_fraud_cluster")) {
+    return node.data("cluster_severity") === "HIGH" ? "#f87171" : "#facc15";
+  }
+  return "#4ade80";
+}
+
+async function loadGraph() {
+  const res = await fetch(`${API_BASE}/graph/cytoscape-elements`);
+  const elements = await res.json();
+
+  cy = cytoscape({
+    container: document.getElementById("cy"),
+    elements: [
+      ...elements.nodes.map(n => ({ data: n.data })),
+      ...elements.edges.map(e => ({ data: e.data })),
+    ],
+    style: [
+      {
+        selector: "node",
+        style: {
+          "background-color": ele => nodeColor(ele),
+          "label": "data(label)",
+          "font-size": 8,
+          "color": "#e6e6e6",
+          "width": ele => ele.data("type") === "document" ? 14 : 22,
+          "height": ele => ele.data("type") === "document" ? 14 : 22,
+          "text-valign": "bottom",
+          "text-margin-y": 4,
+          "border-width": ele => ele.data("in_fraud_cluster") ? 2 : 0,
+          "border-color": "#fff",
+        },
+      },
+      {
+        selector: "edge",
+        style: {
+          "width": ele => ele.data("suspicious") ? 3 : 1,
+          "line-color": ele => ele.data("suspicious") ? "#f87171" : "#3a3f4b",
+          "target-arrow-shape": ele => ele.data("suspicious") ? "none" : "triangle",
+          "target-arrow-color": "#3a3f4b",
+          "curve-style": "bezier",
+          "opacity": ele => ele.data("suspicious") ? 1 : 0.35,
+        },
+      },
+    ],
+    layout: { name: "cose", animate: false, idealEdgeLength: 80, nodeRepulsion: 8000 },
+  });
+
+  cy.on("tap", "node", async (evt) => {
+    const node = evt.target;
+    if (node.data("type") === "person") {
+      await showPersonPanel(node.data("id"));
+    } else {
+      showDocumentPanel(node.data());
+    }
+  });
+}
+
+async function showPersonPanel(personId) {
+  const res = await fetch(`${API_BASE}/persons/${personId}`);
+  const data = await res.json();
+  const clusterRes = await fetch(`${API_BASE}/graph/person/${personId}`);
+  const clusterInfo = await clusterRes.json();
+
+  document.getElementById("panelTitle").textContent = data.person.canonical_name_en;
+
+  let clusterHtml = `<span class="badge" style="background:#374151">Not in any fraud cluster</span>`;
+  if (clusterInfo.in_fraud_cluster) {
+    const color = clusterInfo.severity === "HIGH" ? "#f87171" : "#facc15";
+    clusterHtml = `<span class="badge" style="background:${color};color:#111">
+      ${clusterInfo.cluster_id} — ${clusterInfo.severity} (${clusterInfo.relation_types.join(", ")})
+    </span>`;
+  }
+
+  const findingsHtml = data.findings.length
+    ? data.findings.map(f => `<div class="row">⚠️ <b>${f.check}</b> (${f.severity})<br><span style="color:#aaa">${f.detail}</span></div>`).join("")
+    : `<div class="row" style="color:#6b7280">No consistency issues found.</div>`;
+
+  document.getElementById("panelBody").innerHTML = `
+    <div class="row"><span class="label">Person ID</span><br>${data.person.person_id}</div>
+    <div class="row"><span class="label">DOB</span><br>${data.person.dob}</div>
+    <div class="row"><span class="label">Fraud Cluster</span><br>${clusterHtml}</div>
+    <div class="row"><span class="label">Documents</span><br>${data.documents.map(d => d.doc_type).join(", ")}</div>
+    <hr style="border-color:#2a2e38">
+    <div class="label">Consistency Findings</div>
+    ${findingsHtml}
+  `;
+  document.getElementById("sidepanel").classList.add("open");
+}
+
+function showDocumentPanel(nodeData) {
+  document.getElementById("panelTitle").textContent = "Document";
+  document.getElementById("panelBody").innerHTML = `
+    <div class="row"><span class="label">Document ID</span><br>${nodeData.id}</div>
+  `;
+  document.getElementById("sidepanel").classList.add("open");
+}
+
+function closePanel() {
+  document.getElementById("sidepanel").classList.remove("open");
+}
+
+async function doSearch() {
+  const q = document.getElementById("searchBox").value.trim();
+  if (!q) return;
+  const res = await fetch(`${API_BASE}/graph/search?q=${encodeURIComponent(q)}`);
+  const data = await res.json();
+  if (data.results.length === 0) {
+    alert("No match found.");
+    return;
+  }
+  const targetId = data.results[0].person_id;
+  const node = cy.getElementById(targetId);
+  if (node) {
+    cy.animate({ center: { eles: node }, zoom: 2 }, { duration: 400 });
+    node.select();
+    showPersonPanel(targetId);
+  }
+}
+
+function resetView() {
+  cy.fit();
+  closePanel();
+}
+
+loadGraph();
+</script>
+
+</body>
+</html>
