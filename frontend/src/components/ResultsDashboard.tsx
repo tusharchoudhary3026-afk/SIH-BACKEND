@@ -192,15 +192,6 @@ export const ResultsDashboard: React.FC<ResultsDashboardProps> = ({
                     }`}
                   />
                   <h4 className="text-sm font-bold text-white">{mod.name}</h4>
-                  <span
-                    className={`text-[11px] font-mono font-semibold px-2 py-0.5 rounded-full border ${
-                      mod.score > 50
-                        ? 'bg-red-500/15 text-red-400 border-red-500/30'
-                        : 'bg-emerald-500/15 text-emerald-400 border-emerald-500/30'
-                    }`}
-                  >
-                    {mod.status}
-                  </span>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="text-xs font-mono text-gray-400">Anomaly Risk:</span>

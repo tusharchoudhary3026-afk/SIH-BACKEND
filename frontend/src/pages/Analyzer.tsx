@@ -88,35 +88,35 @@ export const Analyzer: React.FC = () => {
             id: 'gemini',
             name: 'Gemini Multi-Modal Vision Forensics',
             score: Math.round(detectRes.confidence || 0),
-            status: detectRes.isAi ? 'Synthetic Artifacts Flagged' : 'Organic Sensor Match',
+            status: '',
             description: detectRes.explanation?.gemini || 'Analyzes neural image semantics.'
           },
           {
             id: 'ela',
             name: 'Error Level Analysis (ELA)',
             score: Math.round((detectRes.forensicSignals?.ela?.aiLikelihood || 0) * 100),
-            status: (detectRes.forensicSignals?.ela?.aiLikelihood || 0) > 0.5 ? 'Anomaly Detected' : 'Normal Compression',
+            status: '',
             description: 'Evaluates error rate disparities between resaved compression passes.'
           },
           {
             id: 'c2pa',
             name: 'Metadata & C2PA Provenance',
             score: Math.round((detectRes.forensicSignals?.synthId?.c2pa?.aiLikelihood || 0) * 100),
-            status: detectRes.synthIdStatus || 'UNKNOWN',
+            status: '',
             description: 'Validates cryptographic Content Credentials (C2PA).'
           },
           {
             id: 'freq',
             name: 'Frequency & Noise Spectral Analysis',
             score: Math.round((detectRes.forensicSignals?.frequency?.aiLikelihood || 0) * 100),
-            status: (detectRes.forensicSignals?.frequency?.aiLikelihood || 0) > 0.5 ? 'Spectral Peaks Detected' : 'Natural Spectral Decay',
+            status: '',
             description: 'Fourier transform inspection checking for GAN upsampling artifacts.'
           },
           {
             id: 'noise',
             name: 'Local Noise Consistency',
             score: Math.round((detectRes.forensicSignals?.noise?.aiLikelihood || 0) * 100),
-            status: (detectRes.forensicSignals?.noise?.aiLikelihood || 0) > 0.5 ? 'Inconsistent Noise Variance' : 'Uniform Noise Profile',
+            status: '',
             description: 'Assesses ISO sensor noise distribution across adjacent image patches.'
           }
         ],
