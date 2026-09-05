@@ -13,3 +13,5 @@ numpy
 torch
 torchvision
 transformers
+python-multipart
+scikit-learn

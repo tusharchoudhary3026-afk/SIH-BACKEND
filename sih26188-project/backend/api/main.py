@@ -247,3 +247,47 @@ def run_graph_analysis():
     if result.returncode != 0:
         raise HTTPException(status_code=500, detail=result.stderr)
     return {"status": "completed", "log": result.stdout}
+
+# --------------------------------------------------------------------------
+# ENGINE 6 -- Face Liveness / Presentation-Attack Detection endpoints
+# --------------------------------------------------------------------------
+
+from fastapi import UploadFile, File
+from PIL import Image
+import io as _io
+import sys as _sys
+_sys.path.insert(0, str(ENGINES_DIR))
+from liveness_engine import analyze_liveness  # noqa: E402
+
+
+@app.post("/liveness/analyze")
+async def analyze_liveness_upload(file: UploadFile = File(...)):
+    """
+    Upload any image (a selfie, a photo of a photo, a screenshot -- try
+    different kinds!) and get back a liveness verdict with the individual
+    sharpness / moire / color-diversity signal scores that drove it.
+    """
+    contents = await file.read()
+    try:
+        img = Image.open(_io.BytesIO(contents))
+    except Exception:
+        raise HTTPException(status_code=400, detail="Could not read uploaded file as an image.")
+    return analyze_liveness(img)
+
+
+@app.get("/liveness/test-report")
+def get_liveness_test_report():
+    """Results of Engine 6's self-test on synthetic genuine-vs-recapture samples."""
+    return load_json("liveness_test_report.json")
+
+
+@app.post("/engine/run-liveness-selftest")
+def run_liveness_selftest():
+    """Re-runs liveness_engine.py's synthetic self-test."""
+    result = subprocess.run(
+        [sys.executable, str(ENGINES_DIR / "liveness_engine.py")],
+        capture_output=True, text=True, cwd=str(ENGINES_DIR),
+    )
+    if result.returncode != 0:
+        raise HTTPException(status_code=500, detail=result.stderr)
+    return {"status": "completed", "log": result.stdout}

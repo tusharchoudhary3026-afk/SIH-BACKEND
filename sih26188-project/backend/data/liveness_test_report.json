@@ -1,0 +1,185 @@
+[
+  {
+    "sample": "genuine_0",
+    "ground_truth": "LIVE",
+    "liveness_consistency_score": 93.8,
+    "verdict": "LIVE",
+    "signals": {
+      "sharpness_score": 100.0,
+      "moire_score": 9.5,
+      "color_diversity_score": 87.8
+    },
+    "reasons": [
+      "No presentation-attack indicators detected across sharpness, frequency, or color-diversity checks."
+    ],
+    "deepfake_check": {
+      "status": "MOCK_NOT_IMPLEMENTED",
+      "note": "Real deepfake/face-swap detection requires a CNN trained on FaceForensics++ or similar -- out of scope for this hackathon build. Roadmap item."
+    }
+  },
+  {
+    "sample": "spoof_0",
+    "ground_truth": "SPOOF",
+    "liveness_consistency_score": 57.1,
+    "verdict": "SPOOF_SUSPECTED",
+    "signals": {
+      "sharpness_score": 45.9,
+      "moire_score": 8.6,
+      "color_diversity_score": 10.8
+    },
+    "reasons": [
+      "Compressed color diversity (10.8/100) -- consistent with print/screen color banding."
+    ],
+    "deepfake_check": {
+      "status": "MOCK_NOT_IMPLEMENTED",
+      "note": "Real deepfake/face-swap detection requires a CNN trained on FaceForensics++ or similar -- out of scope for this hackathon build. Roadmap item."
+    }
+  },
+  {
+    "sample": "genuine_1",
+    "ground_truth": "LIVE",
+    "liveness_consistency_score": 93.7,
+    "verdict": "LIVE",
+    "signals": {
+      "sharpness_score": 100.0,
+      "moire_score": 9.6,
+      "color_diversity_score": 87.5
+    },
+    "reasons": [
+      "No presentation-attack indicators detected across sharpness, frequency, or color-diversity checks."
+    ],
+    "deepfake_check": {
+      "status": "MOCK_NOT_IMPLEMENTED",
+      "note": "Real deepfake/face-swap detection requires a CNN trained on FaceForensics++ or similar -- out of scope for this hackathon build. Roadmap item."
+    }
+  },
+  {
+    "sample": "spoof_1",
+    "ground_truth": "SPOOF",
+    "liveness_consistency_score": 52.0,
+    "verdict": "SPOOF_SUSPECTED",
+    "signals": {
+      "sharpness_score": 32.0,
+      "moire_score": 7.8,
+      "color_diversity_score": 11.8
+    },
+    "reasons": [
+      "Low sharpness (32.0/100) -- consistent with a recaptured/re-photographed image rather than a direct live shot.",
+      "Compressed color diversity (11.8/100) -- consistent with print/screen color banding."
+    ],
+    "deepfake_check": {
+      "status": "MOCK_NOT_IMPLEMENTED",
+      "note": "Real deepfake/face-swap detection requires a CNN trained on FaceForensics++ or similar -- out of scope for this hackathon build. Roadmap item."
+    }
+  },
+  {
+    "sample": "genuine_2",
+    "ground_truth": "LIVE",
+    "liveness_consistency_score": 93.4,
+    "verdict": "LIVE",
+    "signals": {
+      "sharpness_score": 100.0,
+      "moire_score": 9.5,
+      "color_diversity_score": 86.1
+    },
+    "reasons": [
+      "No presentation-attack indicators detected across sharpness, frequency, or color-diversity checks."
+    ],
+    "deepfake_check": {
+      "status": "MOCK_NOT_IMPLEMENTED",
+      "note": "Real deepfake/face-swap detection requires a CNN trained on FaceForensics++ or similar -- out of scope for this hackathon build. Roadmap item."
+    }
+  },
+  {
+    "sample": "spoof_2",
+    "ground_truth": "SPOOF",
+    "liveness_consistency_score": 50.8,
+    "verdict": "SPOOF_SUSPECTED",
+    "signals": {
+      "sharpness_score": 29.5,
+      "moire_score": 7.7,
+      "color_diversity_score": 10.5
+    },
+    "reasons": [
+      "Low sharpness (29.5/100) -- consistent with a recaptured/re-photographed image rather than a direct live shot.",
+      "Compressed color diversity (10.5/100) -- consistent with print/screen color banding."
+    ],
+    "deepfake_check": {
+      "status": "MOCK_NOT_IMPLEMENTED",
+      "note": "Real deepfake/face-swap detection requires a CNN trained on FaceForensics++ or similar -- out of scope for this hackathon build. Roadmap item."
+    }
+  },
+  {
+    "sample": "genuine_3",
+    "ground_truth": "LIVE",
+    "liveness_consistency_score": 93.1,
+    "verdict": "LIVE",
+    "signals": {
+      "sharpness_score": 100.0,
+      "moire_score": 9.5,
+      "color_diversity_score": 84.5
+    },
+    "reasons": [
+      "No presentation-attack indicators detected across sharpness, frequency, or color-diversity checks."
+    ],
+    "deepfake_check": {
+      "status": "MOCK_NOT_IMPLEMENTED",
+      "note": "Real deepfake/face-swap detection requires a CNN trained on FaceForensics++ or similar -- out of scope for this hackathon build. Roadmap item."
+    }
+  },
+  {
+    "sample": "spoof_3",
+    "ground_truth": "SPOOF",
+    "liveness_consistency_score": 49.4,
+    "verdict": "SPOOF_SUSPECTED",
+    "signals": {
+      "sharpness_score": 25.9,
+      "moire_score": 7.8,
+      "color_diversity_score": 10.9
+    },
+    "reasons": [
+      "Low sharpness (25.9/100) -- consistent with a recaptured/re-photographed image rather than a direct live shot.",
+      "Compressed color diversity (10.9/100) -- consistent with print/screen color banding."
+    ],
+    "deepfake_check": {
+      "status": "MOCK_NOT_IMPLEMENTED",
+      "note": "Real deepfake/face-swap detection requires a CNN trained on FaceForensics++ or similar -- out of scope for this hackathon build. Roadmap item."
+    }
+  },
+  {
+    "sample": "genuine_4",
+    "ground_truth": "LIVE",
+    "liveness_consistency_score": 93.7,
+    "verdict": "LIVE",
+    "signals": {
+      "sharpness_score": 100.0,
+      "moire_score": 9.4,
+      "color_diversity_score": 87.5
+    },
+    "reasons": [
+      "No presentation-attack indicators detected across sharpness, frequency, or color-diversity checks."
+    ],
+    "deepfake_check": {
+      "status": "MOCK_NOT_IMPLEMENTED",
+      "note": "Real deepfake/face-swap detection requires a CNN trained on FaceForensics++ or similar -- out of scope for this hackathon build. Roadmap item."
+    }
+  },
+  {
+    "sample": "spoof_4",
+    "ground_truth": "SPOOF",
+    "liveness_consistency_score": 60.7,
+    "verdict": "SPOOF_SUSPECTED",
+    "signals": {
+      "sharpness_score": 55.9,
+      "moire_score": 8.8,
+      "color_diversity_score": 9.4
+    },
+    "reasons": [
+      "Compressed color diversity (9.4/100) -- consistent with print/screen color banding."
+    ],
+    "deepfake_check": {
+      "status": "MOCK_NOT_IMPLEMENTED",
+      "note": "Real deepfake/face-swap detection requires a CNN trained on FaceForensics++ or similar -- out of scope for this hackathon build. Roadmap item."
+    }
+  }
+]
