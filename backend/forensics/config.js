@@ -40,6 +40,8 @@ export const THRESHOLDS = {
 
 export const maxPreprocessedEdge = 1536;
 
+export const PYTHON_LAYER_URL = process.env.PYTHON_LAYER_URL || 'http://localhost:8000';
+
 export function clamp01(v) {
   if (typeof v !== 'number' || Number.isNaN(v)) return 0;
   return Math.max(0, Math.min(1, v));

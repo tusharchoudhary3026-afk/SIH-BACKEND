@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import {
   ArrowLeft,
   AlertTriangle,
-  Key
+  Key,
+  Network
 } from 'lucide-react';
 import { AnalysisData } from '../types/forensics';
 import { ApiService } from '../services/apiService';
@@ -79,10 +80,14 @@ export const Analyzer: React.FC = () => {
         filename: uploadRes.filename || selectedFile.name,
         filesize: uploadRes.filesize || 'Unknown',
         mimetype: selectedFile.type,
-        verdict: detectRes.isAi ? 'Synthetic / Manipulated' : 'Likely Authentic',
-        overallProbability: overallScore,
+        verdict: detectRes.unifiedVerdict?.verdict
+          ? (detectRes.unifiedVerdict.verdict.includes('AUTHENTIC') ? 'Likely Authentic' : detectRes.unifiedVerdict.verdict)
+          : (detectRes.isAi ? 'Synthetic / Manipulated' : 'Likely Authentic'),
+        overallProbability: detectRes.unifiedVerdict?.overallConfidence != null
+          ? Math.round(detectRes.unifiedVerdict.overallConfidence)
+          : overallScore,
         confidenceGrade: overallScore > 75 ? 'High Confidence' : overallScore > 50 ? 'Moderate Suspicion' : 'Verified Authentic',
-        explanation: detectRes.explanation?.gemini || '',
+        explanation: detectRes.unifiedVerdict?.executiveSummary || detectRes.explanation?.gemini || '',
         modules: [
           {
             id: 'gemini',
@@ -91,6 +96,27 @@ export const Analyzer: React.FC = () => {
             status: '',
             description: detectRes.explanation?.gemini || 'Analyzes neural image semantics.'
           },
+          ...(detectRes.layerB?.sdxlClassifier?.aiProbability != null ? [{
+            id: 'sdxl',
+            name: 'PyTorch SDXL Diffusion Classifier',
+            score: Math.round(detectRes.layerB.sdxlClassifier.aiProbability * 100),
+            status: '',
+            description: `Deep-learning classifier (${detectRes.layerB.sdxlClassifier.modelName}) neural probability.`
+          }] : []),
+          ...(detectRes.layerB?.liveness ? [{
+            id: 'liveness',
+            name: 'Hardware Recapture & Moiré Liveness',
+            score: Math.round(100 - detectRes.layerB.liveness.livenessConsistencyScore),
+            status: detectRes.layerB.liveness.verdict,
+            description: detectRes.layerB.liveness.reasons?.[0] || 'Inspects screen frequency patterns, sharpness, and color diversity.'
+          }] : []),
+          ...(detectRes.layerB?.documentForensics ? [{
+            id: 'doc_forensics',
+            name: 'Document Splicing & Forgery (Layer B)',
+            score: Math.round(detectRes.layerB.documentForensics.riskScore),
+            status: detectRes.layerB.documentForensics.decision,
+            description: `Recompression & copy-move analysis (${detectRes.layerB.documentForensics.reasonCodes?.join(', ') || 'Normal'}).`
+          }] : []),
           {
             id: 'ela',
             name: 'Error Level Analysis (ELA)',
@@ -106,13 +132,6 @@ export const Analyzer: React.FC = () => {
             description: 'Validates cryptographic Content Credentials (C2PA).'
           },
           {
-            id: 'freq',
-            name: 'Frequency & Noise Spectral Analysis',
-            score: Math.round((detectRes.forensicSignals?.frequency?.aiLikelihood || 0) * 100),
-            status: '',
-            description: 'Fourier transform inspection checking for GAN upsampling artifacts.'
-          },
-          {
             id: 'noise',
             name: 'Local Noise Consistency',
             score: Math.round((detectRes.forensicSignals?.noise?.aiLikelihood || 0) * 100),
@@ -125,7 +144,9 @@ export const Analyzer: React.FC = () => {
           tamperAssessment: detectRes.forensicSignals?.metadata?.evidence?.status || 'UNKNOWN',
           colorProfile: 'sRGB IEC61966-2.1',
           quantizationTable: 'Standard Quantization Matrix'
-        }
+        },
+        unifiedVerdict: detectRes.unifiedVerdict,
+        layerB: detectRes.layerB
       };
 
       setResults(mappedData);
@@ -180,8 +201,15 @@ export const Analyzer: React.FC = () => {
         </Link>
 
         <div className="flex items-center gap-3">
+          <Link
+            to="/graph"
+            className="inline-flex items-center gap-1.5 text-xs font-semibold text-purple-300 hover:text-white bg-purple-500/10 hover:bg-purple-500/20 border border-purple-500/30 px-3.5 py-1.5 rounded-full shadow-lg transition-all"
+          >
+            <Network className="w-3.5 h-3.5" />
+            <span>Fraud Relationship Graph</span>
+          </Link>
           <div className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse" />
-          <span className="text-xs font-mono text-gray-400">Forensic Engine v1.0.0 Active</span>
+          <span className="text-xs font-mono text-gray-400 hidden sm:inline">Engine Active</span>
         </div>
       </div>
 

@@ -20,7 +20,8 @@ dotenv.config({ path: path.resolve(__dirname, '../.env') });
 
 const app = express();
 const PORT = Number(process.env.PORT) || 3001;
-const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-2.5-flash';
+const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-3.6-flash';
+const PYTHON_LAYER_URL = process.env.PYTHON_LAYER_URL || 'http://localhost:8000';
 const MAX_FILE_SIZE = 25 * 1024 * 1024; // 25MB
 const IMAGE_TTL_MS = 15 * 60 * 1000; // 15 minutes
 const MAX_IMAGE_STORE_SIZE = 500; // Maximum in-memory images (LRU cap)
@@ -185,6 +186,205 @@ function handleGeminiError(err, modelName, res) {
 }
 
 // =========================================================================
+// LAYER B & UNIFIED SUMMARY INTEGRATION
+// =========================================================================
+
+/**
+ * Call the Python Layer B FastAPI microservice (/analyze)
+ */
+async function callPythonLayerB(imageBuffer, filename = 'image.jpg', mimeType = 'image/jpeg') {
+  try {
+    const formData = new FormData();
+    const blob = new Blob([imageBuffer], { type: mimeType });
+    formData.append('file', blob, filename);
+
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 35000);
+
+    const res = await fetch(`${PYTHON_LAYER_URL}/analyze`, {
+      method: 'POST',
+      body: formData,
+      signal: controller.signal
+    });
+    clearTimeout(timeout);
+
+    if (!res.ok) {
+      const errText = await res.text().catch(() => '');
+      console.warn(`[Layer B Warning] HTTP ${res.status}: ${errText}`);
+      return null;
+    }
+
+    return await res.json();
+  } catch (err) {
+    console.warn('[Layer B Request Warning]:', err.message);
+    return null;
+  }
+}
+
+/**
+ * Deterministic fallback for unified verdict if LLM call is unavailable
+ */
+function buildFallbackUnifiedSummary(layerAData, layerBData) {
+  const isAiA = layerAData?.isAi || false;
+  const sdxlScore = layerBData?.sdxlClassifier?.aiProbability ?? null;
+  const liveness = layerBData?.liveness?.verdict;
+  const docDecision = layerBData?.documentForensics?.decision;
+  const docRisk = layerBData?.documentForensics?.riskScore ?? 0;
+
+  let verdict = 'AUTHENTIC';
+  let riskLevel = 'LOW';
+  let primaryThreatType = 'NONE';
+  let recommendedAction = 'APPROVE';
+  const anomalies = [];
+
+  if (sdxlScore !== null && sdxlScore >= 0.7 && isAiA) {
+    verdict = 'SUSPECTED AI GENERATION';
+    riskLevel = 'CRITICAL';
+    primaryThreatType = 'AI_SYNTHESIS';
+    recommendedAction = 'REJECT';
+    anomalies.push(`Deep learning SDXL diffusion score is high (${Math.round(sdxlScore * 100)}%) and corroborated by vision semantics.`);
+  } else if (liveness === 'SPOOF_SUSPECTED') {
+    verdict = 'SCREEN RECAPTURE / PRESENTATION ATTACK';
+    riskLevel = 'HIGH';
+    primaryThreatType = 'RECAPTURE_SPOOF';
+    recommendedAction = 'MANUAL_REVIEW';
+    anomalies.push('Liveness analysis detected presentation attack / periodic screen moiré pattern.');
+  } else if (docDecision === 'REVIEW' || docRisk > 40) {
+    verdict = 'SUSPECTED DOCUMENT TAMPERING';
+    riskLevel = docRisk > 60 ? 'HIGH' : 'MEDIUM';
+    primaryThreatType = 'MANUAL_TAMPERING';
+    recommendedAction = 'MANUAL_REVIEW';
+    anomalies.push(`Document forensics flagged manipulation (Risk Score: ${docRisk}).`);
+  } else if (isAiA) {
+    verdict = 'SUSPECTED AI GENERATION';
+    riskLevel = 'MEDIUM';
+    primaryThreatType = 'AI_SYNTHESIS';
+    recommendedAction = 'MANUAL_REVIEW';
+    anomalies.push('Vision model identified generative inconsistencies.');
+  }
+
+  return {
+    verdict,
+    overallConfidence: Math.round(layerAData?.confidence || 75),
+    riskLevel,
+    primaryThreatType,
+    executiveSummary: `Multi-layer correlation performed. Assessed status is ${verdict} with ${riskLevel} risk level.`,
+    detectedAnomalies: anomalies.length > 0 ? anomalies : ['No critical anomalies detected.'],
+    layerCorrelations: `Layer A scored ${layerAData?.confidence ?? 0}% suspicion. Layer B signals evaluated for neural classification, liveness, and document integrity.`,
+    recommendedAction
+  };
+}
+
+/**
+ * Generate Chief Forensics Analyst unified verdict using Gemini
+ */
+async function generateUnifiedSummary(layerAData, layerBData, aiInstance) {
+  if (!aiInstance) {
+    return buildFallbackUnifiedSummary(layerAData, layerBData);
+  }
+
+  const systemPrompt = `You are an expert Chief Digital Forensics & Document Authentication Analyst.
+You will be given forensic analysis results for an uploaded image from two distinct scanning layers:
+1. LAYER A (Semantic & Multimodal LLM Vision Analysis + Sharp Heuristics):
+   - Semantic anomalies (unnatural anatomy, hallucinated text, lighting/shadow physics)
+   - Visible AI watermarks (DALL-E, Midjourney, SynthID, etc.)
+   - Pixel-level Error Level Analysis (ELA) and Noise Variance.
+2. LAYER B (Deep-Learning Neural & Signal Forensics):
+   - PyTorch SDXL Diffusion Classifier Score
+   - Hardware Recapture & Moiré Pattern Liveness (detecting photos of screens or printed photos)
+   - ID Document Forgery & Splicing Detection (tampered text, face swapping, clone stamping)
+---
+### INSTRUCTIONS:
+1. Cross-correlate findings between both layers:
+   - If Layer B's SDXL classifier shows high AI probability AND Layer A's Gemini vision spotted visual/semantic anomalies, flag with HIGH CONFIDENCE AI generation.
+   - If Layer B flags Moiré / Screen Recapture, note that the image may be a genuine document re-photographed from a monitor or print (presentation attack).
+   - If Layer B flags Document Forgery (ELA / Noise / Copy-Move) but Layer A did not spot AI generation, this may be a classical manual splice / Photoshop forgery.
+2. Synthesize a unified forensic assessment into a single coherent verdict.`;
+
+  const userPrompt = `### INPUT DATA:
+Layer A (Node.js & Gemini Output):
+${JSON.stringify(layerAData, null, 2)}
+
+Layer B (Python Deep CV & Liveness Output):
+${JSON.stringify(layerBData, null, 2)}
+
+Cross-correlate both layers and return the unified verdict.`;
+
+  try {
+    const response = await aiInstance.models.generateContent({
+      model: GEMINI_MODEL,
+      contents: [
+        {
+          role: 'user',
+          parts: [{ text: `${systemPrompt}\n\n${userPrompt}` }]
+        }
+      ],
+      config: {
+        responseMimeType: 'application/json',
+        responseSchema: {
+          type: Type.OBJECT,
+          properties: {
+            verdict: {
+              type: Type.STRING,
+              description: 'One of: AUTHENTIC, SUSPECTED AI GENERATION, SUSPECTED DOCUMENT TAMPERING, SCREEN RECAPTURE / PRESENTATION ATTACK, INCONCLUSIVE'
+            },
+            overallConfidence: {
+              type: Type.NUMBER,
+              description: 'Confidence score from 0 to 100'
+            },
+            riskLevel: {
+              type: Type.STRING,
+              description: 'Risk severity: LOW, MEDIUM, HIGH, or CRITICAL'
+            },
+            primaryThreatType: {
+              type: Type.STRING,
+              description: 'Primary identified threat: AI_SYNTHESIS, MANUAL_TAMPERING, RECAPTURE_SPOOF, or NONE'
+            },
+            executiveSummary: {
+              type: Type.STRING,
+              description: 'Clear, authoritative executive forensic summary'
+            },
+            detectedAnomalies: {
+              type: Type.ARRAY,
+              items: { type: Type.STRING },
+              description: 'Array of detected anomalies'
+            },
+            layerCorrelations: {
+              type: Type.STRING,
+              description: 'Synthesis of how Layer A and Layer B corroborate or contradict each other'
+            },
+            recommendedAction: {
+              type: Type.STRING,
+              description: 'One of: APPROVE, MANUAL_REVIEW, REJECT'
+            }
+          },
+          required: [
+            'verdict',
+            'overallConfidence',
+            'riskLevel',
+            'primaryThreatType',
+            'executiveSummary',
+            'detectedAnomalies',
+            'layerCorrelations',
+            'recommendedAction'
+          ]
+        }
+      }
+    });
+
+    let responseText = typeof response.text === 'function' ? response.text() : response.text;
+    if (!responseText) {
+      responseText = response.candidates?.[0]?.content?.parts?.[0]?.text || '{}';
+    }
+    responseText = responseText.replace(/```json/gi, '').replace(/```/g, '').trim();
+    return JSON.parse(responseText);
+  } catch (err) {
+    console.warn('[Unified Summary LLM Warning]:', err.message);
+    return buildFallbackUnifiedSummary(layerAData, layerBData);
+  }
+}
+
+// =========================================================================
 // API ENDPOINTS
 // =========================================================================
 
@@ -193,7 +393,134 @@ app.get('/health', (req, res) => {
   res.json({
     ok: true,
     geminiConfigured: Boolean(process.env.GEMINI_API_KEY),
+    pythonLayerUrl: PYTHON_LAYER_URL,
     imageStoreSize: images.size
+  });
+});
+
+// =========================================================================
+// FRAUD RELATIONSHIP GRAPH ENDPOINTS (ENGINE 8)
+// =========================================================================
+const SIH_DATA_DIR = path.resolve(__dirname, '../sih26188-project/backend/data');
+
+function loadSihJson(filename) {
+  try {
+    const filePath = path.join(SIH_DATA_DIR, filename);
+    if (fs.existsSync(filePath)) {
+      return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    }
+  } catch (err) {
+    console.warn(`[Graph Data] Failed to load ${filename}:`, err.message);
+  }
+  return null;
+}
+
+// 1.1 GET /api/v1/graph/elements
+app.get('/api/v1/graph/elements', (req, res) => {
+  const elements = loadSihJson('fraud_graph_cytoscape.json') || loadSihJson('graph_cytoscape.json') || { nodes: [], edges: [] };
+  const clusters = loadSihJson('fraud_graph_report.json') || [];
+
+  const clusterMemberMap = new Map();
+  for (const c of clusters) {
+    for (const pid of c.person_ids || []) {
+      clusterMemberMap.set(pid, c);
+    }
+  }
+
+  const nodes = (elements.nodes || []).map(n => {
+    const id = n.data?.id;
+    const cluster = clusterMemberMap.get(id);
+    const inRing = Boolean(n.data?.ring || cluster);
+    return {
+      data: {
+        ...n.data,
+        in_fraud_cluster: inRing,
+        cluster_id: cluster?.cluster_id || (n.data?.ring ? 'CLUSTER' : null),
+        cluster_severity: cluster?.risk_level || (inRing ? 'HIGH' : null),
+        inferred_type: cluster?.inferred_type || null
+      }
+    };
+  });
+
+  const edges = (elements.edges || []).map(e => {
+    const isSuspicious = e.data?.label && e.data.label !== 'SUBMITTED';
+    return {
+      data: {
+        ...e.data,
+        suspicious: isSuspicious
+      }
+    };
+  });
+
+  res.json({ nodes, edges });
+});
+
+// 1.2 GET /api/v1/graph/clusters
+app.get('/api/v1/graph/clusters', (req, res) => {
+  const clusters = loadSihJson('fraud_graph_report.json') || loadSihJson('graph_clusters.json') || [];
+  res.json(clusters);
+});
+
+// 1.3 GET /api/v1/graph/person/:personId
+app.get('/api/v1/graph/person/:personId', (req, res) => {
+  const { personId } = req.params;
+  const persons = loadSihJson('fraud_graph_persons.json') || loadSihJson('persons.json') || [];
+  const documents = loadSihJson('fraud_graph_documents.json') || loadSihJson('documents.json') || [];
+  const clusters = loadSihJson('fraud_graph_report.json') || loadSihJson('graph_clusters.json') || [];
+  const consistency = loadSihJson('consistency_report.json') || [];
+
+  const person = persons.find(p => p.person_id === personId || p.id === personId);
+  if (!person) {
+    return res.status(404).json({ success: false, error: `Person ${personId} not found.` });
+  }
+
+  const personDocs = documents.filter(d => d.person_id === personId);
+  const cluster = clusters.find(c => (c.person_ids || []).includes(personId));
+  const consistencyReport = consistency.find(r => r.person_id === personId);
+
+  res.json({
+    success: true,
+    person,
+    documents: personDocs,
+    cluster: cluster || null,
+    in_fraud_cluster: Boolean(cluster),
+    findings: consistencyReport ? consistencyReport.findings : []
+  });
+});
+
+// 1.4 GET /api/v1/graph/search
+app.get('/api/v1/graph/search', (req, res) => {
+  const q = (req.query.q || '').trim().toLowerCase();
+  if (!q) {
+    return res.json({ success: true, results: [] });
+  }
+  const persons = loadSihJson('fraud_graph_persons.json') || loadSihJson('persons.json') || [];
+  const matches = persons.filter(p => {
+    const name = (p.name || p.canonical_name_en || '').toLowerCase();
+    const id = (p.person_id || p.id || '').toLowerCase();
+    return name.includes(q) || id.includes(q);
+  }).slice(0, 10);
+
+  res.json({ success: true, query: q, results: matches });
+});
+
+// 1.5 GET /api/v1/graph/summary
+app.get('/api/v1/graph/summary', (req, res) => {
+  const elements = loadSihJson('fraud_graph_cytoscape.json') || { nodes: [], edges: [] };
+  const clusters = loadSihJson('fraud_graph_report.json') || [];
+
+  const personNodes = (elements.nodes || []).filter(n => n.data?.type === 'person');
+  const documentNodes = (elements.nodes || []).filter(n => n.data?.type === 'document');
+  const suspiciousEdges = (elements.edges || []).filter(e => e.data?.label !== 'SUBMITTED');
+
+  res.json({
+    success: true,
+    totalPersons: personNodes.length,
+    totalDocuments: documentNodes.length,
+    totalEdges: (elements.edges || []).length,
+    suspiciousLinks: suspiciousEdges.length,
+    fraudRingsCount: clusters.length,
+    clusters
   });
 });
 
@@ -311,14 +638,21 @@ app.post('/api/v1/detect', async (req, res) => {
     });
   }
 
-  // 2. Run local forensics and Gemini analysis in parallel
-  let localResults, geminiData;
+  // 2. Run local forensics, Gemini analysis, and Layer B in parallel
+  let localResults, geminiData, layerBData;
 
   // Local forensics (sharp-based, no external API)
   const localForensicsPromise = runLocalForensics(imageRecord.buffer, imageRecord.mimeType)
     .catch(localErr => {
       console.error('[Local Forensics Error]:', localErr);
-      return null; // Will handle below
+      return null;
+    });
+
+  // Layer B deep learning forensics (Python FastAPI)
+  const layerBPromise = callPythonLayerB(imageRecord.buffer, imageRecord.filename, imageRecord.mimeType)
+    .catch(err => {
+      console.warn('[Layer B Error]:', err);
+      return null;
     });
 
   // Gemini analysis
@@ -379,9 +713,13 @@ Provide an honest 'aiProbability' (0-100). Provide a brief 'explanation' of your
     }
   })();
 
-  // Await both in parallel
+  // Await in parallel
   try {
-    [localResults, geminiData] = await Promise.all([localForensicsPromise, geminiPromise]);
+    [localResults, geminiData, layerBData] = await Promise.all([
+      localForensicsPromise,
+      geminiPromise,
+      layerBPromise
+    ]);
   } catch (geminiErr) {
     return handleGeminiError(geminiErr, GEMINI_MODEL, res);
   }
@@ -403,6 +741,30 @@ Provide an honest 'aiProbability' (0-100). Provide a brief 'explanation' of your
 
   const ensemble = combineForensics(localResults, clampedAiProb / 100, geminiIsAi, visibleWatermarkDetected);
   const isAi = ensemble.score >= 0.5;
+
+  // Prepare Layer A data package for cross-layer correlation
+  const layerAData = {
+    verdict: isAi ? 'POSSIBLE AI-GENERATED IMAGE' : 'AUTHENTIC IMAGE',
+    isAi,
+    confidence: Number(clampedAiProb.toFixed(1)),
+    visibleWatermarkDetected,
+    modelAttribution: geminiData.modelAttribution || 'Unknown / Not Determined',
+    geminiExplanation: geminiData.explanation || '',
+    ensembleScore: ensemble.score,
+    forensicsMetrics: ensemble.metrics,
+    localSignals: {
+      ela: localResults.ela,
+      frequency: localResults.frequency,
+      noise: localResults.noise,
+      prnu: localResults.prnu,
+      cfa_demosaic: localResults.cfa_demosaic,
+      jpeg_ghost: localResults.jpeg_ghost,
+      synthId: localResults.synthId
+    }
+  };
+
+  // Generate unified cross-layer verdict via Gemini Chief Analyst prompt
+  const unifiedVerdict = await generateUnifiedSummary(layerAData, layerBData, genaiInstance);
 
   return res.status(200).json({
     success: true,
@@ -430,7 +792,9 @@ Provide an honest 'aiProbability' (0-100). Provide a brief 'explanation' of your
       cfa_demosaic: localResults.cfa_demosaic
     },
     heatmapUrl: `/media/${imageId}`,
-    scanMode: mode
+    scanMode: mode,
+    layerB: layerBData,
+    unifiedVerdict
   });
 });
 

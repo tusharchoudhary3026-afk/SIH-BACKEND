@@ -5,8 +5,12 @@ import {
   Layers, 
   ShieldCheck, 
   Activity, 
+  Fingerprint,
+  Scan,
+  Sparkles,
   ArrowRight, 
-  CheckCircle2
+  CheckCircle2,
+  Network
 } from 'lucide-react';
 import { scrollToSection } from '../utils/smoothScroll';
 
@@ -65,11 +69,44 @@ const coreCards = [
     iconBg: 'bg-purple-500/10 border-purple-500/25',
     glowColor: 'hover:border-purple-500/50 hover:shadow-[0_0_30px_rgba(168,85,247,0.2)]',
     accentDot: 'bg-purple-400'
+  },
+  {
+    id: 'prnu',
+    title: 'PRNU Sensor Fingerprinting',
+    desc: 'Extracts Photo-Response Non-Uniformity unique to physical camera silicon. Uncovers sensor imperfections and flags spliced regions missing authentic sensor noise.',
+    badge: 'Silicon noise fingerprint matching',
+    icon: Fingerprint,
+    iconColor: 'text-cyan-400',
+    iconBg: 'bg-cyan-500/10 border-cyan-500/25',
+    glowColor: 'hover:border-cyan-500/50 hover:shadow-[0_0_30px_rgba(6,182,212,0.2)]',
+    accentDot: 'bg-cyan-400'
+  },
+  {
+    id: 'cfa',
+    title: 'CFA & Demosaicing Forensics',
+    desc: 'Analyzes Color Filter Array (Bayer pattern) interpolation anomalies. Surfaces broken demosaicing traces left when generative elements or faces are spliced.',
+    badge: 'Bayer interpolation variance',
+    icon: Scan,
+    iconColor: 'text-rose-400',
+    iconBg: 'bg-rose-500/10 border-rose-500/25',
+    glowColor: 'hover:border-rose-500/50 hover:shadow-[0_0_30px_rgba(244,63,94,0.2)]',
+    accentDot: 'bg-rose-400'
+  },
+  {
+    id: 'diffusion',
+    title: 'Neural Diffusion & Deepfake Classifier',
+    desc: 'Applies fine-tuned vision transformers and latent diffusion classifiers to recognize synthetic boundary feathering, generative noise schedules, and deepfake swaps.',
+    badge: 'Vision transformer feature extraction',
+    icon: Sparkles,
+    iconColor: 'text-amber-400',
+    iconBg: 'bg-amber-500/10 border-amber-500/25',
+    glowColor: 'hover:border-amber-500/50 hover:shadow-[0_0_30px_rgba(245,158,11,0.2)]',
+    accentDot: 'bg-amber-400'
   }
 ];
 
 // Duplicate cards for seamless continuous infinite looping
-const marqueeCards = [...coreCards, ...coreCards, ...coreCards];
+const marqueeCards = [...coreCards, ...coreCards];
 
 export const Home: React.FC = () => {
   const location = useLocation();
@@ -124,6 +161,13 @@ export const Home: React.FC = () => {
             transition={{ duration: 0.9, delay: 0.7, ease: [0.22, 1, 0.36, 1] }}
             className="rounded-2xl px-8 py-3 bg-[#151824]/90 backdrop-blur-md border border-white/15 shadow-xl flex items-center gap-7"
           >
+            <Link
+              to="/graph"
+              className="text-[14px] font-semibold text-purple-400 hover:text-purple-300 transition-colors flex items-center gap-1.5"
+            >
+              <Network className="w-3.5 h-3.5" />
+              <span>Fraud Graph</span>
+            </Link>
             <a
               href="#technology"
               onClick={(e) => handleNavClick(e, 'technology')}
@@ -338,7 +382,7 @@ export const Home: React.FC = () => {
                         <Icon className="w-6 h-6" />
                       </div>
                       <span className="text-[10px] font-mono font-bold text-gray-400 bg-white/5 border border-white/5 px-2.5 py-1 rounded-full uppercase tracking-wider">
-                        SIGNAL 0{((index % 3) + 1)}
+                        SIGNAL {String((index % coreCards.length) + 1).padStart(2, '0')}
                       </span>
                     </div>
 
@@ -368,7 +412,7 @@ export const Home: React.FC = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="relative z-10 text-center mt-6 text-xs text-gray-500 font-mono"
         >
-          <span>← Hover to pause continuous rotation • 3 Core Orthogonal Signals →</span>
+          <span>← Hover to pause continuous rotation • 6 Core Orthogonal Signals →</span>
         </motion.div>
       </section>
 

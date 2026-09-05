@@ -4,8 +4,9 @@
   "description": "Multi-page AI Image Forensics and Deepfake Detection Platform",
   "scripts": {
     "dev:backend": "cd backend && npm run dev",
+    "dev:python": "cd backend/python_layer && .venv/bin/python3 -m uvicorn main:app --reload --port 8000",
     "dev:frontend": "cd frontend && npm run dev",
-    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev": "concurrently -n backend,python,frontend -c blue,yellow,green \"npm run dev:backend\" \"npm run dev:python\" \"npm run dev:frontend\"",
     "build": "cd frontend && npm run build",
     "start": "cd backend && npm start"
   },

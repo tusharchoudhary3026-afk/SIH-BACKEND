@@ -36,6 +36,45 @@ export interface ForensicSignals {
   cfa_demosaic?: ForensicSignalItem;
 }
 
+export interface UnifiedVerdict {
+  verdict: 'AUTHENTIC' | 'SUSPECTED AI GENERATION' | 'SUSPECTED DOCUMENT TAMPERING' | 'SCREEN RECAPTURE / PRESENTATION ATTACK' | 'INCONCLUSIVE' | string;
+  overallConfidence: number; // 0 - 100
+  riskLevel: 'LOW' | 'MEDIUM' | 'HIGH' | 'CRITICAL' | string;
+  primaryThreatType: 'AI_SYNTHESIS' | 'MANUAL_TAMPERING' | 'RECAPTURE_SPOOF' | 'NONE' | string;
+  executiveSummary: string;
+  detectedAnomalies: string[];
+  layerCorrelations: string;
+  recommendedAction: 'APPROVE' | 'MANUAL_REVIEW' | 'REJECT' | string;
+}
+
+export interface LayerBResults {
+  sdxlClassifier?: {
+    aiProbability: number | null;
+    modelName: string;
+    rawOutput?: Array<{ label: string; score: number }>;
+    error?: string;
+  };
+  liveness?: {
+    verdict: string;
+    livenessConsistencyScore: number;
+    signals: {
+      sharpnessScore: number;
+      moireScore: number;
+      colorDiversityScore: number;
+    };
+    reasons: string[];
+  };
+  documentForensics?: {
+    elaScore: number;
+    noiseInconsistencyScore: number;
+    frequencyArtifactScore: number;
+    copyMoveScore: number;
+    riskScore: number;
+    decision: string;
+    reasonCodes: string[];
+  };
+}
+
 export interface DetectResponse {
   success: boolean;
   taskId: string;
@@ -53,6 +92,8 @@ export interface DetectResponse {
   forensicSignals: ForensicSignals;
   heatmapUrl: string;
   scanMode: string;
+  layerB?: LayerBResults;
+  unifiedVerdict?: UnifiedVerdict;
   error?: string;
 }
 

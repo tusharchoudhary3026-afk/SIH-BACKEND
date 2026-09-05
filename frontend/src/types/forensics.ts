@@ -1,3 +1,5 @@
+import { UnifiedVerdict, LayerBResults } from './api';
+
 export interface ForensicModuleResult {
   id: string;
   name: string;
@@ -25,6 +27,8 @@ export interface AnalysisData {
   explanation?: string;
   modules: ForensicModuleResult[];
   metadataSummary: MetadataSummary;
+  unifiedVerdict?: UnifiedVerdict;
+  layerB?: LayerBResults;
 }
 
 export interface ApiResponse {

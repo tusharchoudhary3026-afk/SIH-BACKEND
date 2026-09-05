@@ -155,4 +155,39 @@ export class ApiService {
 
     throw lastError || new ApiError('Detection failed after retries.');
   }
+
+  public static async getGraphElements(): Promise<any> {
+    const baseUrl = this.getBaseUrl();
+    const res = await fetch(`${baseUrl}/api/v1/graph/elements`);
+    if (!res.ok) throw new Error(`Failed to fetch graph elements (${res.status})`);
+    return await res.json();
+  }
+
+  public static async getGraphClusters(): Promise<any[]> {
+    const baseUrl = this.getBaseUrl();
+    const res = await fetch(`${baseUrl}/api/v1/graph/clusters`);
+    if (!res.ok) throw new Error(`Failed to fetch graph clusters (${res.status})`);
+    return await res.json();
+  }
+
+  public static async getGraphSummary(): Promise<any> {
+    const baseUrl = this.getBaseUrl();
+    const res = await fetch(`${baseUrl}/api/v1/graph/summary`);
+    if (!res.ok) throw new Error(`Failed to fetch graph summary (${res.status})`);
+    return await res.json();
+  }
+
+  public static async getGraphPerson(personId: string): Promise<any> {
+    const baseUrl = this.getBaseUrl();
+    const res = await fetch(`${baseUrl}/api/v1/graph/person/${encodeURIComponent(personId)}`);
+    if (!res.ok) throw new Error(`Failed to fetch person ${personId} (${res.status})`);
+    return await res.json();
+  }
+
+  public static async searchGraph(q: string): Promise<any> {
+    const baseUrl = this.getBaseUrl();
+    const res = await fetch(`${baseUrl}/api/v1/graph/search?q=${encodeURIComponent(q)}`);
+    if (!res.ok) throw new Error(`Failed to search graph (${res.status})`);
+    return await res.json();
+  }
 }
