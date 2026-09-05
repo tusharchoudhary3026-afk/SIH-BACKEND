@@ -38,7 +38,8 @@ export interface ForensicSignals {
 
 export interface UnifiedVerdict {
   verdict: 'AUTHENTIC' | 'SUSPECTED AI GENERATION' | 'SUSPECTED DOCUMENT TAMPERING' | 'SCREEN RECAPTURE / PRESENTATION ATTACK' | 'INCONCLUSIVE' | string;
-  overallConfidence: number; // 0 - 100
+  aiProbability: number; // 0 - 100: actual probability of AI generation
+  overallConfidence: number; // 0 - 100: confidence in the verdict (NOT AI probability)
   riskLevel: 'LOW' | 'MEDIUM' | 'HIGH' | 'CRITICAL' | string;
   primaryThreatType: 'AI_SYNTHESIS' | 'MANUAL_TAMPERING' | 'RECAPTURE_SPOOF' | 'NONE' | string;
   executiveSummary: string;

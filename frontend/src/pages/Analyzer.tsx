@@ -83,10 +83,16 @@ export const Analyzer: React.FC = () => {
         verdict: detectRes.unifiedVerdict?.verdict
           ? (detectRes.unifiedVerdict.verdict.includes('AUTHENTIC') ? 'Likely Authentic' : detectRes.unifiedVerdict.verdict)
           : (detectRes.isAi ? 'Synthetic / Manipulated' : 'Likely Authentic'),
-        overallProbability: detectRes.unifiedVerdict?.overallConfidence != null
-          ? Math.round(detectRes.unifiedVerdict.overallConfidence)
-          : overallScore,
-        confidenceGrade: overallScore > 75 ? 'High Confidence' : overallScore > 50 ? 'Moderate Suspicion' : 'Verified Authentic',
+        overallProbability: detectRes.unifiedVerdict?.aiProbability != null
+          ? Math.round(detectRes.unifiedVerdict.aiProbability)
+          : Math.round(detectRes.confidence || 0),
+        confidenceGrade: detectRes.unifiedVerdict?.riskLevel
+          ? (detectRes.unifiedVerdict.riskLevel === 'CRITICAL' || detectRes.unifiedVerdict.riskLevel === 'HIGH'
+              ? 'High Risk Detected'
+              : detectRes.unifiedVerdict.riskLevel === 'MEDIUM'
+              ? 'Moderate Suspicion'
+              : 'Verified Authentic')
+          : (overallScore > 75 ? 'High Risk Detected' : overallScore > 50 ? 'Moderate Suspicion' : 'Verified Authentic'),
         explanation: detectRes.unifiedVerdict?.executiveSummary || detectRes.explanation?.gemini || '',
         modules: [
           {

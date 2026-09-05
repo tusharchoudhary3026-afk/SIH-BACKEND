@@ -67,11 +67,12 @@ export async function runLocalForensics(buffer, mimeType) {
     };
   }
 
+  const tDecodeStart = performance.now();
   // Pre-decode once: both RGB (for CFA/ELA) and grayscale (for freq/noise/prnu/jpeg_ghost)
   const preDecoded = await preDecodeImage(buffer);
+  const decodeMs = performance.now() - tDecodeStart;
 
-  // Note: metadata and c2pa must use the original buffer as resize strips metadata
-  console.time('Full Local Forensics Promise.all');
+  const tLocalStart = performance.now();
   const workerArgs = {
     resizedBuffer: preDecoded.resizedBuffer,
     rgbData: preDecoded.rgb.data,
@@ -80,17 +81,26 @@ export async function runLocalForensics(buffer, mimeType) {
     grayInfo: preDecoded.gray.info
   };
 
-  const [metadata, ela, frequency, noise, synthId, prnu, jpeg_ghost, cfa_demosaic] = await Promise.all([
-    (async () => { console.time('metadata'); const r = await analyzeMetadata(buffer); console.timeEnd('metadata'); return r; })(),
-    (async () => { console.time('ela'); const r = await workerPool.run({ task: 'ela', ...workerArgs }); console.timeEnd('ela'); return r; })(),
-    (async () => { console.time('frequency'); const r = await workerPool.run({ task: 'frequency', ...workerArgs }); console.timeEnd('frequency'); return r; })(),
-    (async () => { console.time('noise'); const r = await workerPool.run({ task: 'noise', ...workerArgs }); console.timeEnd('noise'); return r; })(),
-    (async () => { console.time('synthId'); const r = await scanSynthId(buffer, mimeType); console.timeEnd('synthId'); return r; })(),
-    (async () => { console.time('prnu'); const r = await workerPool.run({ task: 'prnu', ...workerArgs }); console.timeEnd('prnu'); return r; })(),
-    (async () => { console.time('jpeg_ghost'); const r = await analyzeJpegGhost(preDecoded.resizedBuffer, preDecoded.gray); console.timeEnd('jpeg_ghost'); return r; })(),
-    (async () => { console.time('cfa_demosaic'); const r = await workerPool.run({ task: 'cfa_demosaic', ...workerArgs }); console.timeEnd('cfa_demosaic'); return r; })()
+  const [
+    { result: metadata, ms: metadataMs },
+    { result: ela, ms: elaMs },
+    { result: frequency, ms: frequencyMs },
+    { result: noise, ms: noiseMs },
+    { result: synthId, ms: synthIdMs },
+    { result: prnu, ms: prnuMs },
+    { result: jpeg_ghost, ms: jpegGhostMs },
+    { result: cfa_demosaic, ms: cfaDemosaicMs }
+  ] = await Promise.all([
+    (async () => { const s = performance.now(); const result = await analyzeMetadata(buffer); return { result, ms: performance.now() - s }; })(),
+    (async () => { const s = performance.now(); const result = await workerPool.run({ task: 'ela', ...workerArgs }); return { result, ms: performance.now() - s }; })(),
+    (async () => { const s = performance.now(); const result = await workerPool.run({ task: 'frequency', ...workerArgs }); return { result, ms: performance.now() - s }; })(),
+    (async () => { const s = performance.now(); const result = await workerPool.run({ task: 'noise', ...workerArgs }); return { result, ms: performance.now() - s }; })(),
+    (async () => { const s = performance.now(); const result = await scanSynthId(buffer, mimeType); return { result, ms: performance.now() - s }; })(),
+    (async () => { const s = performance.now(); const result = await workerPool.run({ task: 'prnu', ...workerArgs }); return { result, ms: performance.now() - s }; })(),
+    (async () => { const s = performance.now(); const result = await analyzeJpegGhost(preDecoded.resizedBuffer, preDecoded.gray); return { result, ms: performance.now() - s }; })(),
+    (async () => { const s = performance.now(); const result = await workerPool.run({ task: 'cfa_demosaic', ...workerArgs }); return { result, ms: performance.now() - s }; })()
   ]);
-  console.timeEnd('Full Local Forensics Promise.all');
+  const totalLocalMs = performance.now() - tLocalStart;
 
   return {
     metadata,
@@ -100,7 +110,19 @@ export async function runLocalForensics(buffer, mimeType) {
     synthId,
     prnu,
     jpeg_ghost,
-    cfa_demosaic
+    cfa_demosaic,
+    _timings: {
+      decodeMs: Number(decodeMs.toFixed(1)),
+      metadataMs: Number(metadataMs.toFixed(1)),
+      elaMs: Number(elaMs.toFixed(1)),
+      frequencyMs: Number(frequencyMs.toFixed(1)),
+      noiseMs: Number(noiseMs.toFixed(1)),
+      synthIdMs: Number(synthIdMs.toFixed(1)),
+      prnuMs: Number(prnuMs.toFixed(1)),
+      jpegGhostMs: Number(jpegGhostMs.toFixed(1)),
+      cfaDemosaicMs: Number(cfaDemosaicMs.toFixed(1)),
+      totalLocalMs: Number(totalLocalMs.toFixed(1))
+    }
   };
 }
 
